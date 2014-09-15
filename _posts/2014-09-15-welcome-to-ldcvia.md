@@ -1,9 +1,9 @@
 ---
 layout: post
 category : LDC Via
-tagline: "This is a second post"
+tagline: "Welcome to LDC Via"
 tags : [intro]
 ---
 {% include JB/setup %}
 
-This is a second post
+LDC Via is coming soon

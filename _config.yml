@@ -1,6 +1,6 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: pygments
@@ -11,11 +11,11 @@ highlighter: pygments
 title : LDC Via
 tagline: Liberate your Domino Data
 author :
-  name : LDC Via
+  name : LDCVia
   email : support@ldcvia.com
   github : ldcvia
   twitter : ldcvia
-
+paginate: 5
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
@@ -81,16 +81,16 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : ldcvia
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+      short_name : ldcviablog
+  #  livefyre :
+  #    site_id : 123
+  #  intensedebate :
+  #    account : 123abc
+  #  facebook :
+  #    appid : 123
+  #    num_posts: 5
+  #    width: 580
+  #    colorscheme: light
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -100,13 +100,13 @@ JB :
     provider : google 
     google : 
         tracking_id : 'UA-54508064-1'
-    getclicky :
-      site_id : 
-    mixpanel :
-        token : '_MIXPANEL_TOKEN_'
-    piwik :
-        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
-        idsite : '1'                   # the id of the site on Piwik
+  #  getclicky :
+  #    site_id : 
+  #  mixpanel :
+  #      token : '_MIXPANEL_TOKEN_'
+  #  piwik :
+  #      baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+  #      idsite : '1'                   # the id of the site on Piwik
 
   # Settings for sharing helper. 
   # Sharing is for things like tweet, plusone, like, reddit buttons etc.
