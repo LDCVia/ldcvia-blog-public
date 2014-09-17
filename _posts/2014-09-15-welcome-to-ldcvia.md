@@ -1,7 +1,7 @@
 ---
 layout: post
 category : LDC Via
-tagline: "Welcome to LDC Via"
+title: "Welcome to LDC Via"
 tags : [intro]
 ---
 {% include JB/setup %}
