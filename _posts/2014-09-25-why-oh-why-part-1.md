@@ -2,7 +2,7 @@
 layout: post
 category : LDC Via
 title: "Why oh why oh why (Part One)"
-tags : [intro]
+tags : [intro, why]
 ---
 {% include JB/setup %}
 
