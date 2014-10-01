@@ -6,7 +6,7 @@ tags : [intro, why]
 ---
 {% include JB/setup %}
 
-In part one of this post we took a look at why we created Via. In this post let’s explore what that means for you.
+In [part one of these posts](/2014/09/25/why-oh-why-part-1/) we took a look at why we created Via. In this post let’s explore what that means for you.
 
 First, let’s revisit what Via is, in a nutshell:
 
