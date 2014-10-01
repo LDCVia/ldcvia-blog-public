@@ -20,7 +20,7 @@ Sound good? So where does that fit in your plans? Here’s where we see Via as a
 * Archiving data from Notes/Domino applications that have grown too large for Domino
 * Integrating Domino-based data with other applications
 * Selectively making Domino-based data available outside the firewall without exposing your Domino infrastructure
-* Migration of Domino applications to the MEAN stack for increased interoperability and performance
+* Migration of Domino applications to the <abbr title="MongoDb, Express, AngularJS, node.js">MEAN</abbr> stack for increased interoperability and performance
 * Exposing ‘Lotus Notes’ application data to non-Notes client (e.g. web and mobile)
 
 The list is endless. Well, long anyway.
