@@ -15,6 +15,7 @@ First, let’s revisit what Via is, in a nutshell:
 * A set of tools to migrate Domino data into Via
 
 Sound good? So where does that fit in your plans? Here’s where we see Via as a viable (see what we did there?) future for your Notes and Domino databases:
+
 * Re-homing historical data from servers that are being retired
 * Archiving data from Notes/Domino applications that have grown too large for Domino
 * Integrating Domino-based data with other applications
