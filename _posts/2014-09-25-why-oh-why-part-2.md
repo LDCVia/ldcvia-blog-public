@@ -21,7 +21,7 @@ Sound good? So where does that fit in your plans? Here’s where we see Via as a
 * Integrating Domino-based data with other applications
 * Selectively making Domino-based data available outside the firewall without exposing your Domino infrastructure
 * Migration of Domino applications to the MEAN stack for increased interoperability and performance
-* Exposing 'Lotus Notes’ application data to non-Notes client (e.g. web and mobile)
+* Exposing ‘Lotus Notes’ application data to non-Notes client (e.g. web and mobile)
 
 The list is endless. Well, long anyway.
 
