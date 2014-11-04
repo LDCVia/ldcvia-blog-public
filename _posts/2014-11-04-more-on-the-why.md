@@ -12,7 +12,7 @@ We’ve spoken about the whys and wherefores of LDC Via already, but some of the
 A number of organisations maintain Domino infrastructure purely so that they can reference data held thereon&#8212;no new development, no real activity, but they need to &#8220;keep the lights on&#8221;. These servers may be poorly-supported, may not have robust back-up, and can even be running out-dated or un-patched infrastructure (I think many of us have heard about Domino 6 or 7 boxes still running in production). So why not kick those boxes into touch and serve up your data in a modern, cost-effective manner (with support)?
 
 **2. Archiving data from Notes & Domino applications that have grown too large for Domino**
-There are all manner of tips &#8217;n&#8217; tricks to make your applications scale. Ultimately however, there are some limitations in our venerable platform, and it is not the solutions for every hosting use-case.
+There are all manner of tips &#8217;n&#8217; tricks to make your applications scale. Ultimately however, there are some limitations in our venerable platform, and it is not the solution for every hosting use-case.
 
 The mark of a successful Domino application is one that has lasted years and become overloaded with documents. Why not give the old app a new lease of life? Move historical data off to a platform like LDC Via, and let your Domino application&#8217;s view indices breathe once more.
 
