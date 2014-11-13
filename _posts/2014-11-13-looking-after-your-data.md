@@ -16,7 +16,7 @@ Thankfully, different members of LDC take care of different areas of the applica
 
 We break down the defensive layers into two categories:
 
-1. “The usual suspects”
+1. “The Usual Suspects”
 2. “Just For Us”
 
 ###“The Usual Suspects”###
@@ -36,7 +36,7 @@ Well, we are registered in the UK, and we have access to multiple hosting provid
 
 However, that’s not enough: MongoDb only really offers granular security down to a “collection” level, so that leads us on to the the next level of security…
 
-###“Just for us”
+###“Just For Us”
 **Readers and authors.** One of the core tenets of IBM Domino security, and something that is a devil to reproduce in other systems. Readers and authors fields, controlling document- and field-level access to data. Very few systems and databases provide document-level security, so to effect this level of security, we have a “data wrapper”: we have constructed a wrapper that goes round any attempt to access the database from the application (a Java driver wrapper is also provided). The meta-data stored in the database is checked against the requesting user and the various levels of access are granted on that basis. This includes group access as well as individual rights.
 
 **Configurable security.** At any time, administrators can modify which fields in a collection are used to define security, and of course, will always be able to see all documents (you won’t lose anything!)
