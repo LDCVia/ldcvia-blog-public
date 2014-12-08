@@ -18,7 +18,7 @@ Using this code combined with a single XPage, we can retrieve the aforementioned
 
 <script src="https://gist.github.com/whitemx/a23a13a6a495029437af.js"></script>
 
-![LDC Via database list screenshot](/assets/via_dblist.png)
+![LDC Via database list screenshot](/assets/LDCViaXPagesDemo.png)
 
 The screenshot shows the list of migrated NSF files (“databases”) that our test user has access to. We’ve selected the database called **unpsampler.nsf**, and then a collection therein called “Document”. This collection contains 88 documents accessible to the user, and using the API we can then view the first 30 documents, paging through the rest in much the same way you would with a Domino view.
 
