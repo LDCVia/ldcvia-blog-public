@@ -1,1 +1,6 @@
 /* Add here all your css styles (customizations) */
+
+.gist .gist-data {
+  overflow-y: hidden;
+  height: 195px
+}
