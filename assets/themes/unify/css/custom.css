@@ -1,6 +1,4 @@
-/* Add here all your css styles (customizations) */
+/* CSS customisations should all go in here */
 
-.gist .gist-data {
-  overflow-y: hidden;
-  height: 195px
-}
+/* Gists can get quite long; keep them manageable */
+.gist .gist-data { overflow-y: hidden; height: 195px }
