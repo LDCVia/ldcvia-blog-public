@@ -19,7 +19,7 @@ Competition rules, for the avoidance of stress and fisticuffs
 7. The prize will be awarded at the Closing Session on Wednesday afternoon.
 8. If the winner is not at the Closing Session, the prize will be shipped directly to them after the conference.
 
-If you are not at the conference, but fancy having a go anyway (or you *are* at the conference but want to make a head start) here is the full crossword with clues. We will post a completed version after the conference and you can see how well you did.
+If you are not at the conference, but fancy having a go anyway (or you *are* at the conference but want to make a head start) [here is the full crossword with clues](http://ldcvia.s3.amazonaws.com/connected_flyer_w_crossword.pdf). We will post a completed version after the conference and you can see how well you did.
 
 
 ![Crossword Clues](http://ldcvia.s3.amazonaws.com/crossword-clues.png)
