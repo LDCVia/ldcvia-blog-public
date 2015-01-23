@@ -15,7 +15,7 @@ Competition rules, for the avoidance of stress and fisticuffs
 3. Your completed crossword must be returned to us by midday on Wednesday 28th January.
 4. The prize winner will be drawn at random from the fully-correct submitted crosswords.
 5. In the event of no fully-correct answers, the prize will go to the person (or be drawn at random from the persons) with the most correct answers. 
-6. If you are a registered conference attendee, and you cannot locate Ben, Mark or Julian in time, you may email a scan/photo of your completed sheet, by midday on Wednesday, to connected2015@ldcvia.com. (Please make sure it’s legible).
+6. If you are a registered conference attendee, and you cannot locate Ben, Mark or Julian in time, you may email a scan/photo of your completed sheet, by midday on Wednesday, to [connected2015@ldcvia.com](mailto:connected2015@ldcvia.com). (Please make sure it’s legible).
 7. The prize will be awarded at the Closing Session on Wednesday afternoon.
 8. If the winner is not at the Closing Session, the prize will be shipped directly to them after the conference.
 
