@@ -8,7 +8,7 @@ tags : [mongodb, security, data]
 
 MongoDB security concerns have recently hit the press: you may have seen some of the posts. The latest focusses on some German students who identified tens of thousands of MongoDB databases that are wide open: no security on them at all!
 
-[http://www.information-age.com/technology/security/123459001/major-security-alert-40000-mongodb-databases-left-unsecured-internet] (Information Age: Major security alert as 40,000 MongoDB databases left unsecured on the internet)
+[http://www.information-age.com/technology/security/123459001/major-security-alert-40000-mongodb-databases-left-unsecured-internet](Information Age: Major security alert as 40,000 MongoDB databases left unsecured on the internet)
 
 Setting aside the insanity of not performing the most basic of security procedures, it&#8217;s probably good to outline how we at LDC Via approach this sort of thing, courtesy of our very own Matt White&hellip;
 
