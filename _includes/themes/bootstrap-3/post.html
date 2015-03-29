@@ -4,12 +4,12 @@
       <ul class="list-unstyled list-inline blog-info">
           <li><i class="fa fa-calendar"></i> {{ page.date | date_to_long_string }}</li>
           <li><i class="fa fa-tags"></i> {% assign tags_list = page.tags %} {% include JB/tags_list %}</li>
-      </ul>                    
+      </ul>
   </div>
 </div>
 
 <div class="row post-full">
-  <div class="col-xs-12">
+  <div class="col-xs-10">
     <div class="content">
       {{ content }}
     </div>
