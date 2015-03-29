@@ -11,7 +11,6 @@
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
     <meta name="author" content="{{ site.author.name }}">
 
-
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -36,21 +35,17 @@
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
   -->
     <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" type="text/javascript">
-</script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" type="text/javascript">
-</script>
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,600&amp;subset=latin">
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" type="text/javascript"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" type="text/javascript"></script>
     <script type="text/javascript" src="http://cookieconsent.silktide.com/?s=1"></script>
+
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
     <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-
   </head>
 
   <body>
-
-<div class="wrapper">
+  <div class="wrapper">
     <!--=== Header ===-->
     <div class="header">
       <div class="topbar">
@@ -60,7 +55,7 @@
             <li id="register" class="sep"><a href="https://eu.ldcvia.com/register">Sign up</a></li>
             <li id="support" class="sep"><a href="http://ldcvia.zendesk.com" title="Receive some assistance via our helpdesk">Help</a></li>
             <li id="apidocs" class="sep"><a href="http://api.ldcvia.com/" title="API documentation for developers">Developers</a></li>
-            <li id="terms"><a href="terms.html" title="Read our terms and conditions">Terms</a></li>
+            <li id="terms"><a href="http://ldcvia.com/terms.html" title="Read our terms and conditions">Terms</a></li>
             <li><a href="http://twitter.com/ldcvia" title="Follow us on Twitter: @ldcvia"><i class="fa fa-twitter"></i></a></li>
             <li><a href="http://facebook.com/ldcvia" title="Check out our Facebook page"><i class="fa fa-facebook"></i></a></li>
           </ul>
@@ -76,10 +71,10 @@
 
         <div class="collapse navbar-collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
-            <li id="howdoesitwork"><a href="howdoesitwork.html">How LDC Via works</a></li>
-            <li id="about"><a href="about.html">About us</a></li>
+            <li id="howdoesitwork"><a href="http://ldcvia.com/howdoesitwork.html">How LDC Via works</a></li>
+            <li id="about"><a href="http://ldcvia.com/about.html">About us</a></li>
             <li id="blog" class="active"><a href="http://blog.ldcvia.com">Our blog</a></li>
-            <li id="prices"><a href="prices.html">Pricing</a></li>
+            <li id="prices"><a href="http://ldcvia.com/prices.html">Pricing</a></li>
           </ul>
         </div>
       </div>
@@ -99,7 +94,7 @@
           <div class="row">
             <!-- About -->
             <div class="col-md-3 md-margin-bottom-20">
-              <a href="index.html"><img id="logo-footer" class="footer-logo" src="/assets/themes/unify/logo.png" alt="LDC Via logo: click to return to home page"></a>
+              <a href="http://ldcvia.com/index.html"><img id="logo-footer" class="footer-logo" src="{{ ASSET_PATH }}/logo.png" alt="LDC Via logo: click to return to home page"></a>
               <p>LDC Via: modernise your Domino data.</p>
               <p>Use the cloud to liberate your organisational knowledge.</p>
             </div><!--/col-md-3-->
@@ -109,14 +104,14 @@
             <div class="col-md-3 md-margin-bottom-20">
               <h2>Quick links</h2>
               <ul class="list-unstyled link-list">
-                <li><a href="index.html">Home</a><i class="fa fa-angle-right"></i></li>
-                <li><a href="howdoesitwork.html">How LDC Via works</a><i class="fa fa-angle-right"></i></li>
-                <li><a href="about.html">About us</a><i class="fa fa-angle-right"></i></li>
+                <li><a href="http://ldcvia.com/index.html">Home</a><i class="fa fa-angle-right"></i></li>
+                <li><a href="http://ldcvia.com/howdoesitwork.html">How LDC Via works</a><i class="fa fa-angle-right"></i></li>
+                <li><a href="http://ldcvia.com/about.html">About us</a><i class="fa fa-angle-right"></i></li>
                 <li><a href="http://blog.ldcvia.com">Our blog</a><i class="fa fa-angle-right"></i></li>
-                <li><a href="prices.html">Pricing</a><i class="fa fa-angle-right"></i></li>
+                <li><a href="http://ldcvia.com/prices.html">Pricing</a><i class="fa fa-angle-right"></i></li>
                 <li><a href="http://ldcvia.zendesk.com">Help &amp; support</a><i class="fa fa-angle-right"></i></li>
                 <li><a href="http://api.ldcvia.com">Developers</a><i class="fa fa-angle-right"></i></li>
-                <li><a href="downloads.html">Downloads</a><i class="fa fa-angle-right"></i></li>
+                <li><a href="http://ldcvia.com/downloads.html">Downloads</a><i class="fa fa-angle-right"></i></li>
                 <li><a href="http://status.ldcvia.com">Status</a><i class="fa fa-angle-right"></i></li>
               </ul>
             </div><!--/col-md-3-->
