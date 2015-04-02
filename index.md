@@ -1,7 +1,7 @@
 ---
 layout: page
-title: 
-tagline: 
+title: LDC Via
+tagline: Modernise your Domino data
 ---
 {% include JB/setup %}
 
@@ -11,9 +11,9 @@ tagline:
     <div class="blog-post-tags">
         <ul class="list-unstyled list-inline blog-info">
             <li><i class="fa fa-calendar"></i> {{ post.date | date_to_string }}</li>
-        </ul>                    
+        </ul>
     </div>
     <p>{{ post.content }}</p>
-    
+
 </div>
 {% endfor %}
