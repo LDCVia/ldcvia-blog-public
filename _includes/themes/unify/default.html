@@ -29,16 +29,15 @@
 
     <script async="" src="//www.google-analytics.com/analytics.js"></script>
     <!-- Le fav and touch icons -->
-    <!-- Update these with your own images
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  -->
-    <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" type="text/javascript" async=""></script>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" type="text/javascript"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="http://cookieconsent.silktide.com/?s=1"></script>
+    <link rel="apple-touch-icon" href="{{ ASSET_PATH }}/ldc-via-logo-60px.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ ASSET_PATH }}/ldc-via-logo-76px.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="{{ ASSET_PATH }}/ldc-via-logo-120px.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="{{ ASSET_PATH }}/ldc-via-logo-152px.png">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" async=""></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="http://cookieconsent.silktide.com/?s=1"></script>
 
     <!-- atom & rss feed -->
     <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
@@ -168,21 +167,19 @@
   </div>
     {% include JB/analytics %}
 
-<!-- JS Global Compulsory -->
-<script type="text/javascript" src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<!-- JS Implementing Plugins -->
-<script type="text/javascript" src="/plugins/back-to-top.js"></script>
-<!-- JS Page Level -->
-<script type="text/javascript" src="/js/app.js"></script>
-<script type="text/javascript">
-    jQuery(document).ready(function() {
-        App.init();
-    });
-</script>
-<!--[if lt IE 9]>
-    <script src="/plugins/respond.js"></script>
-<![endif]-->
+  <!-- JS Global Compulsory -->
+  <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <!-- JS Implementing Plugins -->
+  <script src="/plugins/back-to-top.js"></script>
+  <!-- JS Page Level -->
+  <script src="/js/app.js"></script>
+  <script>
+    jQuery(document).ready(function() { App.init(); });
+  </script>
+  <!--[if lt IE 9]>
+      <script src="/plugins/respond.js"></script>
+  <![endif]-->
 
   </body>
 </html>
