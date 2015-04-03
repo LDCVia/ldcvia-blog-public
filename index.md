@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Modernise your Domino data
+title: 'LDC Via: Modernise your Domino data'
 tagline:
 ---
 {% include JB/setup %}
