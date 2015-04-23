@@ -12,7 +12,7 @@ There’s no point having an all-singing all-dancing database application, if th
 When we were talking to people at the Engage conference in Ghent, this question came up, so we felt it warranted a fairly detailed ‘how-to’ blog post. In fact, the process is pretty simple, and to make it even simpler we’ve not only written it down step-by-step, but also provided a downloadable Excel file to get you up and running.
 
 
-![http://ldcvia.s3.amazonaws.com/ExcelPowerQuery.png](Excel Spreadsheet with LDC Via Data)
+![Excel Spreadsheet with LDC Via Data](http://ldcvia.s3.amazonaws.com/ExcelPowerQuery.png)
 
 Using [Power Query](https://www.microsoft.com/en-gb/download/details.aspx?id=39379), which is a free add on to Excel, we can create a parameter-driven spreadsheet that pulls in data from any internet source, including LDC Via.
 
