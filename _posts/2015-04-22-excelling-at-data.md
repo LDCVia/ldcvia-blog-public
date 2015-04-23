@@ -42,7 +42,7 @@ Power Query doesn’t really have the concept of a For style loop, so we have to
 
 Clearly the speed of all this depends on the number of documents in the database in the first place, but even the example above, with 40,000 documents, takes less than a minute to load and parse all of the data.
 
-<iframe src="https://player.vimeo.com/video/125773559" width="500" height="375" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/125773559" width="800" height="469" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 To go and get data from a different collection in LDC Via, simply modify the settings worksheet as appropriate, right-click on the GetTableData function, and choose the “Refresh” option: the data will be automatically downloaded and parsed.
 
