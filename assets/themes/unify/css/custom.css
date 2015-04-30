@@ -14,5 +14,4 @@ li.sep:after { margin-left: 5px; content: '•' }
 
 /* Footer link customisations */
 .footer a { color: #fff; font-weight: 200 }
-.footer a:hover { color: #e74c3c }
-.copyright a, .footer a:hover, .copyright a:hover { color: #de000b }
+.copyright a, .footer a:hover, .copyright a:hover { color: #e74c3c; text-decoration: none }
