@@ -18,6 +18,7 @@ In the Database Viewer admin page, you can elect to “Modify Collection Schema�
 In the screenshot shown below, we have defined four key fields. Subject is positioned first, then Categories, From and Body. “From” we want to display with a label of “Created By” and the Body field is rich text, so we’ll just take the automatically parsed HTML version of that field.
 
 ![Sample Meta Data](http://ldcvia.s3.amazonaws.com/SampleMetaData.png)
+
 Once these settings are saved, select the “Open as Application” link on the Database Viewer page and your work is done:
 
 ![Demo App](http://ldcvia.s3.amazonaws.com/DemoApp.png)
