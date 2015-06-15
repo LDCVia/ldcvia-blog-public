@@ -22,6 +22,7 @@ In the screenshot shown below, we have defined four key fields. Subject is posit
 Once these settings are saved, select the “Open as Application” link on the Database Viewer page and your work is done:
 
 ![Demo App](http://ldcvia.s3.amazonaws.com/DemoApp.png)
+
 ## LDC Via Lens: views
 We don’t stop there! If the key field functionality is a nod to half of the old way of doing things in IBM (Lotus) Notes—i.e. forms—then what about the other half, views?
 Well, in the Database Settings screen, you can also create view filters. This means that any time a user accesses the database with Lens they can use the “views” that you’ve created to find useful data more easily.
