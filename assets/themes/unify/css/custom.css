@@ -1,11 +1,10 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300);
+
 /* CSS customisations should all go in here */
 
 /* Gists can get quite long; keep them manageable */
 .gist .gist-data { overflow-y: hidden; height: 195px }
 
-/* Remove all font references EXCEPT fontawesome */
-/* Main site font */
-@import url(http://fonts.googleapis.com/css?family=Raleway:300,400,700,400italic);
 html, body, h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif }
 
 li.sep:after { margin-left: 5px; content: '•' }
