@@ -1,4 +1,4 @@
-		---
+---
 layout: post
 title: "Home sweet home"
 category: "LDC Via"
