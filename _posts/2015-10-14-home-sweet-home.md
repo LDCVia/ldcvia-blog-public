@@ -1,21 +1,14 @@
----
+		---
 layout: post
-title: "What's it all for?"
+title: "Home sweet home"
 category: "LDC Via"
 tags: [ldcvia, intro]
 ---
 {% include JB/setup %}
-Do any of these sound like your thoughts or conversations?
+One of the main uses for LDC Via is in re-homing historical data from servers that are being retired.
 
-* "The business relies on this old Notes application, but we have nobody who can maintain it for us."
-* "We’re migrating to Office 365, but we have no idea what we’re going to do with our Notes data and applications."
-* "Our Domino server is at capacity, but we can’t just delete stuff because we need that data."
-* "That database is mahoosive! Surely we can archive it somehow?"
-* "I can't face opening that view, it will take hours to index."
-* "We need to integrate that Notes application with our other applications, and do it all on mobile devices while we’re at it."
-* "All our servers are moving to the cloud. So, what about the Domino server that only one division uses: why isn’t that in the cloud too?"
-* "The users constantly struggle to find the data they need in that old application. I daren’t turn on full text searching on it — the server can’t cope."
-* "We need to retain that old data for compliance, but we really don’t want those servers clogging up our server racks any more."
-* "We tried migrating applications to SharePoint, but it’s far too complex and expensive so they’re still on Domino."
+Your organisation may find itself in the situation where it is maintaining, supporting, and backing up Domino infrastructure purely so that the user can reference historical data held thereon — no new development, no real activity, few if any data updates … but you still need to “keep the lights on”. 
 
-If so, we need to talk.
+Even worse — and the longer you carry on the more likely this is — these servers may be poorly-supported, may not have robust back-up, and can even be running out-dated or un-patched infrastructure. 
+
+So why not kick those boxes into touch and serve up your data in a modern, cost-effective manner (with support, and reliable backups)?	
