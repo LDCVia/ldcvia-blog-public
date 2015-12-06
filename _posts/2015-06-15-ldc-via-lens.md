@@ -34,6 +34,6 @@ Of course, all of this honours our document-level security model. You are free t
 ## Conclusion
 LDC Via Lens allows you to create a read-only user experience for your migrated Notes / Domino data in next to no time, and provides your people with  an experience they can easily understand and work with. Let’s go through all this in a video, and you can see exactly how polished an interface LDC Via Lens can give you!:
 
-<iframe src="https://player.vimeo.com/video/129667073" width="800" height="443" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="https://player.vimeo.com/video/129667073" class="video560" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 If you want to go further (i.e. editing content as well as just reading it), we provide a beautifully-crafted set of REST APIs, as well as plenty of code samples to get you started. You can create applications against your precious data (or—of course—brand new applications) rapidly.
