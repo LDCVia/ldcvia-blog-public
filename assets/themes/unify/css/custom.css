@@ -18,3 +18,11 @@ li.sep:after { margin-left: 5px; content: '•' }
 /* MailChimp sign-up form */
 #mc_embed_signup h2 { margin: 0; font-weight: normal; line-height: 1em }
 #mc_embed_signup div.response { font-weight: normal }
+
+/* Embedded videos and images */
+.video560 { width: 560px; height: 315px }
+
+@media (max-width: 768px) {
+  .video560 { width: 420px; height: 237px }
+  .blog img { width: 87%; height: 87% }
+}
