@@ -1,0 +1,28 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300);
+
+/* CSS customisations should all go in here */
+
+/* Gists can get quite long; keep them manageable */
+.gist .gist-data { overflow-y: hidden; height: 195px }
+
+html, body, h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif }
+
+li.sep:after { margin-left: 5px; content: '•' }
+#logo-footer { margin-bottom: 1em }
+.blog img { max-width: 920px }
+
+/* Footer link customisations */
+.footer a { color: #fff; font-weight: 200 }
+.copyright a, .footer a:hover, .copyright a:hover { color: #e74c3c; text-decoration: none }
+
+/* MailChimp sign-up form */
+#mc_embed_signup h2 { margin: 0; font-weight: normal; line-height: 1em }
+#mc_embed_signup div.response { font-weight: normal }
+
+/* Embedded videos and images */
+.video560 { width: 560px; height: 315px }
+
+@media (max-width: 768px) {
+  .video560 { width: 420px; height: 237px }
+  .blog img { width: 87%; height: 87% }
+}

@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+    <title>Full text search</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="author" content="LDCVia">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/themes/unify/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/unify/css/style.css" rel="stylesheet">
+    <link href="/assets/themes/unify/plugins/line-icons/line-icons.css" rel="stylesheet">
+    <link href="/assets/themes/unify/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+
+    <link href="/assets/themes/unify/css/pages/blog.css" rel="stylesheet">
+    <link href="/assets/themes/unify/css/themes/red.css" rel="stylesheet">
+    <link href="/assets/themes/unify/css/custom.css" rel="stylesheet">
+
+    <link rel="icon" href="/assets/themes/unify/favicon.ico" type="image/vnd.microsoft.icon">
+
+    <script async="" src="//www.google-analytics.com/analytics.js"></script>
+    <!-- Le fav and touch icons -->
+    <link rel="apple-touch-icon" href="/assets/themes/unify/ldc-via-logo-60px.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/themes/unify/ldc-via-logo-76px.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/themes/unify/ldc-via-logo-120px.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/themes/unify/ldc-via-logo-152px.png">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" async=""></script>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="http://cookieconsent.silktide.com/?s=1"></script>
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+  </head>
+
+  <body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="topbar">
+        <div class="container">
+          <ul class="loginbar pull-right">
+            <li id="login" class="sep"><a href="https://eu.ldcvia.com/login">Log in</a></li>
+            <li id="register" class="sep"><a href="https://eu.ldcvia.com/register">Sign up</a></li>
+            <li id="support" class="sep"><a href="http://ldcvia.zendesk.com" title="Receive some assistance via our helpdesk">Help</a></li>
+            <li id="devhub" class="sep"><a href="http://ldcvia.com/developers.html" title="Our developer community, and Dev Hub">Developers</a></li>
+            <li><a href="http://twitter.com/ldcvia" title="Follow us on Twitter: @ldcvia"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="http://facebook.com/ldcvia" title="Check out our Facebook page"><i class="fa fa-facebook"></i></a></li>
+          </ul>
+        </div>
+      </div><!-- topbar -->
+
+      <div class="navbar navbar-default">
+        <div class="navbar-header">
+          <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse"
+          type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="fa fa-bars"></span>
+          </button>
+          <a class="navbar-brand logo" href="http://ldcvia.com/" title="LDC Via logo: click to return to home page"></a>
+        </div>
+
+        <div class="collapse navbar-collapse navbar-responsive-collapse">
+          <ul class="nav navbar-nav">
+            <li id="howdoesitwork"><a href="http://ldcvia.com/howdoesitwork.html">How LDC Via works</a></li>
+            <li id="about"><a href="http://ldcvia.com/about.html">About us</a></li>
+            <li id="blog" class="active"><a href="http://blog.ldcvia.com">Our blog</a></li>
+            <li id="prices"><a href="http://ldcvia.com/prices.html">Pricing</a></li>
+          </ul>
+        </div>
+      </div><!-- navigation -->
+    </div><!-- header -->
+
+    <div class="container content blog-full-width">
+      <div class="col-md-9 container content">
+        
+<div class="page-header">
+  <h1>Full text search</h1>
+  <div class="blog-post-tags">
+      <ul class="list-unstyled list-inline blog-info">
+          <li><i class="fa fa-calendar"></i> 03 July 2015</li>
+          <li><i class="fa fa-tags"></i>  
+
+
+  
+     
+    	<li><a href="/tags.html#ldcvia-ref">ldcvia <span>20</span></a></li>
+     
+    	<li><a href="/tags.html#search-ref">search <span>1</span></a></li>
+    
+  
+
+
+</li>
+      </ul>
+  </div>
+</div>
+
+<div class="row post-full">
+  <div class="col-xs-10">
+    <div class="content">
+      
+<p>“Search?” I hear you mutter, “full text search? Really?”</p>
+
+<p>Well yes indeed! We’ve always offered a field-based search facility in LDC Via, but of course, chances are your users will want to search for a phrase across an entire document or collection of documents. Enter LDC Via’s full text search functionality.</p>
+
+<p>Searching like this is often a must-have in an application, but it’s not straightforward to implement when dealing with a platform like LDC Via that offers document-level security. We took some time and did it right, implementing full-text search for those using paid tiers in LDC Via. So if you’re signed up to one of our <a href="http://ldcvia.com/prices.html">paid plans</a>, you have a single box to tick and you’re good to go:</p>
+
+<p><img src="http://ldcvia.s3.amazonaws.com/db_settings.png" alt="Database settings screen" /></p>
+
+<p>Full search functionality will now be available in both the standard templates we offer and the <a href="http://api.ldcvia.com/#search-in-a-collection">LDC Via API</a>.</p>
+
+<p>You can also combine full text search with standard field-based search in a single query. For example, you could issue a single query to get all contracts with an issue date between 01-Jan-15 and 31-Mar-15 within the category “New client”, and mentioning “banana” anywhere in their text.</p>
+
+    </div>
+
+
+    <hr>
+    <ul class="pagination">
+    
+      <li class="prev"><a href="/2015/06/15/ldc-via-lens" title="LDC Via Lens">&laquo; Previous</a></li>
+    
+      <li><a href="/">Home</a></li>
+    
+      <li class="next"><a href="/2015/08/11/ldc-via-at-mwlug" title="LDC Via at MWLUG">Next &raquo;</a></li>
+    
+    </ul>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'ldcviablog'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+  </div>
+</div>
+
+
+      </div>
+      <div id="mce-sidebar" class="col-md-3 container content">
+        <div class="page-header">
+          <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup">
+            <form action="//ldcvia.us10.list-manage.com/subscribe/post?u=f13ac42bd733d5406b3a7debe&amp;id=38b243e7da" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div id="mc_embed_signup_scroll">
+              	<label for="mce-EMAIL">Join our mailing list!</label>
+              	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Your email address" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                  <input type="text" name="b_f13ac42bd733d5406b3a7debe_38b243e7da" tabindex="-1" value="">
+                </div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+              </div>
+            </form>
+          </div><!--End mc_embed_signup-->
+        </div><!-- end page-header -->
+      </div><!-- enbd mce-sidebar -->
+    </div><!-- end CONTENT -->
+
+    <!-- FOOTER -->
+    <div class="footer-v1">
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <!-- About -->
+            <div class="col-md-3 md-margin-bottom-20">
+              <a href="http://ldcvia.com/"><img id="logo-footer" class="footer-logo" src="/assets/themes/unify/ldc-via-logo-52px.png" alt="LDC Via logo: click to return to home page"></a>
+              <p>LDC Via: modernise your Domino data.</p>
+              <p>Use the cloud to liberate your organisation&#8217;s knowledge.</p>
+            </div><!--/col-md-3-->
+            <!-- End About -->
+
+            <!-- Link List -->
+            <div class="col-md-3 md-margin-bottom-20">
+              <h2>Quick links</h2>
+              <ul class="list-unstyled link-list">
+                <li><a href="http://ldcvia.com/">Home</a></li>
+                <li><a href="http://ldcvia.com/howdoesitwork.html">How LDC Via works</a></li>
+                <li><a href="http://ldcvia.com/about.html">About us</a></li>
+                <li><a href="http://ldcvia.com/services.html">Consulting services</a></li>
+                <li><a href="http://blog.ldcvia.com">Our blog</a></li>
+                <li><a href="http://ldcvia.com/prices.html">Pricing</a></li>
+                <li><a href="http://ldcvia.zendesk.com">Help &amp; support</a></li>
+                <li><a href="http://ldcvia.com/developers.html">Developers</a></li>
+                <li><a href="http://ldcvia.com/downloads.html">Downloads</a></li>
+                <li><a href="http://status.ldcvia.com">Status</a></li>
+              </ul>
+            </div><!--/col-md-3-->
+            <!-- End Link List -->
+
+            <!-- Address -->
+            <div class="col-md-3 map-img md-margin-bottom-20">
+              <h2>Contact us</h2>
+              <address class="md-margin-bottom-20">
+                LDC Via Ltd.<br>
+                24 Ivymount Road<br>
+                London<br>
+                SE27 0NB<br>
+                United Kingdom
+              </address>
+              <address class="md-margin-bottom-20">
+                +44 (0) 20 3633 3009<br />
+                (9am - 6pm UK time)
+              </address>
+              <address class="md-margin-bottom-20">
+                <a href="mailto:info@ldcvia.com">info@ldcvia.com</a>
+              </address>
+              <address class="md-margin-bottom-20">
+                A company registered in England &amp; Wales, no. 09209489
+              </address>
+            </div><!--/col-md-3-->
+            <!-- End Address -->
+
+            <!-- Social list -->
+            <div class="col-md-3 md-margin-bottom-20">
+              <h2>Elsewhere</h2>
+              <ul class="list-unstyled link-list">
+                <li><a href="http://blog.ldcvia.com">LDC Via blog</a></li>
+                <li><a href="http://twitter.com/ldcvia">LDC Via on Twitter</a></li>
+                <li><a href="http://facebook.com/ldcvia">LDC Via on Facebook</a></li>
+              </ul>
+            </div><!--/col-md-3-->
+            <!-- End social list -->
+          </div><!-- end row -->
+        </div><!-- end container -->
+      </div><!-- end footer-->
+
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p>&copy; 2016, all rights reserved. <a href="terms.html">Terms &amp; conditions</a></p>
+            </div>
+          </div>
+        </div>
+      </div><!-- copyright -->
+    </div><!-- footer-v1 -->
+  </div>
+    
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "24 Ivymount Road",
+          "addressLocality": "London",
+          "addressRegion": "Greater London",
+          "postalCode": "SE27 0NB"
+        },
+        "name": "LDC Via",
+        "description": "Migrate your data from IBM Notes and Domino to LDC Via, a new standards-based document store with enhanced document-level security and a comprehensive application layer. LDC Via also provides advanced user management and is available in the cloud, on-premises, or in a mixture of both. Speed up existing IBM Domino applications, liberate your organisation’s knowledge, run a cost-effective live archive: the choice is yours.",
+        "telephone": "020 3633 3009",
+        "url": "ldcvia.com"
+      }
+    </script>
+
+  <!-- JS Global Compulsory -->
+  <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <!-- JS Implementing Plugins -->
+  <script src="/assets/themes/unify//plugins/back-to-top.js"></script>
+  <!-- JS Page Level -->
+  <script src="/assets/themes/unify//js/app.js"></script>
+  <script>
+    jQuery(document).ready(function() { App.init(); });
+  </script>
+  <!--[if lt IE 9]>
+      <script src="/plugins/respond.js"></script>
+  <![endif]-->
+
+  </body>
+</html>
+
