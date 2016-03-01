@@ -5,12 +5,12 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-    <title>LDC Via Lens</title>
+    <title>Pages</title>
 
     <!-- Meta -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    
     <meta name="author" content="LDCVia">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -92,95 +92,47 @@
         
 
 <div class="page-header">
-  <h1>LDC Via Lens</h1>
-  <div class="blog-post-tags">
-      <ul class="list-unstyled list-inline blog-info">
-          <li><i class="fa fa-calendar"></i> 15 June 2015</li>
-          <li><i class="fa fa-tags"></i>  
-
-
-  
-     
-    	<li><a href="/tags.html#ldcvia-ref">ldcvia <span>21</span></a></li>
-    
-  
-
-
-</li>
-      </ul>
-  </div>
+  <h1>Pages </h1>
 </div>
 
-<div class="row post-full">
-  <div class="col-xs-10">
-    <div class="content">
-      
-<p>As you may know, we already offer free application templates for Discussions, Document Libraries, Teamrooms and mail files. But what do you do when you’ve migrated a custom database to LDC Via and you want to provide your users with a simple view of the data, no bells or whistles?</p>
+<div class="row-fluid">
+  <div class="span12">
+    
 
-<p>Enter LDC Via Lens.</p>
 
-<p>Lens is an application template that is driven by configuration, meaning that you can define how a screen of data is laid-out and presented. Using Lens, you can quickly create an interface onto your data that will make sense to your users and allow them to interrogate and explore the data effectively and easily.</p>
 
-<h2 id="ldc-via-lens-key-fields">LDC Via Lens: key fields</h2>
-<p>In the Database Viewer admin page, you can elect to “Modify Collection Schema” which shows all of the settings for a collection in your database. What this means is that you can see all of the fields for documents stored in the collection, change their data type, their position on-screen, and whether a particular field is an “LDC Via Lens” field (i.e. available to end users), with an associated field label.
-(We’ve added this distinction between “key” and “non-key” fields: all fields are important, but some are not ones that you need or want to expose to end users. By flagging a field as “key”, this means that when you use our <a href="http://api.ldcvia.com/#export-to-pdf">Export to PDF</a> API, or Lens, we will just show the key fields.)
-In the screenshot shown below, we have defined four key fields. Subject is positioned first, then Categories, From and Body. “From” we want to display with a label of “Created By” and the Body field is rich text, so we’ll just take the automatically parsed HTML version of that field.</p>
-
-<p><img src="http://ldcvia.s3.amazonaws.com/SampleMetaData.png" alt="Sample Meta Data" /></p>
-
-<p>Once these settings are saved, select the “Open as Application” link on the Database Viewer page and your work is done:</p>
-
-<p><img src="http://ldcvia.s3.amazonaws.com/DemoApp.png" alt="Demo App" /></p>
-
-<h2 id="ldc-via-lens-views">LDC Via Lens: views</h2>
-<p>We don’t stop there! If the key field functionality is a nod to half of the old way of doing things in IBM (Lotus) Notes—i.e. forms—then what about the other half, views?
-Well, in the Database Settings screen, you can also create view filters. This means that any time a user accesses the database with Lens they can use the “views” that you’ve created to find useful data more easily.
-Naturally you can manage your views with our API, so if you’re building your own application, any views you create are still available.</p>
-
-<h2 id="security">Security</h2>
-<p>Of course, all of this honours our document-level security model. You are free to distribute application URLs with LDC Via Lens functionality to all your users without any concerns about them seeing data they shouldn’t.</p>
-
-<h2 id="conclusion">Conclusion</h2>
-<p>LDC Via Lens allows you to create a read-only user experience for your migrated Notes / Domino data in next to no time, and provides your people with  an experience they can easily understand and work with. Let’s go through all this in a video, and you can see exactly how polished an interface LDC Via Lens can give you!:</p>
-
-<iframe src="https://player.vimeo.com/video/129667073" class="video560" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
-
-<p>If you want to go further (i.e. editing content as well as just reading it), we provide a beautifully-crafted set of REST APIs, as well as plenty of code samples to get you started. You can create applications against your precious data (or—of course—brand new applications) rapidly.</p>
-
+<div class="blog margin-bottom-40">
+	<h1><a href="/2014/09/15/welcome-to-ldcvia">Welcome to LDC Via</a></h1>
+    <div class="blog-post-tags">
+        <ul class="list-unstyled list-inline blog-info">
+            <li><i class="fa fa-calendar"></i> 15 Sep 2014</li>
+        </ul>                    
     </div>
+    <p>
+<p>Welcome to a new offering from LDC. We call it LDC Via.</p>
 
+<p>Over successive posts we’d like to introduce you to this new tool, designed to liberate your information from older IBM Domino (Lotus Notes) data stores.</p>
 
-    <hr>
-    <ul class="pagination">
+<p>Perhaps your organisation is moving away from Domino, or simply no longer investing in maintaining the platform. Maybe you have applications in need of an overhaul, or systems are being retired, but you want to retain your data…</p>
+
+<p>As the name suggests, LDC Via represents a path, a route away from Domino, whilst retaining the things you need: document-based data, name-, group- and role-based security, and more.</p>
+
+<p>In short, Via brings delightfully simple access to your information, whether it’s on premises or in the cloud.</p>
+</p>
     
-      <li class="prev"><a href="/2015/05/07/ldcvia-with-xcomponents" title="Creating templates with LDC Via and XComponents">&laquo; Previous</a></li>
-    
-      <li><a href="/">Home</a></li>
-    
-      <li class="next"><a href="/2015/07/03/full-text-search" title="Full text search">Next &raquo;</a></li>
-    
-    </ul>
-    <hr>
-    
-
-
-  <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_developer = 1;
-    var disqus_shortname = 'ldcviablog'; // required: replace example with your forum shortname
-    
-    /* * * DON'T EDIT BELOW THIS LINE * * */
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
 
 
 
+<div class="pagination">
+  
+    <a href="/page8" class="previous">Previous</a>
+  
+  <span class="page_number ">Page: 9 of 9</span>
+  
+    <span class="next ">Next</span>
+  
+</div>
   </div>
 </div>
 

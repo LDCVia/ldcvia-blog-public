@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
@@ -19,25 +20,25 @@
     <![endif]-->
 
     <!-- Le styles -->
-    <link href="/assets/themes/unify/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/assets/themes/unify/css/style.css" rel="stylesheet">
-    <link href="/assets/themes/unify/plugins/line-icons/line-icons.css" rel="stylesheet">
-    <link href="/assets/themes/unify/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/assets/themes/unify//plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/unify//css/style.css" rel="stylesheet">
+    <link href="/assets/themes/unify//plugins/line-icons/line-icons.css" rel="stylesheet">
+    <link href="/assets/themes/unify//plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 
-    <link href="/assets/themes/unify/css/pages/blog.css" rel="stylesheet">
-    <link href="/assets/themes/unify/css/themes/red.css" rel="stylesheet">
-    <link href="/assets/themes/unify/css/custom.css" rel="stylesheet">
+    <link href="/assets/themes/unify//css/pages/blog.css" rel="stylesheet">
+    <link href="/assets/themes/unify//css/themes/red.css" rel="stylesheet">
+    <link href="/assets/themes/unify//css/custom.css" rel="stylesheet">
 
-    <link rel="icon" href="/assets/themes/unify/favicon.ico" type="image/vnd.microsoft.icon">
+    <link rel="icon" href="/assets/themes/unify//favicon.ico" type="image/vnd.microsoft.icon">
 
     <script async="" src="//www.google-analytics.com/analytics.js"></script>
     <!-- Le fav and touch icons -->
-    <link rel="apple-touch-icon" href="/assets/themes/unify/ldc-via-logo-60px.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/themes/unify/ldc-via-logo-76px.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/themes/unify/ldc-via-logo-120px.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/themes/unify/ldc-via-logo-152px.png">
+    <link rel="apple-touch-icon" href="/assets/themes/unify//ldc-via-logo-60px.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/themes/unify//ldc-via-logo-76px.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/themes/unify//ldc-via-logo-120px.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/themes/unify//ldc-via-logo-152px.png">
 
     <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" async=""></script>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -89,6 +90,7 @@
     <div class="container content blog-full-width">
       <div class="col-md-9 container content">
         
+
 <div class="page-header">
   <h1>Pages </h1>
 </div>
@@ -97,6 +99,57 @@
   <div class="span12">
     
 
+
+
+<div class="blog margin-bottom-40">
+	<h1><a href="/2014/11/13/looking-after-your-data">Looking after your data</a></h1>
+    <div class="blog-post-tags">
+        <ul class="list-unstyled list-inline blog-info">
+            <li><i class="fa fa-calendar"></i> 13 Nov 2014</li>
+        </ul>                    
+    </div>
+    <p>
+<p>There is a phrase regarding security on websites that terrifies developers: “It’s not a question of whether you get hacked, but <em>when</em>.” It’s popular with the media of course―doom-laden articles will always sell, and strictly speaking this terrifying sentence is correct―<em>but only for a given value of ‘correct’</em>.</p>
+
+<p>For example, I don’t think anyone could stop the NSA getting access to private data if the NSA had a thousand years and warehouses of dedicated brute-force script kiddies at their disposal (no doubt backed by law). What we can do however, is make cracking data so bloody hard that the whole process becomes untenable. For LDC Via, we consider the “base data type” for all migrations to be financial transactions from large corporates―in other words, we do not play fast and loose with this stuff.</p>
+
+<p>As we built LDC Via we had to consider the usual suspects in terms of attack vectors, and the defensive layers we need to provide. This is compounded by the fact that IBM Domino has always provided such good, simple security. We provide various options when using LDC Via, from simple data conversion to fully-converted applications with reasonably complex security requirements―and so there are appropriate decisions to be made.</p>
+
+<p>Thankfully, different members of LDC take care of different areas of the application, and this enables us to impose a global security policy with each member taking care of a number of the constituent layers.</p>
+
+<p>We break down the defensive layers into two categories:</p>
+
+<ol>
+  <li>“The Usual Suspects”</li>
+  <li>“Just For Us”</li>
+</ol>
+
+<h3 id="the-usual-suspects">“The Usual Suspects”</h3>
+<p>These are the layers that all web apps have to deal with. Quite a lot of them are irrelevant for on-premises solutions, but take on huge importance in our cloud offering.</p>
+
+<p><strong>Ports and firewalls.</strong> An easy one―only those ports absolutely necessary are opened. By default this means SSL (port 443), with the option of port 80 if non-secure transactions are required. <em>That is it</em>: no database ports, no remote access ports etc. We separate dedicated client servers from each other with firewalls as well, so there is no inter-communication between your dedicated boxes and those used by our other clients.</p>
+
+<p><strong>Operating system.</strong> We use a hardened Linux build for our production servers, with proper patching and all the things that keep administrators happy.</p>
+
+<p><strong>Hardware.</strong> Where provided by our hosting providers we offer hardware encryption. Now that most decent physical storage is based on solid-state technology, we have found that hardware encryption is not the performance horror it once was. If this is a requirement for your implementation, please tell us.</p>
+
+<p><strong>NSA.</strong> A new player in the security arena is the National Security Agency in the US. Their curious assertion that they have the right to take any data they deem fit for their purposes from anywhere on the planet means that even if your data is not stored in the continental USA, if the hosting provider has an office registered there then the NSA can pressure that organisation to provide access to your data (with the hosting provider and LDC Via legally obliged not not to tell you about it).</p>
+
+<p>Well, we are registered in the UK, and we have access to multiple hosting providers, both local and international, to meet the different data security needs of clients.</p>
+
+<p><strong>Databases.</strong> All databases offer a variety of security options, and the methods we implement will vary according to the back-end server involved. In our current offering (based on MongoDb) we use both standard MongoDb users and roles for security (rather than those wide-open “service accounts” that so often lead to wholesale database leaks in the case of a security breach).</p>
+
+<p>However, that’s not enough: MongoDb only really offers granular security down to a “collection” level, so that leads us on to the the next level of security…</p>
+
+<h3 id="just-for-us">“Just For Us”</h3>
+<p><strong>Readers and authors.</strong> One of the core tenets of IBM Domino security, and something that is a devil to reproduce in other systems. Readers and authors fields, controlling document- and field-level access to data. Very few systems and databases provide document-level security, so to effect this level of security, we have a “data wrapper”: we have constructed a wrapper that goes round any attempt to access the database from the application (a Java driver wrapper is also provided). The meta-data stored in the database is checked against the requesting user and the various levels of access are granted on that basis. This includes group access as well as individual rights.</p>
+
+<p><strong>Configurable security.</strong> At any time, administrators can modify which fields in a collection are used to define security, and of course, will always be able to see all documents (you won’t lose anything!)</p>
+
+<p>So there you go, some of the background to security in LDC Via. As Mark says, it’s like arguing about politics: never-ending, often quite heated, but one day we will build a better world (if the rest of the buggers stop talking rubbish).</p>
+</p>
+    
+</div>
 
 <div class="blog margin-bottom-40">
 	<h1><a href="/2014/11/04/more-on-the-why">More on the why...</a></h1>
@@ -221,36 +274,15 @@ As per item #4, a lot of corporate data may only be accessible via IBM Notes cli
     
 </div>
 
-<div class="blog margin-bottom-40">
-	<h1><a href="/2014/09/15/welcome-to-ldcvia">Welcome to LDC Via</a></h1>
-    <div class="blog-post-tags">
-        <ul class="list-unstyled list-inline blog-info">
-            <li><i class="fa fa-calendar"></i> 15 Sep 2014</li>
-        </ul>                    
-    </div>
-    <p>
-<p>Welcome to a new offering from LDC. We call it LDC Via.</p>
-
-<p>Over successive posts we’d like to introduce you to this new tool, designed to liberate your information from older IBM Domino (Lotus Notes) data stores.</p>
-
-<p>Perhaps your organisation is moving away from Domino, or simply no longer investing in maintaining the platform. Maybe you have applications in need of an overhaul, or systems are being retired, but you want to retain your data…</p>
-
-<p>As the name suggests, LDC Via represents a path, a route away from Domino, whilst retaining the things you need: document-based data, name-, group- and role-based security, and more.</p>
-
-<p>In short, Via brings delightfully simple access to your information, whether it’s on premises or in the cloud.</p>
-</p>
-    
-</div>
-
 
 
 <div class="pagination">
   
     <a href="/page7" class="previous">Previous</a>
   
-  <span class="page_number ">Page: 8 of 8</span>
+  <span class="page_number ">Page: 8 of 9</span>
   
-    <span class="next ">Next</span>
+    <a href="/page9" class="next">Next</a>
   
 </div>
   </div>
@@ -285,7 +317,7 @@ As per item #4, a lot of corporate data may only be accessible via IBM Notes cli
           <div class="row">
             <!-- About -->
             <div class="col-md-3 md-margin-bottom-20">
-              <a href="http://ldcvia.com/"><img id="logo-footer" class="footer-logo" src="/assets/themes/unify/ldc-via-logo-52px.png" alt="LDC Via logo: click to return to home page"></a>
+              <a href="http://ldcvia.com/"><img id="logo-footer" class="footer-logo" src="/assets/themes/unify//ldc-via-logo-52px.png" alt="LDC Via logo: click to return to home page"></a>
               <p>LDC Via: modernise your Domino data.</p>
               <p>Use the cloud to liberate your organisation&#8217;s knowledge.</p>
             </div><!--/col-md-3-->
@@ -380,9 +412,9 @@ As per item #4, a lot of corporate data may only be accessible via IBM Notes cli
   <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   <!-- JS Implementing Plugins -->
-  <script src="/assets/themes/unify//plugins/back-to-top.js"></script>
+  <script src="/assets/themes/unify///plugins/back-to-top.js"></script>
   <!-- JS Page Level -->
-  <script src="/assets/themes/unify//js/app.js"></script>
+  <script src="/assets/themes/unify///js/app.js"></script>
   <script>
     jQuery(document).ready(function() { App.init(); });
   </script>
