@@ -1,7 +1,7 @@
 /*
  * Template Name: Unify - Responsive Bootstrap Template
  * Description: Business, Corporate, Portfolio and Blog Theme.
- * Version: 1.4
+ * Version: 1.4 (modified)
  * Author: @htmlstream
  * Website: http://htmlstream.com
 */
@@ -2140,26 +2140,23 @@ ul.labels-demo li {
 	display: none !important;
 }
 
-
-/* TODO colour stuff that needs integrating */
 /*
-* Version: 1.5 - colours used:
-* REAL LDC Via red: #de000b
-* LDC Via red for links: #e74c3c;
+* Version: 1.6 - colours used:
+* REAL LDC Via red: #e0000a (WAS #e0000a)
+* LDC Via red for links: #e0000a (WAS #e0000a)
 * Different red for borders: #c0392b;
 * Pinkish-white background: #f9e6e6
 */
-
-a, a:focus, a:hover, a:active { color: #e74c3c }
+a, a:focus, a:hover, a:active { color: #e0000a }
 a.download-content { color: #000 }
 
 /* Header v1 Navbar */
-.header .navbar-default .navbar-nav > .active > a { color: #de000b }
+.header .navbar-default .navbar-nav > .active > a { color: #e0000a }
 
 /* Navbar toggle */
 .navbar-toggle,
 .navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus { background: #de000b }
+.navbar-default .navbar-toggle:focus { background: #e0000a }
 
 /* Dev Hub override */
 .devhub .navbar-toggle,
@@ -2168,12 +2165,12 @@ a.download-content { color: #000 }
 
 /*Responsive Navbar*/
 @media (max-width: 767px) {
-	.header .navbar-default .navbar-nav > li > a:hover { color: #de000b }
+	.header .navbar-default .navbar-nav > li > a:hover { color: #e0000a }
 	.header .navbar-default .navbar-nav > .active > a,
 	.header .navbar-default .navbar-nav > .active > a:hover,
 	.header .navbar-default .navbar-nav > .active > a:focus {
 		color: #fff;
-		background-color: #de000b;
+		background-color: #e0000a;
 	}
 
   /* reduce bootstrap header margin */
@@ -2191,7 +2188,7 @@ a.download-content { color: #000 }
 	/*Navbar*/
 	.header .navbar-default .navbar-nav > li > a:hover,
 	.header .navbar-default .navbar-nav > .active > a {
-		border-bottom: solid 2px #de000b;
+		border-bottom: solid 2px #e0000a;
 	}
 	.devhub .header .navbar-default .navbar-nav > li > a:hover,
 	.devhub .header .navbar-default .navbar-nav > .active > a {
@@ -2201,7 +2198,7 @@ a.download-content { color: #000 }
 	.header .navbar-default .navbar-nav > .open > a,
 	.header .navbar-default .navbar-nav > .open > a:hover,
 	.header .navbar-default .navbar-nav > .open > a:focus {
-		color: #de000b;
+		color: #e0000a;
 	}
 
 	.devhub .header .navbar-default .navbar-nav > .open > a,
@@ -2211,13 +2208,13 @@ a.download-content { color: #000 }
 	}
 
 	/*Dropdown Menu*/
-	.header .dropdown-menu { border-top: solid 2px #de000b }
+	.header .dropdown-menu { border-top: solid 2px #e0000a }
 }
 
 /*Search Box*/
 .header .navbar .nav > li > .search:hover {
-	color: #de000b;
-	border-bottom-color: #de000b;
+	color: #e0000a;
+	border-bottom-color: #e0000a;
 }
 
 @media (max-width: 767px) {

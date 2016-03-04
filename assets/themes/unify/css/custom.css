@@ -13,7 +13,7 @@ li.sep:after { margin-left: 5px; content: '•' }
 
 /* Footer link customisations */
 .footer a { color: #fff; font-weight: 200 }
-.copyright a, .footer a:hover, .copyright a:hover { color: #e74c3c; text-decoration: none }
+.copyright a, .footer a:hover, .copyright a:hover { color: #e0000a; text-decoration: none }
 
 /* MailChimp sign-up form */
 #mc_embed_signup h2 { margin: 0; font-weight: normal; line-height: 1em }

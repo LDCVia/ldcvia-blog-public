@@ -1,112 +1,61 @@
 /*
  * Template Name: Unify - Responsive Bootstrap Template
  * Description: Business, Corporate, Portfolio and Blog Theme.
- * Version: 1.4
+ * Version: 1.4 (modified)
  * Author: @htmlstream
  * Website: http://htmlstream.com
 */
 
-/*Import Google Font*/
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
-
-/* Reset Styles */
+/* Reset */
 * { border-radius: 0 !important }
 
-body {
-   color: #333;
-   font-size: 15px;
-   line-height: 1.6
-}
+body { color: #333; font-size: 15px; line-height: 1. }
 
 p, li, li a { color: #555 }
 
-a { color: #72c02c; text-decoration: none }
+a, a:focus { text-decoration: none }
+a:hover { text-decoration: underline }
 
-a,
-a:focus,
-a:hover,
-a:active {
-   outline: 0 !important;
-}
-a:focus {
-  text-decoration: none;
-}
-a:hover {
-   color: #72c02c;
-   text-decoration: underline;
-}
+hr { margin: 30px 0 }
 
-hr {
-  margin: 30px 0;
-}
-
-/*Headings*/
-h1 {
-  font-size: 28px;
-  line-height: 35px;
-}
-h2 {
-  font-size: 24px;
-  line-height: 33px;
-}
-h3 {
-  font-size: 20px;
-  line-height: 27px;
-}
-h4 {
-  line-height: 25px;
-}
-h5 {
-  line-height: 20px;
-}
-h6 {
-  line-height: 18px;
-}
+/* Headings */
+h1 { font-size: 28px; line-height: 35px }
+h2 { font-size: 24px; line-height: 33px }
+h3 { font-size: 20px; line-height: 27px }
+h4 { line-height: 25px }
+h5 { line-height: 20px }
+h6 { line-height: 18px }
 
 h1, h2, h3, h4, h5, h6 {
   color: #585f69;
   margin-top: 5px;
   text-shadow: none;
-  font-weight: normal;
-  font-family: 'Open Sans', sans-serif;
+  font-weight: normal
 }
 
-h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
-   margin-right: 5px;
-}
+h1 i, h2 i, h3 i, h4 i, h5 i, h6 i { margin-right: 5px }
 
-/*Block Headline*/
+/* Block Headline */
 .headline {
   display: block;
   margin: 10px 0 25px 0;
   border-bottom: 1px dotted #e4e9f0;
 }
 
-.headline h2 {
-  font-size: 22px;
-}
+.headline h2 { font-size: 22px }
 
-.headline h2,
-.headline h3,
-.headline h4 {
+.headline h2, .headline h3, .headline h4 {
   margin: 0 0 -2px 0;
   padding-bottom: 5px;
   display: inline-block;
-  border-bottom: 2px solid #72c02c;
+  border-bottom: 2px solid #72c02c
 }
 
-.headline-md {
-  margin-bottom: 15px;
-}
+.headline-md { margin-bottom: 15px }
+.headline-md h2 { font-size: 21px }
 
-.headline-md h2 {
-  font-size: 21px;
-}
-
-/*Heading Options*/
-.heading {
-  text-align: center;
-}
+/* Heading Options */
+.heading { text-align: center }
 
 .heading h2 {
   padding: 0 12px;
@@ -697,7 +646,7 @@ a.btn-u-xs {
 }
 
 .btn-u.btn-u-red {
-   background: #e74c3c;
+   background: #e0000a;
 }
 .btn-u.btn-u-red:hover,
 .btn-u.btn-u-red:focus,
@@ -923,7 +872,7 @@ a.btn-u-xs {
 }
 
 .btn-u.btn-brd.btn-u-red {
-  border-color: #e74c3c;
+  border-color: #e0000a;
 }
 .btn-u.btn-brd.btn-u-red:hover {
   color: #c0392b;
@@ -1104,7 +1053,7 @@ span.badge-blue {
 
 span.label-red,
 span.badge-red {
-  background: #e74c3c;
+  background: #e0000a;
 }
 
 span.label-green,
@@ -1412,8 +1361,8 @@ i.icon-color-blue {
    border: solid 1px #3498db;
 }
 i.icon-color-red {
-   color: #e74c3c;
-   border: solid 1px #e74c3c;
+   color: #e0000a;
+   border: solid 1px #e0000a;
 }
 i.icon-color-sea {
    color: #1abc9c;
@@ -1491,7 +1440,7 @@ i.icon-bg-blue {
    background: #3498db;
 }
 i.icon-bg-red {
-   background: #e74c3c;
+   background: #e0000a;
 }
 i.icon-bg-sea {
    background: #1abc9c;
@@ -1641,7 +1590,7 @@ i.icon-bg-light-grey {
   background: #3498db;
 }
 .servive-block-red {
-  background: #e74c3c;
+  background: #e0000a;
 }
 .servive-block-sea {
   background: #1abc9c;
@@ -1742,7 +1691,7 @@ i.icon-bg-light-grey {
 
 /*Red Funny Box*/
 .funny-boxes-red {
-  background: #e74c3c;
+  background: #e0000a;
 }
 
 /*Blue Funny Box*/
@@ -1846,7 +1795,7 @@ i.icon-bg-light-grey {
    background: #3498db;
 }
 .text-highlights-red {
-   background: #e74c3c;
+   background: #e0000a;
 }
 .text-highlights-sea {
    background: #1abc9c;
@@ -1888,7 +1837,7 @@ i.icon-bg-light-grey {
    border-color: #3498db;
 }
 .text-border-red {
-   border-color: #e74c3c;
+   border-color: #e0000a;
 }
 .text-border-yellow {
    border-color: #f1c40f;
@@ -2312,11 +2261,11 @@ blockquote.hero.hero-default small {
 
 /*Panel Red*/
 .panel-red {
-   border-color: #e74c3c;
+   border-color: #e0000a;
 }
 
 .panel-red > .panel-heading {
-   background: #e74c3c;
+   background: #e0000a;
 }
 
 /*Panel Green*/
@@ -2475,7 +2424,7 @@ blockquote.hero.hero-default small {
 }
 
 .progress-bar-red {
-  background: #e74c3c;
+  background: #e0000a;
 }
 
 .progress-bar-purple {
@@ -2641,7 +2590,7 @@ img.img-circle {
 /*Text Colors
 ------------------------------------*/
 .color-sea { color: #1abc9c;}
-.color-red { color: #e74c3c;}
+.color-red { color: #e0000a;}
 .color-aqua { color: #27d7e7;}
 .color-blue { color: #3498db;}
 .color-grey { color: #95a5a6;}
@@ -2676,7 +2625,7 @@ img.img-circle {
 }
 .bg-color-dark { background-color: #555;}
 .bg-color-sea { background-color: #1abc9c;}
-.bg-color-red { background-color: #e74c3c;}
+.bg-color-red { background-color: #e0000a;}
 .bg-color-aqua { background-color: #27d7e7;}
 .bg-color-blue { background-color: #3498db;}
 .bg-color-grey { background-color: #95a5a6;}
