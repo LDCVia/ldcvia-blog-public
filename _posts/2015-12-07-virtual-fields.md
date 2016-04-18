@@ -2,7 +2,7 @@
 layout: post
 title: "Virtual (computed) fields in LDC Via Lens"
 category: "LDC Via"
-tags: [ldcvia, intro, ldcvialens, devhub]
+tags: [ldcvia, lens, development, virtual fields]
 ---
 {% include JB/setup %}
 We’ve [spoken before about LDC Via Lens](/2015/06/15/ldc-via-lens/), but some things bear re-visiting, especially when the LDC Via pixies have been hard at work delivering new features that will put a smile on any developer’s face!

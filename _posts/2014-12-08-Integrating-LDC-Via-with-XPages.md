@@ -2,7 +2,7 @@
 layout: post
 category : LDC Via
 title: "Integrating LDC Via with XPages"
-tags : [xpages, api, how-to, code, rest]
+tags : [xpages, api, how-to, code, rest, development]
 ---
 {% include JB/setup %}
 

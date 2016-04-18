@@ -3,7 +3,7 @@ layout: post
 title: "Excelling at data manipulation with LDC Via"
 description: ""
 category: "LDC Via"
-tags: [ldcvia, excel, samples, data]
+tags: [ldcvia, excel, development, how-to]
 
 ---
 {% include JB/setup %}

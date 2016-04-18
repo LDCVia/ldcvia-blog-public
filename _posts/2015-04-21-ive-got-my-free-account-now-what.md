@@ -3,7 +3,7 @@ layout: post
 title: "I’ve got my free account. Now what?"
 description: ""
 category: "LDC Via"
-tags: [ldcvia, primer]
+tags: [ldcvia, primer, how-to]
 ---
 {% include JB/setup %}
 

@@ -3,7 +3,7 @@ layout: post
 title: "LDC Via Lens"
 description: ""
 category: "LDC Via"
-tags: [ldcvia]
+tags: [lens, api, ldcvia, development]
 ---
 {% include JB/setup %}
 As you may know, we already offer free application templates for Discussions, Document Libraries, Teamrooms and mail files. But what do you do when you’ve migrated a custom database to LDC Via and you want to provide your users with a simple view of the data, no bells or whistles?

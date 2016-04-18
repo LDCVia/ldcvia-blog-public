@@ -17,5 +17,3 @@ All of our standard templates (Discussion, Document Library, Teamroom and Mail) 
 At the simplest end of the spectrum, you’ll be able to take one of our templates and simply modify the data model to match the forms that you want to display. Of course if you want to get more complicated, then you can extend the templates to do anything that you fancy using the best of breed frameworks like AngularJS and Bootstrap.
 
 If you have in-house developers, then the best starting point would be our [Github page](https://github.com/LonDC) or [we can help you with your application development needs as well](http://ldcvia.com/services.html).
-
-
