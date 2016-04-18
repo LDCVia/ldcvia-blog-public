@@ -2,7 +2,7 @@
 layout: post
 title: "LDC Via at IBM Connect"
 category: "LDC Via"
-tags: [ldcvia, ibmconnect]
+tags: [ldcvia, ibmconnect, conferences]
 ---
 {% include JB/setup %}
 
