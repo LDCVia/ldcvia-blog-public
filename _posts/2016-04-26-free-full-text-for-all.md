@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Free full-text searching for all!"
+title: "Free full-text search for all!"
 category: "Application development"
 tags: [search, full-text, api, ldcvia, development]
 ---
