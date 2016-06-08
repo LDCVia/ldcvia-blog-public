@@ -1,40 +1,24 @@
-# Jekyll-Bootstrap
+##Writing
+Draft your posts in Markdown here (but as Google docs), complete with (front matter)[http://jekyllrb.com/docs/frontmatter/].
 
-The quickest way to start and publish your Jekyll powered blog. 100% compatible with GitHub pages
+Note that blog post files should be named thus:
 
-## Usage
+yyyy-mm-dd-blog-title-text.md
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+… and that front matter should look like this:
 
-## Version
+```
+---
+layout: post
+title: "Blog post title"
+category: "LDC Via"
+tags: [ldcvia, some_tag, conferences]
+---
+{% include JB/setup %}
+```
+(there’s a template gdoc provided in the draft blog posts folder on Google Drive - copy that as a starting point if you like).
 
-0.3.0 - stable and versioned using [semantic versioning](http://semver.org/).
+##Publishing
+When publishing to Github pages (in the “_posts” folder), copy the content of the relevant Google doc into a new plain text file. Name it as above, but with the file suffix “.md”
 
-**NOTE:** 0.3.0 introduces a new theme which is not backwards compatible in the sense it won't _look_ like the old version.
-However, the actual API has not changed at all.
-You might want to run 0.3.0 in a branch to make sure you are ok with the theme design changes.
-
-## Contributing
-
-
-To contribute to the framework please make sure to checkout your branch based on `jb-development`!!
-This is very important as it allows me to accept your pull request without having to publish a public version release.
-
-Small, atomic Features, bugs, etc.
-Use the `jb-development` branch but note it will likely change fast as pull requests are accepted.
-Please rebase as often as possible when working.
-Work on small, atomic features/bugs to avoid upstream commits affecting/breaking your development work.
-
-For Big Features or major API extensions/edits:
-This is the one case where I'll accept pull-requests based off the master branch.
-This allows you to work in isolation but it means I'll have to manually merge your work into the next public release.
-Translation : it might take a bit longer so please be patient! (but sincerely thank you).
-
-**Jekyll-Bootstrap Documentation Website.**
-
-The documentation website at <http://jekyllbootstrap.com> is maintained at https://github.com/plusjade/jekyllbootstrap.com
-
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
+Note that the project you publish to is ldcvia.github.io, and that all commits should go to the *gh-pages* branch.
