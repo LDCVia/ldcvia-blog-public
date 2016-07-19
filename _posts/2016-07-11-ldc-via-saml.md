@@ -2,7 +2,7 @@
 layout: post
 title: "LDC Via and SAML"
 category: "Releases"
-tags: [saml, authentication, ldcvia, features, idp, sp]
+tags: [saml, authentication, eton mess, features]
 ---
 {% include JB/setup %}
 

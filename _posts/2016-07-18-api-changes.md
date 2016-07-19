@@ -2,7 +2,7 @@
 layout: post
 title: "Eton Mess API changes"
 category: "Releases"
-tags: [api, ldcvia, features, ]
+tags: [api, eton mess, features, releases]
 ---
 {% include JB/setup %}
 
