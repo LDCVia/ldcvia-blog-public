@@ -10,20 +10,16 @@ As well as the technical and feature improvements in the recent “Eton Mess” 
 
 In detail:
 
-###“Basic” level - stays £FREE###
-
+<h3>“Basic” level - stays £FREE</h3>
 This is still free, and still has a limit of 500 docs across two NSFs, but the total storage available has gone up from 500Mb to 1Gb. That change allows for testing with lots of large attachments, which is of course not an unusual scenario in Notes/Domino applications.
 
-###“Standard” level - £199/month (old price £99/month)###
-
+<h3>“Standard” level - £199/month (old price £99/month)</h3>
 The storage available on this level has risen from 2Gb to 10Gb. That’s 5x the capacity, for twice the price.
 
-###“Pro” level - £499/month (old price £299/month)###
-
+<h3>“Pro” level - £499/month (old price £299/month)</h3>
 The storage available on this level has risen from 10Gb to 25Gb. Which is 2.5x the previous capacity, in exchange for a 67% price increase.
 
-###“Enterprise” level - £999/month (old price £749)###
-
+<h3>“Enterprise” level - £999/month (old price £749)</h3>
 The storage available at this level is unchanged at 100Gb, although the price here has increased by 33%. But it still represents a per-storage-Gb saving of almost 50% when compared to the “Standard” or “Pro” levels. And at “Enterprise” level there are no limits on the number of documents stored - the only thing we cap is the total storage space used.
 
 For full details of pricing, and information about our “Dedicated” and on-premises offerings, [see our pricing page](http://ldcvia.com/prices.html)
