@@ -11,7 +11,7 @@
 
 body { color: #333; font-size: 15px; line-height: 1. }
 
-p, li, li a { color: #555 }
+p, li { color: #555 }
 
 a, a:focus { text-decoration: none }
 a:hover { text-decoration: underline }
