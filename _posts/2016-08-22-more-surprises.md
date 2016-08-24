@@ -2,7 +2,7 @@
 layout: post
 title: "More surprises from LDC Via"
 category: "announcements"
-tags: [accouncements]
+tags: [announcements, gcloud, psc, partners]
 ---
 {% include JB/setup %}
 

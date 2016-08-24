@@ -2,7 +2,7 @@
 layout: post
 title: "Announced at MWLUG: LDC Via partnership with PSC Group"
 category: "Partnerships"
-tags: [partners]
+tags: [partners, psc]
 ---
 {% include JB/setup %}
 
