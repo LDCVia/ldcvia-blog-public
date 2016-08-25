@@ -12,13 +12,13 @@ Initially we created several templates that run on the main LDC Via servers. But
 
 [KEEP.WORKS](https://keep.works/) offers several things. Key among them is a simple migration path. You simply need to upload your legacy Notes database to our servers and we will convert it for you. This can be done in as little as ten minutes, depending on the size of your database. If your database matches one of our standard templates (Discussion, Document Library, Teamroom, Journal, Personal Address Book or Mail) then you can immediately log in and carry on working with your data.
 
-![Import Screen](https://keep.works/images/import.png "Import Screen")
+![Import Screen](https://s3-eu-west-1.amazonaws.com/ldcvia/keep.works/import.png "Import Screen")
 
 To be honest, if that were all that KEEP.WORKS offered you might feel a little underwhelmed. Automated database migration is nice, but we want more! Well, how about a configuration driven way of continuing to work with your data? We’ve got it.
 
 When you import a non-standard database, you can configure how to view, create and edit the data. You can even enable document-level security and set up additional users to access it. All without writing a single line of code.
 
-![Database Settings](https://keep.works/images/databasesettings.png "Database Settings")
+![Database Settings](https://s3-eu-west-1.amazonaws.com/ldcvia/keep.works/databasesettings.png "Database Settings")
 
 And the nice thing about all this? Well it’s developed using LDC Via as the underlying platform, so if you outgrow the [KEEP.WORKS](https://keep.works/) platform your developers can continue to work with the data and create your own custom applications using whatever languages and coding tools you (or they!) choose. Or, if you prefer, we can create more complex custom applications for you.
 
