@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "'Toad In The Hole' is ready!"
+title: "'Toad In The Hole' is ready"
 category: "Releases"
 tags: [api, search, releases, features, toad in the hole]
 ---
 {% include JB/setup %}
 
-We are delighted to announce the availability of our ‘Toad In The Hole’ release, hot on the heels of ‘Eton Mess’ back in June. It’s been just over two years since we started building LDC Via, and the releases keep coming.
+We are delighted to announce the availability of our ‘Toad In The Hole’ release, hot on the heels of ‘Eton Mess’ back in June. It’s been almost two years since we released LDC Via, and the code keeps coming!
 
 Whilst this release offers a number of significant improvements and additions (including a brand new comprehensive API documentation site no less), the headline for Toad In The Hole is search: specifically, “domain search” and the ability to do things like use regular expressions (!).
 
