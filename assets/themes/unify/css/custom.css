@@ -11,9 +11,27 @@ li.sep:after { margin-left: 5px; content: '•' }
 #logo-footer { margin-bottom: 1em }
 .blog img { max-width: 920px }
 
+/* Footer colour customisations */
+/* Footer */
+.footer { color: #dadada; background: #19b698 }
+.footer p { color: #dadada; font-weight: 500 }
+.footer h2, .footer h3, .footer h4 { color: #e4e4e4; background: none; text-shadow: none }
+.copyright { background: #3e4753; border-top: solid 1px #77 }
+.copyright p { color: #dadada }
+
+
 /* Footer link customisations */
-.footer a { color: #fff; font-weight: 200 }
-.copyright a, .footer a:hover, .copyright a:hover { color: #e0000a; text-decoration: none }
+.footer a { color: #fff; text-decoration: none }
+.footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out
+}
+
+.copyright a, .copyright a:hover { color: #e0000a }
 
 /* MailChimp sign-up form */
 #mc_embed_signup h2 { margin: 0; font-weight: normal; line-height: 1em }
