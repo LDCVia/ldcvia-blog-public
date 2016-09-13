@@ -15,7 +15,7 @@ Before tackling those, let’s talk about why we’ve created it.
 
 There are two main reasons. Firstly: Notes - there’s a lot of it about, but it’s also on the endangered species list. By which we mean there are many individuals and teams whose Notes applications - that they rely on to run their job/work - are being removed or threatened by an organisation shutting down their IBM Domino/Notes infrastructure. So [KEEP.WORKS](http://keep.works) is designed to help them have a low-cost migration path. At the very least, it lets them retain their data, safe from the destructive urges of their management and IT people. But more, it lets them continue to work with that data (more on this later). And it’s sufficiently low-cost that it can all pass through on expenses or a company credit card.
 
-The second reason for [KEEP.WORKS](http://keep.works) is that we’ve found that some people have understandably struggled with the migration tooling we provide to move data into LDC Via. That’s been down to a mixture of Domino complexities and LDC Via complexities, but it has been a stumbling block. So [KEEP.WORKS](http://keep.works) is a way of removing that barrier by having us do the heavy lifting. It’s limited to small-ish NSFs - up to 2Gb and 50,000 documents - but that’s plenty for many uses, and sufficient for a serious pilot in the case of larger applications.
+The second reason for [KEEP.WORKS](http://keep.works) is that we’ve found that some people have understandably struggled with the migration tooling we provide to move data into [LDC Via](http://ldcvia.com). That’s been down to a mixture of Domino complexities and [LDC Via](http://ldcvia.com) complexities, but it has been a stumbling block. So [KEEP.WORKS](http://keep.works) is a way of removing that barrier by having us do the heavy lifting. It’s limited to small-ish NSFs - up to 2Gb and 50,000 documents - but that’s plenty for many uses, and sufficient for a serious pilot in the case of larger applications.
 
 
 ## Who is it for?
@@ -23,13 +23,13 @@ The second reason for [KEEP.WORKS](http://keep.works) is that we’ve found that
 * Individuals who have useful data locked into NSFs but no longer use Notes and may not even have it installed any more
 * Individuals whose Notes applications are under threat from shifting IT strategy
 * Departments and teams within an organisation that rely on threatened Notes applications to run their operations
-* People or organisations wanting to ‘try’ the LDC Via platform with as little learning curve as possible
+* People or organisations wanting to ‘try’ the [LDC Via](http://ldcvia.com) platform with as little learning curve as possible
 * Those looking to bring simple Notes client apps to the web
 
 
 ## What does it do?
 
-As the website says: you upload your NSF, we convert it onto the LDC Via platform automagically, and then you access and work with your data via a browser or mobile device. 
+As the website says: you upload your NSF, we convert it onto the [LDC Via](http://ldcvia.com) platform automagically, and then you access and work with your data via a browser or mobile device. 
 
 If the NSF you upload is a ‘standard’ Notes/Domino one, we provide your data back to you in a working application. The types of NSF we support here are:
 
@@ -42,7 +42,7 @@ If the NSF you upload is a ‘standard’ Notes/Domino one, we provide your data
    * TeamRoom
    * Document Library
 
-It can take as little as 10 minutes to move data from Notes/Domino into KEEP.WORKS, and have it operational on the cloud and fully mobile-enabled. Additional users can be created using the [KEEP.WORKS](http://keep.works) application.
+It can take as little as 10 minutes to move data from Notes/Domino into [KEEP.WORKS](http://keep.works), and have it operational on the cloud and fully mobile-enabled. Additional users can be created using the [KEEP.WORKS](http://keep.works) application.
 
 If your NSF is not based on one of those templates, then we have a point-and-click interface to allow you to build a “no code” interface onto your data, that will allow you and your users to interact with - search, update, export - the data on desktop and mobile devices.
 
