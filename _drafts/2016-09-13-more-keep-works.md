@@ -17,6 +17,7 @@ There are two main reasons. Firstly: Notes - there’s a lot of it about, but it
 
 The second reason for [KEEP.WORKS](http://keep.works) is that we’ve found that some people have understandably struggled with the migration tooling we provide to move data into [LDC Via](http://ldcvia.com). That’s been down to a mixture of Domino complexities and [LDC Via](http://ldcvia.com) complexities, but it has been a stumbling block. So [KEEP.WORKS](http://keep.works) is a way of removing that barrier by having us do the heavy lifting. It’s limited to small-ish NSFs - up to 2Gb and 50,000 documents - but that’s plenty for many uses, and sufficient for a serious pilot in the case of larger applications.
 
+![KEEP.WORKS](/assets/keep-works-logo-256.png "KEEP.WORKS")
 
 ## Who is it for?
 
