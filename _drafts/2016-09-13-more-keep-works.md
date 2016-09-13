@@ -13,11 +13,10 @@ Before tackling those, let’s talk about why we’ve created it.
 
 ## Why KEEP.WORKS?
 
-There are two main reasons. Firstly: Notes - there’s a lot of it about, but it’s also on the endangered species list. By which we mean there are many individuals and teams whose Notes applications - that they rely on to run their job/work - are being removed or threatened by an organisation shutting down their IBM Domino/Notes infrastructure. So [KEEP.WORKS](http://keep.works) is designed to help them have a low-cost migration path. At the very least, it lets them retain their data, safe from the destructive urges of their management and IT people. But more, it lets them continue to work with that data (more on this later). And it’s sufficiently low-cost that it can all pass through on expenses or a company credit card.
+There are two main reasons. Firstly: Notes - there’s a lot of it about, but it’s also on the endangered species list. By which we mean there are many individuals and teams whose Notes applications - that they rely on to run their job/work - are being removed or threatened by an organisation shutting down their IBM Domino/Notes infrastructure. So [KEEP.WORKS](http://keep.works) is designed to help them have a low-cost migration path. At the very least, it lets them retain their data, safe from the destructive urges of their management and IT people. But more, it lets them continue to work with that data (more on this later). And it’s sufficiently low-cost that it can all pass through on expenses or a company credit card. ![KEEP.WORKS](/assets/keep-works-logo-256.png "KEEP.WORKS")
 
 The second reason for [KEEP.WORKS](http://keep.works) is that we’ve found that some people have understandably struggled with the migration tooling we provide to move data into [LDC Via](http://ldcvia.com). That’s been down to a mixture of Domino complexities and [LDC Via](http://ldcvia.com) complexities, but it has been a stumbling block. So [KEEP.WORKS](http://keep.works) is a way of removing that barrier by having us do the heavy lifting. It’s limited to small-ish NSFs - up to 2Gb and 50,000 documents - but that’s plenty for many uses, and sufficient for a serious pilot in the case of larger applications.
 
-![KEEP.WORKS](/assets/keep-works-logo-256.png "KEEP.WORKS")
 
 ## Who is it for?
 
