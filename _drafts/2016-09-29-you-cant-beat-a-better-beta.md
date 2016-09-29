@@ -10,7 +10,7 @@ Just 2 weeks into our beta of (KEEP.WORKS), and we want our lovely beta testers 
 
 ## Database icons
 
-A workspace full of square tiles is a thing of zen-like beauty, of course. But sometimes, you need to jazz it up a little with images of your own, to make you feel at home. So it's now possible to add an image to a database, and that image will display both on the database icon on the [KEEP.WORKS](http://keep.works) workspace, and also within every screen inside the application. And because we don't like to do things by halves, not only can you upload any image you like, but you can also crop, zoom and rotate it. You can even export it. (And, yes, PNG files are supported. In-joke.)
+A workspace full of square tiles is a thing of zen-like beauty, of course. But sometimes, you need to jazz it up a little with images of your own, to make you feel at home. So it's now possible to add an image to a database, and that image will display both on the database icon on the [KEEP.WORKS](http://keep.works) workspace, and also within every screen inside the application. And because we don't like to do things by halves, not only can you upload any image you like, but you can also crop, zoom and rotate it. You can even export it. (And, yes, PNG files are supported. "In" joke.)
 
 ## Database settings
 
