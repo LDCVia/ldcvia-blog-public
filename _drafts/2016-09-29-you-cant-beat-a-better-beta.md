@@ -6,7 +6,7 @@ tags: [keep.works, beta]
 ---
 {% include JB/setup %}
 
-Just 2 weeks into our beta of (KEEP.WORKS), and we want our lovely beta testers to know we've been listening to their feedback. So, version 1.0.79 went live this week, with the following splendid new features.
+Just 2 weeks into our beta of [KEEP.WORKS](http://keep.works), and we want our lovely beta testers to know we've been listening to their feedback. So, version 1.0.79 went live this week, with the following splendid new features.
 
 ## Database icons
 
