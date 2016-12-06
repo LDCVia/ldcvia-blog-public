@@ -7,8 +7,9 @@ tags: [switzerland, partners, magerman]
 ---
 {% include JB/setup %}
 
-In all the general busy-ness, coding, designing and earning a living, we’re conscious that there are lots of things to tell you!
-2016 has been an extremely busy year for LDC Via: in addition to the technical challenges to overcome, and the new products to launch (more on [KEEP.WORKS](http://keep.works) in a separate post), there are meetings, proposals, partnerships to forge…
+In all the general busy-ness (coding, designing and earning a living), we’re conscious that there are lots of things to tell you.
+
+2016 has been an extremely busy year for LDC Via: various technical challenges as one would expect. New products to launch — more on [KEEP.WORKS](http://keep.works) in a separate post — together with meetings to chair, proposals to write, and partnerships to forge!
 
 It is of the latter we wish to speak today. Some months ago, we opened discussions with our good friend [Andrew Magerman](http://www.magerman.com/en/Homepage.html), and these quickly bore fruit: [Swiss LDC Via](http://ch.ldcvia.com).
 
