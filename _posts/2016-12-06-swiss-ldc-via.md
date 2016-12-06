@@ -3,6 +3,7 @@ layout: post
 title: "Swiss LDC Via"
 category: "Partnerships"
 tags: [switzerland, partners, magerman]
+date: 2016-12-06 00:00:00;
 
 ---
 {% include JB/setup %}
