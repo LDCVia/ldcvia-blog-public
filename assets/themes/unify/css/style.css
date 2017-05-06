@@ -92,7 +92,7 @@ a.logo {
   height: 96px;
   width: 96px;
   margin-left: 25px;
-  background: url('../ldc-via-logo-96px.png') no-repeat
+  background: url('../logo-96px.png') no-repeat
 }
 
 /* Override for developers page */
@@ -152,8 +152,7 @@ li.sep:after { margin-left: 5px; content: '•' }
 }
 
 @media (max-width: 992px) {
-  /* Updated from 40px height */
-	.header .navbar-brand { top: 0; height: 50px }
+	.header .navbar-brand { top: 0; height: 56px }
 }
 
 @media (min-width: 992px) {
@@ -380,7 +379,7 @@ li.sep:after { margin-left: 5px; content: '•' }
 @media (min-width: 767px) and (max-width: 992px) {
 	/* Brand */
 	.header-v1 .navbar-brand { margin-bottom: 15px }
-  a.logo { width: 60px; background: url('../ldc-via-logo-52px.png') no-repeat }
+  a.logo { width: 60px; background: url('../logo-52px.png') no-repeat }
   /* Override for developers page */
   .devhub a.logo {  background: url('../dev-hub-logo-52px.png') no-repeat }
 }
@@ -493,7 +492,7 @@ li.sep:after { margin-left: 5px; content: '•' }
   a.logo {
     margin-left: 30px;
     width: 60px;
-    background: url('../ldc-via-logo-52px.png') no-repeat
+    background: url('../logo-52px.png') no-repeat
   }
   /* Override for developers page */
   .devhub a.logo {  background: url('../dev-hub-logo-52px.png') no-repeat }
