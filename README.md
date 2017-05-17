@@ -1,9 +1,9 @@
 ## Writing
-Draft your posts in Markdown here (but as Google docs), complete with (front matter)[http://jekyllrb.com/docs/frontmatter/].
+Draft your posts in Markdown (e.g. in a Google doc), complete with [front matter](http://jekyllrb.com/docs/frontmatter/).
 
 Note that blog post files should be named thus:
 
-yyyy-mm-dd-blog-title-text.md
+`yyyy-mm-dd-blog-title-text.md`
 
 … and that front matter should look like this:
 
