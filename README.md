@@ -1,4 +1,4 @@
-##Writing
+## Writing
 Draft your posts in Markdown here (but as Google docs), complete with (front matter)[http://jekyllrb.com/docs/frontmatter/].
 
 Note that blog post files should be named thus:
@@ -18,7 +18,7 @@ tags: [ldcvia, some_tag, conferences]
 ```
 (there’s a template gdoc provided in the draft blog posts folder on Google Drive - copy that as a starting point if you like).
 
-##Publishing
+## Publishing
 When publishing to Github pages (in the “_posts” folder), copy the content of the relevant Google doc into a new plain text file. Name it as above, but with the file suffix “.md”
 
 Note that the project you publish to is ldcvia.github.io, and that all commits should go to the *gh-pages* branch.
