@@ -2,6 +2,16 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:year/:month/:day/:title
 
+# Added from Github docs, Jun-2017 (BP)
+github: [metadata]
+kramdown:
+  input: GFM
+  hard_wrap: false
+# Added from Github docs, Jun-2017 (BP)
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
+
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
 
@@ -14,8 +24,8 @@ author :
   email : support@ldcvia.com
   github : ldcvia
   twitter : ldcvia
-gems: [jekyll-paginate]
 paginate: 5
+
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
