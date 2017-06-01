@@ -14,6 +14,7 @@ author :
   email : support@ldcvia.com
   github : ldcvia
   twitter : ldcvia
+gems: [jekyll-paginate]
 paginate: 5
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
