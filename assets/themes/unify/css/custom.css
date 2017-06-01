@@ -36,6 +36,7 @@ li.sep:after { margin-left: 5px; content: '•' }
 /* MailChimp sign-up form */
 #mc_embed_signup h2 { margin: 0; font-weight: normal; line-height: 1em }
 #mc_embed_signup div.response { font-weight: normal }
+#mc_embed_signup input { font-size: 87% }
 
 /* Embedded videos and images */
 .video560 { width: 560px; height: 315px }
