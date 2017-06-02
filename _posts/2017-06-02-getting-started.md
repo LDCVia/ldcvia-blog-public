@@ -9,7 +9,7 @@ date: 2017-06-02 13:12:15;
 
 {% include JB/setup %}
 
-![Procrastination personified](https://s3-eu-west-1.amazonaws.com/ldcviablog/bart.png)
+![Procrastination personified](https://ldcvia.s3.amazonaws.com/bart.png)
 
 _A reflective post on a warm Friday afternoon_
 
