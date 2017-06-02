@@ -9,6 +9,8 @@ date: 2017-06-02 13:12:15;
 
 {% include JB/setup %}
 
+![Procrastination personified](https://s3-eu-west-1.amazonaws.com/ldcviablog/bart.png)
+
 _A reflective post on a warm Friday afternoon_
 
 As new projects get underway and existing code is refreshed, refined and refuted at LDC Towers, the idea of “getting started” — together with the associated procrastination such as Googling, reading the news, making coffee and so on — is often uppermost in one’s mind.
