@@ -18,6 +18,7 @@ exclude:
 markdown: kramdown
 highlighter: rouge
 paginate: 5
+future: true
 
 title : LDC Via
 tagline: Providing a new home for your Domino Data
