@@ -1,37 +1,28 @@
 ---
 layout: post
-title: "My editor is Atom"
+title: "Getting started"
 category: LDC Via
-tags: [work, ldc via, atom, ide, programming]
-date: 2017-06-07 11:07:03;
+tags: [work, ldc via, procrastination]
+date: 2017-06-02 13:12:15;
 
 ---
 
 {% include JB/setup %}
 
-<div class="blog-header">
-  <img src="/assets/img/blog/atom-header.png" alt="Header image: Atom, code editor" title="Header image: Atom, code editor" height="205px" width="410px" />
-  </div>
+![Procrastination personified](https://ldcvia.s3.amazonaws.com/bart.png)
 
-_The first in an occasional series looking at the tools we use in our day-to-day work_
+_A reflective post on a warm Friday afternoon_
 
-A lot has been said, written, and ranted, about programming editors and <abbr title="Integrated Development Environment">IDE</abbr>s over the years. Allow us to add to the noise.
+As new projects get underway and existing code is refreshed, refined and refuted at LDC Towers, the idea of “getting started” — together with the associated procrastination such as Googling, reading the news, making coffee and so on — is often uppermost in one’s mind.
 
-Mr. Poole is kicking off with a brief post about his code editor of choice, [Atom](https://atom.io)&hellip;
+Last month Ben wrote a post entitled _[Time well spent](http://benpoole.com/weblog/201705061300)_, which covered the [movement of the same name](http://www.timewellspent.io/). We’d like to continue examining this theme (there’s stuff to do you see): how do you get going? What tricks do you have for embarking upon new work? The task can often seem insurmountable, especially in this online age.
 
-----
+Fundamentally of course the solution is simple: the best thing to do is _just start_. Take steps, and before you know it, you’ve got somewhere. This is covered in the blog post [Starting with failure is good for creativity, as long as you get started](https://qz.com/424461/the-three-most-destructive-words-in-the-english-language/), which is well worth a read, and examines Kevin Ashton’s essay, _[How to Fly a Horse](http://www.howtoflyahorse.com)_. We especially like this bit from the essay:
 
-If you haven’t yet ventured into the world of this “hackable text editor for the 21st century” (their words), then it might be worth a go. Atom is an extremely usable, responsive, and distraction-free editor for code, and I’ve used it to the exclusion of all others for my text editing, JavaScript / web coding, bash scripting, and even the odd bit of Java ([IntelliJ IDEA](https://www.jetbrains.com/idea/) is still my IDE of choice for more heavyweight Java programming and testing).
+>Good writing is bad writing well edited; a good hypothesis is whatever is left after many experiments fail; good cooking is the result of choosing, chopping, skinning, shelling, and reducing; a great movie has as much to do with what ends up on the cutting room floor as what does not.
 
-Why Atom? Well yes it’s open-source, free of cost, and has a massive [developer-friendly organisation behind it](https://github.com). That’s a cracking start, but the fact that Atom is built on top of tried-n-tested web technology ([Electron](https://electron.atom.io)) is the real clincher. If you don’t like something in the editor, all it takes is Ctrl-Shift-i (Windows) or Cmd-Opt-i (Mac) and you will have a familiar inspection pane at your disposal, a means for tweaking whatever it is that gets on your pip.
+… it echoes [that maxim from the late Steve Jobs](http://www.folklore.org/StoryView.py?story=Real_Artists_Ship.txt):
 
-<img src="/assets/img/blog/atom-scrn.png" alt="Screenshot: Atom running on macOS" title="Screenshot: Atom running on macOS" height="241" width="366" style="display: block; margin: 1em auto "/>
+>Real artists ship
 
-Atom ships with a number of key packages, not least the very wonderful [Autocomplete-plus](https://github.com/atom/autocomplete-plus), and there are hundreds more to choose from. [Minimap](https://atom.io/packages/minimap) is a must for navigating larger files, and the various [Linter](https://github.com/steelbrain/linter) packages are indispensable too. Here are a few others I recommend:
-
-* [Semantic Colo(ur)](http://atom.io/packages/semanticolor) for sensible syntax colouring
-* [atom-ternjs](https://atom.io/packages/atom-ternjs): “JavaScript code intelligence” which sits on top of the core Autocomplete-plus package
-* [linter-eslint](https://github.com/AtomLinter/linter-eslint) fronts up [ESLint](http://eslint.org) for Atom and Linter.
-* [Todo-show](https://atom.io/packages/todo-show) Shows up all `TODO`, `FIXME` and related tasks in a project or whole workspace.
-
-We don’t all agree about programming editors at LDC Via Towers: what are your favourites?
+Don’t try to make things perfect (that’s our excuse and we’re sticking to it): just make things.
