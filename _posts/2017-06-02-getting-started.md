@@ -3,7 +3,7 @@ layout: post
 title: "My editor is Atom"
 category: LDC Via
 tags: [work, ldc via, atom, ide, programming]
-date: 2017-06-07 11:46:03;
+date: 2017-06-07 11:07:03;
 
 ---
 
