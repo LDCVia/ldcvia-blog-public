@@ -8,17 +8,17 @@ tags: [work, vs code, ide, programming]
 <div class="blog-header">
   <img src="https://ldcvia.s3.amazonaws.com/vscode.png" alt="Header image: VS Code, logo" title="Header image: VS Code Logo" width="150px" height="150px" style="float: right;" />
 </div>
- 
+
 _Continuing our series where we talk about our preferred code editor_
- 
+
 A lot has been said, written, and ranted, about programming editors and <abbr title="Integrated Development Environment">IDE</abbr>s over the years. Allow us to add to the noise.
- 
+
 It’s Matt’s turn this week to talk about his choice, [VS Code](https://code.visualstudio.com/)&hellip;
 
 ----
-Built on the same Electron framework as Mr Poole’s choice, VS Code is the first IDE I’ve actively chosen that is developed by Microsoft. Although it shares the Visual Studio moniker, it’s a totally different beast to the full blown C# IDE that Windows developers use. This is a lightweight text editor with added bells and whistles.
+Built on the same Electron framework as [Mr. Poole’s choice](/2017/06/07/my-editor-atom), VS Code is the first IDE I’ve actively chosen that is developed by Microsoft. Although it shares the Visual Studio moniker, it’s a totally different beast to the full blown C# IDE that Windows developers use. This is a lightweight text editor with added bells and whistles.
 <img src="https://ldcvia.s3.amazonaws.com/vscodescreenshot.png" alt="Screenshot: VS Code running on macOS" title="Screenshot: VS Code running on macOS" height="241" width="366" style="float: right; margin: 1em auto "/>
-I only switched over about six months ago from Atom, but I’ve found that it’s made my dev experience far more flexible. From the tighter integration of Git, an integrated terminal window and many many plugins, there is everything I need for my daily node and Javascript development needs.
+I only switched over about six months ago from Atom, but I’ve found that it’s made my dev experience far more flexible. From the tighter integration of Git, an integrated terminal window and many many plugins, there is everything I need for my daily node and JavaScript development needs.
 Like Atom, there are so many plugins. Some of my favourites are…
 
 * [Beautify](https://marketplace.visualstudio.com/items?itemName=HookyQR.beautify) which tidies up code for you.
