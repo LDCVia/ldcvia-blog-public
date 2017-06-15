@@ -28,7 +28,7 @@ Like Atom, there are so many plugins. Some of my favourites are…
 I’ve got others, but I feel like I’m going on a little too much about VS Code 😃
 
 But I also thought it would be good to mention the other place I spend a lot of my time, and that’s Chrome. Just a plain install is great for the web developer, but once you add some extensions, it becomes truly useful.
-<img src="https://ldcvia.s3.amazonaws.com/chromeplugins.png" alt=“Chrome extensions" title=“Chrome extensions" style="display: block; margin: 1em auto “ height="54" width="448" />
+![Chrome Extensions](https://ldcvia.s3.amazonaws.com/chromeplugins.png)
 The ones I can’t live without are…
 * 1Password - my password manager of choice
 * Full Page Screen Capture - which takes a screenshot of a full web page even when it’s too tall for the browser
