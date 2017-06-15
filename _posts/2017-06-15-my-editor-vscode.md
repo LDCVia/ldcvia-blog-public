@@ -14,6 +14,7 @@ _Continuing our series where we talk about our preferred code editor_
 A lot has been said, written, and ranted, about programming editors and <abbr title="Integrated Development Environment">IDE</abbr>s over the years. Allow us to add to the noise.
  
 It’s Matt’s turn this week to talk about his choice, [VS Code](https://code.visualstudio.com/)&hellip;
+
 ----
 Built on the same Electron framework as Mr Poole’s choice, VS Code is the first IDE I’ve actively chosen that is developed by Microsoft. Although it shares the Visual Studio moniker, it’s a totally different beast to the full blown C# IDE that Windows developers use. This is a lightweight text editor with added bells and whistles.
 <img src="https://ldcvia.s3.amazonaws.com/vscodescreenshot.png" alt="Screenshot: VS Code running on macOS" title="Screenshot: VS Code running on macOS" height="241" width="366" style="float: right; margin: 1em auto "/>
