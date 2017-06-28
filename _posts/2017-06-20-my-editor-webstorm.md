@@ -38,5 +38,5 @@ As my work tends to involve a wide range of issues, not just code, I use a stack
 * [Salesforce Advanced Code](https://chrome.google.com/webstore/detail/salesforce-advanced-code/lnkgcmpjkkkeffambkllliefdpjdklmi?hl=en) - picking up code from existing organisations is a right pain, this code searcher helps hugely.
 * [Grammarly](https://app.grammarly.com/) - Because both my spelling and grammar *suck*. 
 
-So there you have it: more an overview of my entire toolbox than a simple IDE post!!!!!
+So there you have it: more an overview of my entire toolbox than a simple IDE post!
 
