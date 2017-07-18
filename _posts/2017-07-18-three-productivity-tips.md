@@ -6,6 +6,10 @@ tags: [work, life, productivity, getting things done]
 ---
 {% include JB/setup %}
 
+<div class="full-header">
+  <img src="/assets/img/blog/restful.jpg" alt="Restful blog header image from Ben Poole" />
+</div>
+
 Over the years books have been written, blog posts too, all about that mythical “work-life balance” thing, and how one maintains an even keel whilst delivering on ever-growing deadlines and requirements.
 
 This is another post about that kind of thing. Sixteen-odd years ago, I think I speak for all of m’colleagues when I say that we were all churning out applications, documentation and generally splendid things for our corporate overlords at a rate of knots. And we did so without pulling many over-nighters. What was the secret? Let me lay out some productivity tips to build on [(our post about “getting started”](/2017/06/02/getting-started) from a few weeks back:
