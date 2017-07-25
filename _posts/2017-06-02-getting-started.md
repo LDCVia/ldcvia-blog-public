@@ -2,7 +2,7 @@
 layout: post
 title: "Getting started"
 category: LDC Via
-tags: [work, ldc via, procrastination]
+tags: [work, work, life, productivity, getting things done]
 date: 2017-06-02 13:12:15;
 
 ---
