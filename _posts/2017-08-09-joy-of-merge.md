@@ -50,7 +50,7 @@ The first question this raises is: what’s that `@tblNewCustomerList` parameter
 The C# code is of this form:
 
         DataTable dt = new DataTable();
-        DataRow row;
+        DataRow row; 
         int rows affected = 0;
         dt.Columns.Add(“CustomerID", typeof(int));
         dt.Columns.Add(“FirstName", typeof(string));
