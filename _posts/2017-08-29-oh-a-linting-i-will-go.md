@@ -13,7 +13,7 @@ Often when I talk with developers who are firmly in the C# or Java camp their ma
 
 But there are strategies, best practices if you will, which can make the transition easier. One I thought worth mentioning is [ESLint](https://eslint.org/). This is a process whereby you statically validate your code to make sure it adheres to a set of rules you define. These rules can be as lax or strict as you like, but, applied properly they make your code more supportable, more readable and less error prone. 
 
-So, how to get started I hear you ask? A lot depends on your working environment. If you use a modern editor like [VS Code, Atom or Sunlime Text](http://blog.ldcvia.com/2017/08/23/my-editor-sublime-text) then there will be a plugin you can install to help you along. In your project, you add a .eslintrc file which defines the rules you want to apply and then you look, with horror, at the hundreds of errors that have suddenly appeared in your code. 
+So, how to get started I hear you ask? A lot depends on your working environment. If you use a modern editor like [VS Code, Atom or Sunlime Text](http://blog.ldcvia.com/2017/08/23/my-editor-sublime-text) then there will be a plugin you can install to help you along. In your project, you add a `.eslintrc` file which defines the rules you want to apply and then you look, with horror, at the hundreds of errors that have suddenly appeared in your code. 
 
 But fear not, things aren't as bad as they appear. Your ESLint plugin will probably have a command to automatically fix "easily fixable issues" such as using single quotes rather than double quotes for strings, or indentation of your code. Once these are all fixed you can relatively quickly fix the rest of the issues manually. 
 
