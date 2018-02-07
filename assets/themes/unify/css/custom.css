@@ -9,10 +9,11 @@ html, body, h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif }
 
 li.sep:after { margin-left: 5px; content: '•' }
 #logo-footer { margin-bottom: 1em }
+.blog { font-size: 16px; line-height: 1.6em } /* minor font tweak, Feb-2018 */
 .blog img { max-width: 920px }
 
 .blog-header { float: right; margin: 0 0 2em 2em }
-.full-header { margin: .5em auto; display: block }
+.full-header { margin: .5em auto 1.5em auto; display: block }
 
 /* Footer colour customisations */
 /* Footer */
