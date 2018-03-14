@@ -8,7 +8,7 @@ tags: [stack overflow, developers, languages, trends]
 <div class="full-header">
   <img src="/assets/img/blog/stack-overflow.svg" alt="Header image: Stack Overflow survey banner" title="Stack Overflow survey banner" height="400px" width="100%" />
 </div>
-The annual [Stack Overflow](https://stackoverflow.com) developer survey is in, and the results aren’t all that surprising: funnily enough, artificial intelligence and machine learning are hot topics, as are “coding ethics” — only a small proportion of respondents would engage in “unethical” coding practices. Software has moved on from being the odd app on a phone, the odd wide-ranging enterprise web app: it}s a big deal, and has a massive impact on us all.
+The annual [Stack Overflow](https://stackoverflow.com) developer survey is in, and the results aren’t all that surprising: funnily enough, artificial intelligence and machine learning are hot topics, as are “coding ethics” — only a small proportion of respondents would engage in “unethical” coding practices. Software has moved on from being the odd app on a phone, the odd wide-ranging enterprise web app: it’s a big deal, and has a massive impact on us all.
 
 Similarly interesting is the language trend: Python surpassed PHP in the survey last year, and this year it’s cruised past C# in the popularity stakes. Get learning!
 
