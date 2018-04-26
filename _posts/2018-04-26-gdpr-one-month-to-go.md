@@ -2,7 +2,7 @@
 layout: post
 title: "GDPR: one month to go"
 category: LDC Via
-tags: [gdpr, data protection, languages, trends]
+tags: [gdpr, data protection]
 ---
 
 {% include JB/setup %}
