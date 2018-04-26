@@ -1,59 +1,141 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700,300);
 
 /* CSS customisations should all go in here */
-/* Updated 07-Feb-2018 */
+/* Updated 26-Apr-2018 */
 
 /* Gists can get quite long; keep them manageable */
-.gist .gist-data { overflow-y: hidden; height: 195px }
+.gist .gist-data {
+  overflow-y: hidden;
+  height: 195px;
+}
 
-html, body, h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', sans-serif }
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
 
-li.sep:after { margin-left: 5px; content: '•' }
-#logo-footer { margin-bottom: 1em }
-.blog { font-size: 16px; line-height: 1.6em } /* minor font tweak, Feb-2018 */
-.blog img { max-width: 920px }
+li.sep:after {
+  margin-left: 5px;
+  content: '•';
+}
+#logo-footer {
+  margin-bottom: 1em;
+}
+.blog {
+  font-size: 16px;
+  line-height: 1.6em;
+} /* minor font tweak, Feb-2018 */
+.blog img {
+  max-width: 920px;
+}
 
-.blog-header { float: right; margin: 0 0 2em 2em }
-.full-header { margin: .5em auto 1.5em auto; display: block }
+.blog-header {
+  float: right;
+  margin: 0 0 2em 2em;
+}
+.full-header {
+  margin: 0.5em auto 1.5em auto;
+  display: block;
+}
+.eu-blue {
+  background-color: #3262b5;
+  width: 100%;
+  margin: 0 0 1em 0;
+  padding: 1.5em 0;
+  height: 130px;
+}
 
 /* Footer colour customisations */
 /* Footer */
-.footer { color: #dadada; background: #19b698 }
-.footer p { color: #dadada; font-weight: 500 }
-.footer h2, .footer h3, .footer h4 { color: #e4e4e4; background: none; text-shadow: none }
-.copyright { background: #3e4753; border-top: solid 1px #77 }
-.copyright p { color: #dadada }
-
+.footer {
+  color: #dadada;
+  background: #19b698;
+}
+.footer p {
+  color: #dadada;
+  font-weight: 500;
+}
+.footer h2,
+.footer h3,
+.footer h4 {
+  color: #e4e4e4;
+  background: none;
+  text-shadow: none;
+}
+.copyright {
+  background: #3e4753;
+  border-top: solid 1px #77;
+}
+.copyright p {
+  color: #dadada;
+}
 
 /* Footer link customisations */
-.footer a { color: #fff; text-decoration: none }
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
 .footer a:hover {
-	color: #fff;
-	text-decoration: underline;
+  color: #fff;
+  text-decoration: underline;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out
+  transition: all 0.4s ease-in-out;
 }
 
-.copyright a, .copyright a:hover { color: #e0000a }
+.copyright a,
+.copyright a:hover {
+  color: #e0000a;
+}
 
 /* MailChimp sign-up form */
-#mc_embed_signup h2 { margin: 0; font-weight: normal; line-height: 1em }
-#mc_embed_signup div.response { font-weight: normal }
-#mc_embed_signup input { font-size: 87% }
+#mc_embed_signup h2 {
+  margin: 0;
+  font-weight: normal;
+  line-height: 1em;
+}
+#mc_embed_signup div.response {
+  font-weight: normal;
+}
+#mc_embed_signup input {
+  font-size: 87%;
+}
 
 /* Embedded videos and images */
-.video560 { width: 560px; height: 315px }
+.video560 {
+  width: 560px;
+  height: 315px;
+}
 
 /* Smaller viewports */
 @media only screen and (max-width: 703px) {
-  .video560 { width: 420px; height: 237px }
-  .blog img { width: 80%; height: 80% }
-	.full-header { margin: 0 0 1em 0 }
-	.full-header img { width: 100%; height: 100% }
+  .video560 {
+    width: 420px;
+    height: 237px;
+  }
+  .blog img {
+    width: 80%;
+    height: 80%;
+  }
+  .full-header {
+    margin: 0 0 1em 0;
+  }
+  .full-header img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 @media only screen and (min-width: 704px) {
-	.full-header img { width: 100%; height: 100%  }
+  .full-header img {
+    width: 100%;
+    height: 100%;
+  }
 }
