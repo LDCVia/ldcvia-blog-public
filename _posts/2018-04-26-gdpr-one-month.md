@@ -23,7 +23,9 @@ We talk about the GDPR, naturally, in the context of Europe and the European Uni
 * Who is your nominated data controller?
 * Are you in a position to process “forget me” requests, and information requests from data subjects?
 * What are you data disposal policies, and how are they managed?
+* Do you understand how that data is being used?
+* Have you got agreement from those individuals to hold their data?
 * What security measures do you have in place for data, personal and otherwise?
 * Data about a subject has to be portable: is it relatively straightforward for you to move such data from your current systems?
 
-If you are concerned about any of these issues, or worry about vendor support for GDPR and related data protection legislation, by all means get in touch! Hosting your data on LDC Via it is accessible, easily manipulated, secure, scalable, and accessible in a number of ways from a variety of systems.
+If you are concerned about any of these issues, or worry about vendor support for GDPR and related data protection legislation, by all means <a href="mailto:info@ldcvia.com?subject=GDPR%20and%20LDC%20Via">contact us</a>. Hosting your data on LDC Via means it is easily manipulated, secure, scalable, and accessible in a number of ways from a variety of systems.
