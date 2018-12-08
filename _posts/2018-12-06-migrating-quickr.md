@@ -16,7 +16,7 @@ For the last eighteen months or so we’ve been engaged in a project to provide 
 1. Migrate multiple IBM Quickr places to our platform, and;
 2. Develop a new web application to replace IBM Quickr, both for the migrated content, and for new places as required.
 
-This has not been insignificant piece of work. Quickr is a content management platform that had a lot of investment from Lotus and IBM at various points, and has been around for a long time. Furthermore, once we had won the work and we were in the throes of advanced planning, we were also looking to undertake a massive re-write of the entire Via migration utility.
+This is not an insignificant piece of work: Quickr was a content management platform that had a lot of investment from Lotus and IBM at various points, and it was around for a long time. Furthermore, once we had won the work and we were in the throes of advanced planning, we were also looking to undertake a massive re-write of the entire Via migration utility.
 
 ## A re-write? Really??
 
