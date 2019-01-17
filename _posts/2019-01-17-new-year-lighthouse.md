@@ -19,4 +19,6 @@ Lighthouse is triggered by simply opening [DevTools](https://developers.google.c
 
 <p><img src="/assets/img/blog/lighthouse-screen.png" style="height: '325px'; width: '539px';" alt="Screenshot of Lighthouse tools report" /></p>
 
-Once the tool has finished doing its thing, and the report screen is rendered, you can dive into all of the stats to your heart’s content. Clicking on each top-level circle provides a list of passes and fails, with onward links to aid remediation. Even in 2019, many web sites fall down on their accessibility scores. Running Lighthouse on your site is a sobering experience. We’ve got lots to do now! However, what a nifty tool!
+Once the tool has finished doing its thing, and the report screen is rendered, you can dive into all of the stats to your heart’s content. Clicking on each top-level circle provides a list of passes and fails, with onward links to aid remediation. Even in 2019, many web sites fall down on their accessibility scores – running Lighthouse on your site is a sobering experience.
+
+2019: we’ve got lots to do, and I bet you do too. But what a nifty DevTool.
