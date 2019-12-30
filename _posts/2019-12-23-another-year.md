@@ -8,7 +8,7 @@ tags: [news, business, christmas, migration]
 {% include JB/setup %}
 
 <div class="full-header">
-  <img src="/assets/img/blog/xmas-2019.png" alt="Header image: a Christmassy scene" title="A Christmassy scene" height="480px" width="360px" />
+  <img src="/assets/img/blog/xmas-2019.png" alt="Header image: a Christmassy scene" title="A Christmassy scene" height="512px" width="1024px" />
 </div>
 
 It’s that time again, Christmas and the end of another year! Where do the days go… A year of extreme busy-ness at LDC Towers, we had lots of work on, and also a wedding! This all leads to general blog neglect. Shame on us.
