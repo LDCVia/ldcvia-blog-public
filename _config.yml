@@ -1,8 +1,8 @@
 # Default permalink format
 permalink: /:year/:month/:day/:title
 
-# Build settings (updated 2017-06-01 BP)
-gems:
+# Build settings (updated 2020-03-03 BP)
+plugins:
   - jekyll-feed
   - jekyll-paginate
 exclude:
@@ -20,36 +20,36 @@ highlighter: rouge
 paginate: 5
 future: true
 
-title : LDC Via
+title: LDC Via
 tagline: A new home for your Domino data
-author :
-  name : LDC Via
-  email : support@ldcvia.com
-  github : ldcvia
-  twitter : ldcvia
+author:
+  name: LDC Via
+  email: support@ldcvia.com
+  github: ldcvia
+  twitter: ldcvia
 
-production_url : http://blog.ldcvia.com
+production_url: http://blog.ldcvia.com
 
-JB :
-  version : 0.3.0
+JB:
+  version: 0.3.0
   archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
+  categories_path: /categories.html
+  tags_path: /tags.html
+  atom_path: /atom.xml
+  rss_path: /rss.xml
 
-BASE_PATH : false
-ASSET_PATH : /assets/themes/unify/
+BASE_PATH: false
+ASSET_PATH: /assets/themes/unify/
 
-comments :
-  provider : disqus
-  disqus :
-    short_name : ldcviablog
+comments:
+  provider: disqus
+  disqus:
+    short_name: ldcviablog
 
-analytics :
-  provider : google
-  google :
-    tracking_id : 'UA-54508064-1'
+analytics:
+  provider: google
+  google:
+    tracking_id: 'UA-54508064-1'
 
-sharing :
-  provider : false
+sharing:
+  provider: false
