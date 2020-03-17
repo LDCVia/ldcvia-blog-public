@@ -36,6 +36,8 @@ li.sep:after {
   max-width: 920px;
 }
 
+p.minor {font-size: .7em; font-style: italic }
+
 .blog-header {
   float: right;
   margin: 0 0 2em 2em;
