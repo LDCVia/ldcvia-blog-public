@@ -3,308 +3,243 @@
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!-- [if !IE]><! -->
 <html lang="en">
-  <!-- <![endif] -->
-  <head>
-    <title>{{ page.title }}</title>
+<!-- <![endif] -->
 
-    <!-- Meta -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    {% if page.description %}
-    <meta name="description" content="{{ page.description }}" />
-    {% endif %}
-    <meta name="author" content="{{ site.author.name }}" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<head>
+  <title>{{ page.title }}</title>
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
+  <!-- Meta -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}" />
+  {% endif %}
+  <meta name="author" content="{{ site.author.name }}" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le styles -->
-    <link
-      href="{{ ASSET_PATH }}/plugins/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet" />
-    <link
-      href="{{ ASSET_PATH }}/plugins/line-icons/line-icons.css"
-      rel="stylesheet"
-    />
-    <link
-      href="{{ ASSET_PATH }}/plugins/font-awesome/css/font-awesome.min.css"
-      rel="stylesheet"
-    />
+  <!-- Le styles -->
+  <link href="{{ ASSET_PATH }}/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet" />
+  <link href="{{ ASSET_PATH }}/plugins/line-icons/line-icons.css" rel="stylesheet" />
+  <link href="{{ ASSET_PATH }}/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
 
-    <link href="{{ ASSET_PATH }}/css/pages/blog.css" rel="stylesheet" />
-    <link href="{{ ASSET_PATH }}/css/themes/red.css" rel="stylesheet" />
-    <link href="{{ ASSET_PATH }}/css/custom.css" rel="stylesheet" />
+  <link href="{{ ASSET_PATH }}/css/pages/blog.css" rel="stylesheet" />
+  <link href="{{ ASSET_PATH }}/css/themes/red.css" rel="stylesheet" />
+  <link href="{{ ASSET_PATH }}/css/custom.css" rel="stylesheet" />
 
-    <link rel="icon" href="{{ ASSET_PATH }}/favicon.png" type="image/x-icon" />
+  <link rel="icon" href="{{ ASSET_PATH }}/favicon.png" type="image/x-icon" />
 
-    <script async="" src="//www.google-analytics.com/analytics.js"></script>
-    <!-- Le fav and touch icons -->
-    <link rel="apple-touch-icon" href="{{ ASSET_PATH }}/logo-60px.png" />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="{{ ASSET_PATH }}/logo-76px.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="{{ ASSET_PATH }}/logo-120px.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="{{ ASSET_PATH }}/152px.png"
-    />
+  <script async="" src="//www.google-analytics.com/analytics.js"></script>
+  <!-- Le fav and touch icons -->
+  <link rel="apple-touch-icon" href="{{ ASSET_PATH }}/logo-60px.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="{{ ASSET_PATH }}/logo-76px.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="{{ ASSET_PATH }}/logo-120px.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="{{ ASSET_PATH }}/152px.png" />
 
-    <script
-      src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"
-      async=""
-    ></script>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" async=""></script>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 
-    <!-- atom & rss feed -->
-    <link
-      href="{{ BASE_PATH }}{{ site.JB.atom_path }}"
-      type="application/atom+xml"
-      rel="alternate"
-      title="Sitewide ATOM Feed"
-    />
-    <link
-      href="{{ BASE_PATH }}{{ site.JB.rss_path }}"
-      type="application/rss+xml"
-      rel="alternate"
-      title="Sitewide RSS Feed"
-    />
-  </head>
+  <!-- atom & rss feed -->
+  <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate"
+    title="Sitewide ATOM Feed" />
+  <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate"
+    title="Sitewide RSS Feed" />
+</head>
 
-  <body>
-    <div class="wrapper">
-      <div class="header">
-        <div class="topbar">
-          <div class="container">
-            <ul class="loginbar pull-right">
-              <li id="login" class="sep">
-                <a href="https://eu.ldcvia.com/login">Log in</a>
-              </li>
-              <li id="register" class="sep">
-                <a href="https://eu.ldcvia.com/register">Sign up</a>
-              </li>
-              <li id="support" class="sep">
-                <a
-                  href="http://ldcvia.zendesk.com"
-                  title="Receive some assistance via our helpdesk"
-                  >Help</a
-                >
-              </li>
-              <li id="devhub" class="sep">
-                <a
-                  href="http://ldcvia.com/developers.html"
-                  title="Our developer community, and Dev Hub"
-                  >Developers</a
-                >
-              </li>
-              <li>
-                <a
-                  href="http://twitter.com/ldcvia"
-                  title="Follow us on Twitter: @ldcvia"
-                  ><i class="fa fa-twitter"></i
-                ></a>
-              </li>
-              <li>
-                <a
-                  href="http://facebook.com/ldcvia"
-                  title="Check out our Facebook page"
-                  ><i class="fa fa-facebook"></i
-                ></a>
-              </li>
-            </ul>
-          </div>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="topbar">
+        <div class="container">
+          <ul class="loginbar pull-right">
+            <li id="login" class="sep">
+              <a href="https://eu.ldcvia.com/login">Log in</a>
+            </li>
+            <li id="register" class="sep">
+              <a href="https://eu.ldcvia.com/register">Sign up</a>
+            </li>
+            <li id="support" class="sep">
+              <a href="http://ldcvia.zendesk.com" title="Receive some assistance via our helpdesk">Help</a>
+            </li>
+            <li id="devhub" class="sep">
+              <a href="http://ldcvia.com/developers.html" title="Our developer community, and Dev Hub">Developers</a>
+            </li>
+            <li>
+              <a href="http://twitter.com/ldcvia" title="Follow us on Twitter: @ldcvia"><i
+                  class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="http://facebook.com/ldcvia" title="Check out our Facebook page"><i
+                  class="fa fa-facebook"></i></a>
+            </li>
+          </ul>
         </div>
-        <!-- topbar -->
-
-        <div class="navbar navbar-default">
-          <div class="navbar-header">
-            <button
-              class="navbar-toggle"
-              data-target=".navbar-responsive-collapse"
-              data-toggle="collapse"
-              type="button"
-            >
-              <span class="sr-only">Toggle navigation</span>
-              <span class="fa fa-bars"></span>
-            </button>
-            <a
-              class="navbar-brand logo"
-              href="http://ldcvia.com/"
-              title="LDC Via logo: click to return to home page"
-            ></a>
-          </div>
-
-          <div class="collapse navbar-collapse navbar-responsive-collapse">
-            <ul class="nav navbar-nav">
-              <li id="howdoesitwork">
-                <a href="http://ldcvia.com/howdoesitwork.html"
-                  >How LDC Via works</a
-                >
-              </li>
-              <li id="about">
-                <a href="http://ldcvia.com/about.html">About us</a>
-              </li>
-              <li id="blog" class="active">
-                <a href="http://blog.ldcvia.com">Our blog</a>
-              </li>
-              <li id="prices">
-                <a href="http://ldcvia.com/prices.html">Pricing</a>
-              </li>
-              <li id="resources">
-                <a href="http://ldcvia.com/downloads.html">Resources</a>
-              </li>
-              <li id="partners">
-                <a href="http://ldcvia.com/partners.html">Partners</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <!-- navigation -->
       </div>
-      <!-- header -->
+      <!-- topbar -->
 
-      <div class="container content blog-full-width">
-        <div class="col-md-9 container content">{{ content }}</div>
-        <div id="mce-sidebar" class="col-md-3 container content">
-          <div class="page-header"></div>
-          <!-- end page-header -->
+      <div class="navbar navbar-default">
+        <div class="navbar-header">
+          <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="fa fa-bars"></span>
+          </button>
+          <a class="navbar-brand logo" href="http://ldcvia.com/" title="LDC Via logo: click to return to home page"></a>
         </div>
-        <!-- enbd mce-sidebar -->
+
+        <div class="collapse navbar-collapse navbar-responsive-collapse">
+          <ul class="nav navbar-nav">
+            <li id="howdoesitwork">
+              <a href="http://ldcvia.com/howdoesitwork.html">How LDC Via works</a>
+            </li>
+            <li id="about">
+              <a href="http://ldcvia.com/about.html">About us</a>
+            </li>
+            <li id="blog" class="active">
+              <a href="http://blog.ldcvia.com">Our blog</a>
+            </li>
+            <li id="prices">
+              <a href="http://ldcvia.com/prices.html">Pricing</a>
+            </li>
+            <li id="resources">
+              <a href="http://ldcvia.com/downloads.html">Resources</a>
+            </li>
+            <li id="partners">
+              <a href="http://ldcvia.com/partners.html">Partners</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <!-- end CONTENT -->
-
-      <!-- FOOTER -->
-      <div class="footer-v1">
-        <div class="footer">
-          <div class="container">
-            <div class="row">
-              <!-- About -->
-              <div class="col-md-3 md-margin-bottom-20">
-                <a href="http://ldcvia.com/"
-                  ><img
-                    id="logo-footer"
-                    class="footer-logo"
-                    src="{{ ASSET_PATH }}/logo-52px.png"
-                    alt="LDC Via logo: click to return to home page"
-                /></a>
-                <p>LDC Via: modernise your Domino data.</p>
-                <p>
-                  Use the cloud to liberate your organisation&#8217;s knowledge.
-                </p>
-              </div>
-              <!-- /col-md-3 -->
-              <!-- End About -->
-
-              <!-- Link List -->
-              <div class="col-md-3 md-margin-bottom-20">
-                <h2>Quick links</h2>
-                <ul class="list-unstyled link-list">
-                  <li><a href="http://ldcvia.com/">Home</a></li>
-                  <li>
-                    <a href="http://ldcvia.com/howdoesitwork.html"
-                      >How LDC Via works</a
-                    >
-                  </li>
-                  <li><a href="http://ldcvia.com/about.html">About us</a></li>
-                  <li>
-                    <a href="http://ldcvia.com/services.html"
-                      >Consulting services</a
-                    >
-                  </li>
-                  <li><a href="http://blog.ldcvia.com">Our blog</a></li>
-                  <li><a href="http://ldcvia.com/prices.html">Pricing</a></li>
-                  <li>
-                    <a href="http://ldcvia.zendesk.com">Help &amp; support</a>
-                  </li>
-                  <li><a href="http://ldcvia.com/videos.html">Videos</a></li>
-                  <li>
-                    <a href="http://ldcvia.com/developers.html">Developers</a>
-                  </li>
-                  <li>
-                    <a href="http://ldcvia.com/downloads.html">Resources</a>
-                  </li>
-                  <li><a href="http://status.ldcvia.com">Status</a></li>
-                </ul>
-              </div>
-              <!-- /col-md-3 -->
-              <!-- End Link List -->
-
-              <!-- Address -->
-              <div class="col-md-3 map-img md-margin-bottom-20">
-                <h2>Contact us</h2>
-                <address class="md-margin-bottom-20">
-                  LDC Via Ltd.<br />
-                  14 Rosebery Avenue<br />
-                  London<br />
-                  EC1R 4TD<br />
-                  United Kingdom
-                </address>
-                <address class="md-margin-bottom-20">
-                  +44 (0) 20 3633 3009<br />
-                  (9am - 6pm UK time)
-                </address>
-                <address class="md-margin-bottom-20">
-                  <a href="mailto:info@ldcvia.com">info@ldcvia.com</a>
-                </address>
-                <address class="md-margin-bottom-20">
-                  A company registered in England &amp; Wales, no. 09209489
-                </address>
-              </div>
-              <!-- /col-md-3 -->
-              <!-- End Address -->
-
-              <!-- Social list -->
-              <div class="col-md-3 md-margin-bottom-20">
-                <h2>Elsewhere</h2>
-                <ul class="list-unstyled link-list">
-                  <li><a href="http://blog.ldcvia.com">LDC Via blog</a></li>
-                  <li>
-                    <a href="http://twitter.com/ldcvia">LDC Via on Twitter</a>
-                  </li>
-                  <li>
-                    <a href="http://facebook.com/ldcvia">LDC Via on Facebook</a>
-                  </li>
-                </ul>
-              </div>
-              <!-- /col-md-3 -->
-              <!-- End social list -->
-            </div>
-            <!-- end row -->
-          </div>
-          <!-- end container -->
-        </div>
-        <!-- end footer -->
-
-        <div class="copyright">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-6">
-                <p>
-                  &copy; 2014 - 2019, all rights reserved.
-                  <a href="terms.html">Terms &amp; conditions</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- copyright -->
-      </div>
-      <!-- footer-v1 -->
+      <!-- navigation -->
     </div>
-    {% include JB/analytics %}
-    <script type="application/ld+json">
+    <!-- header -->
+
+    <div class="container content blog-full-width">
+      <div class="col-md-9 container content">{{ content }}</div>
+      <div id="mce-sidebar" class="col-md-3 container content">
+        <div class="page-header"></div>
+        <!-- end page-header -->
+      </div>
+      <!-- enbd mce-sidebar -->
+    </div>
+    <!-- end CONTENT -->
+
+    <!-- FOOTER -->
+    <div class="footer-v1">
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <!-- About -->
+            <div class="col-md-3 md-margin-bottom-20">
+              <a href="http://ldcvia.com/"><img id="logo-footer" class="footer-logo"
+                  src="{{ ASSET_PATH }}/logo-52px.png" alt="LDC Via logo: click to return to home page" /></a>
+              <p>LDC Via: modernise your Domino data.</p>
+              <p>
+                Use the cloud to liberate your organisation&#8217;s knowledge.
+              </p>
+            </div>
+            <!-- /col-md-3 -->
+            <!-- End About -->
+
+            <!-- Link List -->
+            <div class="col-md-3 md-margin-bottom-20">
+              <h2>Quick links</h2>
+              <ul class="list-unstyled link-list">
+                <li><a href="http://ldcvia.com/">Home</a></li>
+                <li>
+                  <a href="http://ldcvia.com/howdoesitwork.html">How LDC Via works</a>
+                </li>
+                <li><a href="http://ldcvia.com/about.html">About us</a></li>
+                <li>
+                  <a href="http://ldcvia.com/services.html">Consulting services</a>
+                </li>
+                <li><a href="http://blog.ldcvia.com">Our blog</a></li>
+                <li><a href="http://ldcvia.com/prices.html">Pricing</a></li>
+                <li>
+                  <a href="http://ldcvia.zendesk.com">Help &amp; support</a>
+                </li>
+                <li><a href="http://ldcvia.com/videos.html">Videos</a></li>
+                <li>
+                  <a href="http://ldcvia.com/developers.html">Developers</a>
+                </li>
+                <li>
+                  <a href="http://ldcvia.com/downloads.html">Resources</a>
+                </li>
+                <li><a href="http://status.ldcvia.com">Status</a></li>
+              </ul>
+            </div>
+            <!-- /col-md-3 -->
+            <!-- End Link List -->
+
+            <!-- Address -->
+            <div class="col-md-3 map-img md-margin-bottom-20">
+              <h2>Contact us</h2>
+              <address class="md-margin-bottom-20">
+                LDC Via Ltd.<br />
+                14 Rosebery Avenue<br />
+                London<br />
+                EC1R 4TD<br />
+                United Kingdom
+              </address>
+              <address class="md-margin-bottom-20">
+                +44 (0) 20 3633 3009<br />
+                (9am - 6pm UK time)
+              </address>
+              <address class="md-margin-bottom-20">
+                <a href="mailto:info@ldcvia.com">info@ldcvia.com</a>
+              </address>
+              <address class="md-margin-bottom-20">
+                A company registered in England &amp; Wales, no. 09209489
+              </address>
+            </div>
+            <!-- /col-md-3 -->
+            <!-- End Address -->
+
+            <!-- Social list -->
+            <div class="col-md-3 md-margin-bottom-20">
+              <h2>Elsewhere</h2>
+              <ul class="list-unstyled link-list">
+                <li><a href="http://blog.ldcvia.com">LDC Via blog</a></li>
+                <li>
+                  <a href="http://twitter.com/ldcvia">LDC Via on Twitter</a>
+                </li>
+                <li>
+                  <a href="http://facebook.com/ldcvia">LDC Via on Facebook</a>
+                </li>
+              </ul>
+            </div>
+            <!-- /col-md-3 -->
+            <!-- End social list -->
+          </div>
+          <!-- end row -->
+        </div>
+        <!-- end container -->
+      </div>
+      <!-- end footer -->
+
+      <div class="copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p>
+                &copy; 2014 - 2021, all rights reserved.
+                <a href="terms.html">Terms &amp; conditions</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- copyright -->
+    </div>
+    <!-- footer-v1 -->
+  </div>
+  {% include JB/analytics %}
+  <script type="application/ld+json">
       {
         "@context": "http://schema.org",
         "@type": "LocalBusiness",
@@ -322,18 +257,19 @@
       }
     </script>
 
-    <!-- JS Global Compulsory -->
-    <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <!-- JS Implementing Plugins -->
-    <script src="{{ ASSET_PATH }}//plugins/back-to-top.js"></script>
-    <!-- JS Page Level -->
-    <script src="{{ ASSET_PATH }}//js/app.js"></script>
-    <script>
-      jQuery(document).ready(function() {
-        App.init();
-      });
-    </script>
-    <!--[if lt IE 9]> <script src="/plugins/respond.js"></script> <![endif]-->
-  </body>
+  <!-- JS Global Compulsory -->
+  <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <!-- JS Implementing Plugins -->
+  <script src="{{ ASSET_PATH }}//plugins/back-to-top.js"></script>
+  <!-- JS Page Level -->
+  <script src="{{ ASSET_PATH }}//js/app.js"></script>
+  <script>
+    jQuery(document).ready(function () {
+      App.init();
+    });
+  </script>
+  <!--[if lt IE 9]> <script src="/plugins/respond.js"></script> <![endif]-->
+</body>
+
 </html>
