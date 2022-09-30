@@ -9,13 +9,11 @@ date: 2017-06-02 13:12:15;
 
 {% include JB/setup %}
 
-![Procrastination personified](https://ldcvia.s3.amazonaws.com/bart.png)
-
 _A reflective post on a warm Friday afternoon_
 
 As new projects get underway and existing code is refreshed, refined and refuted at LDC Towers, the idea of “getting started” — together with the associated procrastination such as Googling, reading the news, making coffee and so on — is often uppermost in one’s mind.
 
-Last month Ben wrote a post entitled _[Time well spent](http://benpoole.com/weblog/201705061300)_, which covered the [movement of the same name](http://www.timewellspent.io/). We’d like to continue examining this theme (there’s stuff to do you see): how do you get going? What tricks do you have for embarking upon new work? The task can often seem insurmountable, especially in this online age.
+Last month Ben wrote a post entitled _[Time well spent](http://benpoole.com/weblog/201705061300)_, which covered the [movement of the same name](https://humanetech.com/) (Now Center for Humane Technology). We’d like to continue examining this theme (there’s stuff to do you see): how do you get going? What tricks do you have for embarking upon new work? The task can often seem insurmountable, especially in this online age.
 
 Fundamentally of course the solution is simple: the best thing to do is _just start_. Take steps, and before you know it, you’ve got somewhere. This is covered in the blog post [Starting with failure is good for creativity, as long as you get started](https://qz.com/424461/the-three-most-destructive-words-in-the-english-language/), which is well worth a read, and examines Kevin Ashton’s essay, _[How to Fly a Horse](http://www.howtoflyahorse.com)_. We especially like this bit from the essay:
 
