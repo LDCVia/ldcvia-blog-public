@@ -1,3 +1,7 @@
+# Ignore our `vendor` folder from Bundler
+# https://github.com/jekyll/jekyll/issues/5267#issuecomment-241379902
+exclude: [vendor]
+
 # Default permalink format
 permalink: /:year/:month/:day/:title
 
@@ -5,14 +9,6 @@ permalink: /:year/:month/:day/:title
 plugins:
   - jekyll-feed
   - jekyll-paginate
-exclude:
-  - .rvmrc
-  - .rbenv-version
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - Rakefile
-  - changelog.md
 
 # Other stuff
 markdown: kramdown
@@ -21,7 +17,7 @@ paginate: 5
 future: true
 
 title: LDC Via
-tagline: &#8212;a new home for your organisation&#8216;s know-how
+tagline: A new home for your organisation's know-how
 author:
   name: LDC Via
   email: support@ldcvia.com
