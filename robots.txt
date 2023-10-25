@@ -1,1 +1,1 @@
-Sitemap: http://blog.ldcvia.com/sitemap.xml
+Sitemap: https://blog.ldcvia.com/sitemap.xml

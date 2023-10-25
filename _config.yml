@@ -21,14 +21,14 @@ paginate: 5
 future: true
 
 title: LDC Via
-tagline: A new home for your Domino data
+tagline: - a new home for your organisation’s know-how
 author:
   name: LDC Via
   email: support@ldcvia.com
   github: ldcvia
   twitter: ldcvia
 
-production_url: http://blog.ldcvia.com
+production_url: https://blog.ldcvia.com
 
 JB:
   version: 0.3.0
