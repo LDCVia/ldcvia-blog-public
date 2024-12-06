@@ -83,6 +83,7 @@ p.minor {font-size: .7em; font-style: italic }
 .footer a {
   color: #fff;
   text-decoration: none;
+  font-weight: normal
 }
 .footer a:hover {
   color: #fff;
