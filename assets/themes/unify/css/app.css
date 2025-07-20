@@ -1872,9 +1872,12 @@ blockquote {
 }
 
 blockquote p {
-  font-size: 14px;
+  font-size: 90%;
+  font-style: italic;
   font-weight: 400;
 }
+
+blockquote p em { font-weight: 600 }
 
 blockquote h1,
 blockquote h2,
