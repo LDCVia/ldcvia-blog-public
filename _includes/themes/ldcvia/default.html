@@ -196,6 +196,17 @@
     </div>
     <!-- footer-v1 -->
   </div>
-
+  <!-- JS Global Compulsory -->
+  <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <!-- JS Implementing Plugins -->
+  <script src="{{ ASSET_PATH }}//plugins/back-to-top.js"></script>
+  <!-- JS Page Level -->
+  <script src="{{ ASSET_PATH }}//js/app.js"></script>
+  <script>
+    jQuery(document).ready(function () {
+      appInit();
+    });
+  </script>
 </body>
 </html>
