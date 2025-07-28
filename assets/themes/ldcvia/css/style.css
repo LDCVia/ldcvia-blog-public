@@ -44,11 +44,11 @@ h3 { font-size: 1.5em; font-weight: 600 }
 h4 { font-size: 1.25em; font-weight: 400 }
 
 /* General links */
-a { padding: .25em; text-decoration: none; color: var(--ldcvia) }
+a { text-decoration: none; color: var(--ldcvia) }
 a:hover, a:active { text-decoration: underline }
 /* … other than home */
 a.home { margin: 0; display: block; text-decoration: none }
-
+.inline a { padding: .25em }
 
 /* Positioning and layout */
 .container { width: 85%; margin: .75em auto }
@@ -60,7 +60,7 @@ a.home { margin: 0; display: block; text-decoration: none }
 /* General lists */
 ul, ol { padding: 0; margin: 0 0 1em 2.25em; }
 ul ul, ul ol, ol ol, ol ul{ margin-bottom:0 }
-li { line-height: 1em }
+li { line-height: 1.3em; margin: 0 0 .25em 0 }
 .inline { list-style: none; margin: 0 0 .75em 0 }
 .inline li { font-size: 80%; font-weight: 600; color: var(--mid); display: inline-block }
 
@@ -78,6 +78,10 @@ li { line-height: 1em }
 }
 /* Navigation styling in blog */
 .disabled { color: var(--lt); cursor: not-allowed }
+
+abbr { cursor: help }
+blockquote { font-style: italic; margin: 0; padding-left: .5em; border-left: .1em solid var(--lt)}; 
+blockquote em { font-style: normal }
 
 /* MEDIA QUERIES */
 /* Smaller screens */
