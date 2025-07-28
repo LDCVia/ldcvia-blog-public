@@ -6,7 +6,7 @@ tags: [work, vs code, ide, programming]
 ---
 {% include JB/setup %}
 <div class="blog-header">
-  <img src="https://ldcvia.s3.amazonaws.com/vscode.png" alt="Header image: VS Code, logo" title="Header image: VS Code Logo" width="150px" height="150px" style="float: right;" />
+  <img src="/assets/img/blog/vscode.png" alt="Header image: VS Code, logo" title="Header image: VS Code Logo" width="188px" height="188px" style="float: right" />
 </div>
 
 _Continuing our series where we talk about our preferred code editor_
@@ -17,7 +17,7 @@ It’s Matt’s turn this week to talk about his choice, [VS Code](https://code.
 
 ----
 Built on the same Electron framework as [Mr. Poole’s choice](/2017/06/07/my-editor-atom), VS Code is the first IDE I’ve actively chosen that is developed by Microsoft. Although it shares the Visual Studio moniker, it’s a totally different beast to the full blown C# IDE that Windows developers use. This is a lightweight text editor with added bells and whistles.
-<img src="https://ldcvia.s3.amazonaws.com/vscodescreenshot.png" alt="Screenshot: VS Code running on macOS" title="Screenshot: VS Code running on macOS" height="241" width="366" style="float: right; margin: 1em auto "/>
+
 I only switched over about six months ago from Atom, but I’ve found that it’s made my dev experience far more flexible. From the tighter integration of Git, an integrated terminal window and many many plugins, there is everything I need for my daily node and JavaScript development needs.
 Like Atom, there are so many plugins. Some of my favourites are…
 
@@ -29,8 +29,6 @@ Like Atom, there are so many plugins. Some of my favourites are…
 I’ve got others, but I feel like I’m going on a little too much about VS Code 😃
 
 But I also thought it would be good to mention the other place I spend a lot of my time, and that’s Chrome. Just a plain install is great for the web developer, but once you add some extensions, it becomes truly useful.
-
-![Chrome Extensions](https://ldcvia.s3.amazonaws.com/chromeplugins.png)
 
 The ones I can’t live without are…
 * 1Password - my password manager of choice
