@@ -4,3 +4,6 @@ gem 'github-pages', group: :jekyll_plugins
 
 # Ruby 3 doesn't have this, and it kills github-pages
 gem 'webrick'
+
+# BP added Jul-2025
+gem 'rake'
