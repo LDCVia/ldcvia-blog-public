@@ -17,12 +17,11 @@ paginate: 5
 future: true
 
 title: LDC Via
-tagline: A new home for your organisation's know-how
+tagline: "Occasional witterings&hellip;"
 author:
   name: LDC Via
   email: support@ldcvia.com
   github: ldcvia
-  twitter: ldcvia
 
 production_url: https://blog.ldcvia.com
 
@@ -35,17 +34,4 @@ JB:
   rss_path: /rss.xml
 
 BASE_PATH: false
-ASSET_PATH: /assets/themes/unify/
-
-comments:
-  provider: disqus
-  disqus:
-    short_name: ldcviablog
-
-analytics:
-  provider: google
-  google:
-    tracking_id: 'UA-54508064-1'
-
-sharing:
-  provider: false
+ASSET_PATH: /assets/themes/ldcvia/
