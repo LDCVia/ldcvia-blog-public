@@ -14,7 +14,6 @@ In addition to general lingering and chatting, you will be able to find Mark at 
 
 Additionally, Mark has somehow become an IBM Champion (no we don’t know how either), and as such you will be able to find him at the Leadership Alliance events looking out of place and desperate to talk tech with anyone.
 
-If you need to know what we look like (oof), take a [look-see here](http://ldcvia.com/about.html). Smooth.
+If you need to know what we look like (oof), take a [look-see here](https://ldcvia.com). Smooth.
 
 (For those wondering why Matt is not with us this week… he claims to have a very good reason, but we’re unconvinced ;-))
-

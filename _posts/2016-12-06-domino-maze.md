@@ -13,4 +13,4 @@ Last week Julian was pleased to be asked to speak at the autumn [ISBG](http://ww
 View or download the presentation at these locations:
 
 - [From Slideshare](http://www.slideshare.net/julianwoodward/the-domino-maze)
-- [From our site](http://ldcvia.com/downloads.html)
+- [From our site](https://ldcvia.com/)

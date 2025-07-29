@@ -11,12 +11,9 @@ There’s no point having an all-singing all-dancing database application, if th
 
 When we were talking to people at the Engage conference in Ghent, this question came up, so we felt it warranted a fairly detailed ‘how-to’ blog post. In fact, the process is pretty simple, and to make it even simpler we’ve not only written it down step-by-step, but also provided a downloadable Excel file to get you up and running.
 
-
-![Excel Spreadsheet with LDC Via Data](http://ldcvia.s3.amazonaws.com/ExcelPowerQuery.png)
-
 Using [Power Query](https://www.microsoft.com/en-gb/download/details.aspx?id=39379), which is a free add on to Excel, we can create a parameter-driven spreadsheet that pulls in data from any internet source, including LDC Via.
 
-As ever, the internet is a wonderful source for getting started with these things, so thanks to the likes of [Ken Puls](http://www.excelguru.ca/blog/2014/11/26/building-a-parameter-table-for-power-query/) and [Matt Masson](http://www.mattmasson.com/2014/11/iterating-over-an-unknown-number-of-pages-in-power-query/) this is what we built in a few hours: [LDC Via - Excel Power Query Sample](http://ldcvia.s3.amazonaws.com/ExcelPowerQueryLDCVia.xlsx). There are two sheets in the workbook: ‘LDC Via Data’ displays a table of data that has been pulled from LDC Via; and ‘Settings’ contains the configuration settings that define where to get the data from, what API key to use, and which fields to display in the output results.
+As ever, the internet is a wonderful source for getting started with these things, so thanks to the likes of [Ken Puls](http://www.excelguru.ca/blog/2014/11/26/building-a-parameter-table-for-power-query/) and [Matt Masson](http://www.mattmasson.com/2014/11/iterating-over-an-unknown-number-of-pages-in-power-query/) ~~this is what we built in a few hours: LDC Via - Excel Power Query Sample. There are two sheets in the workbook: ‘LDC Via Data’ displays a table of data that has been pulled from LDC Via; and ‘Settings’ contains the configuration settings that define where to get the data from, what API key to use, and which fields to display in the output results.~~
 
 To create all this we need two Power Query functions and a main “routine” to actually get the data.
 

@@ -8,7 +8,7 @@ tags: [ldcvia, intro, webinar]
 
 ![LDC Via webinar, January 12th 2016](https://s3-eu-west-1.amazonaws.com/ldcviablog/webinar.png)
 
-We busy folks at [LDC Via](http://ldcvia.com) are hosting a webinar on January 12th which will introduce you to the LDC Via tool and platform. If you want to know what this stuff is all about, and see it in action, [you should sign up right away](https://attendee.gotowebinar.com/register/3901059929414555906).
+We busy folks at [LDC Via](https://ldcvia.com) are hosting a webinar on January 12th which will introduce you to the LDC Via tool and platform. If you want to know what this stuff is all about, and see it in action, ~~you should sign up right away.~~
 
 Julian and Matt will be presenting the webinar itself, and Ben will be &#8220;back-room boy&#8221;, responding to any questions on-line and in the webinar chat.
 

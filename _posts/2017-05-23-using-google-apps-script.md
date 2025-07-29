@@ -9,7 +9,7 @@ date: 2017-05-23 14:52:15;
 
 {% include JB/setup %}
 
-As some of us know, managers love a good spreadsheet. And [G Suite Sheets](https://gsuite.google.co.uk/products/sheets/) is a very capable offering in this space. With a lot of organisations going down the Google path, we thought it might be fun to have little play with G Suite and [LDC Via](http://ldcvia.com) working in tandem.
+As some of us know, managers love a good spreadsheet. And [G Suite Sheets](https://gsuite.google.co.uk/products/sheets/) is a very capable offering in this space. With a lot of organisations going down the Google path, we thought it might be fun to have little play with G Suite and [LDC Via](https://ldcvia.com) working in tandem.
 
 G Suite makes use of [Apps Script](https://developers.google.com/apps-script/) to provide the equivalent of MS Office macros. You can add code to Google Docs, Sheets, Forms, Slides and more. Whilst the code can make use of optional &#8220;triggers&#8221;, when it comes to Google Sheets, you can actually reference functions written in apps script directly within your spreadsheet formula.
 
@@ -46,9 +46,7 @@ function getViaDbActivity() {
   return array;
 }
 ```
-The function returns an array which is automatically parsed into rows and columns when a single cell references the function. We end up with something that looks like this:
-
-![Google Sheet / LDC Via screenshot](http://ldcviablog.s3.amazonaws.com/via-activity.png)
+The function returns an array which is automatically parsed into rows and columns when a single cell references the function.
 
 Note how we&#8217;ve then fired up the G Suite &#8220;Explore&#8221; function which lets us start to make sense of our data.
 

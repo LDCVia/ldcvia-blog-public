@@ -9,9 +9,9 @@ date: 2017-05-16 13:23:21;
 
 {% include JB/setup %}
 
-Now that the dust has settled after [Engage](http://engage.ug), it’s back to work, and time to address a few things that often come up when we exhibit at conferences.
+Now that the dust has settled after [Engage](https://engage.ug), it’s back to work, and time to address a few things that often come up when we exhibit at conferences.
 
-When we embarked upon [the LDC Via platform](http://ldcvia.com), we made a conscious design decision about application logic, and more specifically, application code (agents, script libraries, form events and so forth). We do *not* attempt to convert any of these constructs when we migrate content from a Domino database to our platform.
+When we embarked upon [the LDC Via platform](https://ldcvia.com), we made a conscious design decision about application logic, and more specifically, application code (agents, script libraries, form events and so forth). We do *not* attempt to convert any of these constructs when we migrate content from a Domino database to our platform.
 
 ## Why? ##
 

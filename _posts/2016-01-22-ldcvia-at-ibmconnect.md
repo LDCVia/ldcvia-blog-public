@@ -6,7 +6,7 @@ tags: [ldcvia, ibmconnect, conferences]
 ---
 {% include JB/setup %}
 
-![Connect Logo](https://ldcvia.s3.amazonaws.com/connect-16-logo.jpg)
+![Connect Logo](/assets/img/blog/connect-16-logo.png)
 
 A week today people from all over the world will be beginning the annual trek to Florida. A new venue, but the same community and great content in sessions.
 
@@ -14,4 +14,4 @@ As always, the LDC Via team will be attending [IBM Connect](http://www-01.ibm.co
 
 To make it easier to get hold of us, we’ve decided to put ourselves at your mercy and open up our diaries.
 
-If you would like to talk about [LDC Via](http://ldcvia.com), see it in action or discuss the technology, simply book a meeting with us using this natty site: [https://ldcvia.youcanbook.me/](https://ldcvia.youcanbook.me/)
+If you would like to talk about [LDC Via](https://ldcvia.com), see it in action or discuss the technology, simply book a meeting with us ~~using this natty site~~

@@ -17,11 +17,7 @@ In the Database Viewer admin page, you can elect to “Modify Collection Schema�
 (We’ve added this distinction between “key” and “non-key” fields: all fields are important, but some are not ones that you need or want to expose to end users. By flagging a field as “key”, this means that when you use our [Export to PDF](http://api.ldcvia.com/#export-to-pdf) API, or Lens, we will just show the key fields.)
 In the screenshot shown below, we have defined four key fields. Subject is positioned first, then Categories, From and Body. “From” we want to display with a label of “Created By” and the Body field is rich text, so we’ll just take the automatically parsed HTML version of that field.
 
-![Sample Meta Data](http://ldcvia.s3.amazonaws.com/SampleMetaData.png)
-
-Once these settings are saved, select the “Open as Application” link on the Database Viewer page and your work is done:
-
-![Demo App](http://ldcvia.s3.amazonaws.com/DemoApp.png)
+Once these settings are saved, select the “Open as Application” link on the Database Viewer page and your work is done.
 
 ## LDC Via Lens: views
 We don’t stop there! If the key field functionality is a nod to half of the old way of doing things in IBM (Lotus) Notes—i.e. forms—then what about the other half, views?

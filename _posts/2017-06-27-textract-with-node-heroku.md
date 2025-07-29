@@ -38,9 +38,7 @@ Next, we need to add another file called `Procfile`. This is basically an instru
 web: npm start
 ```
 
-Once you’ve committed these files to your code repository… nothing will happen. We’ve made all the code changes we need to, but now we need to go to Heroku. You can obviously do all this with the <abbr title="Command Line Interface">CLI</abbr>, but for pretty picture’s sake, you’ll want to go to your application settings page and scroll down to the `Buildpacks` section:
-
-![Buildpacks](https://ldcvia.s3.amazonaws.com/heroku-buildpacks.png)
+Once you’ve committed these files to your code repository… nothing will happen. We’ve made all the code changes we need to, but now we need to go to Heroku. You can obviously do all this with the <abbr title="Command Line Interface">CLI</abbr>, but for pretty picture’s sake, you’ll want to go to your application settings page and scroll down to the `Buildpacks` section.
 
 Click the `Add Buildpack` button and for this case, choose “Python” from the list of options.
 

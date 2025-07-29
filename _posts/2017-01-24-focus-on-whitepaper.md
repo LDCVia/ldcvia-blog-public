@@ -12,4 +12,4 @@ Some of us know about migration, specifically as it applies to venerable IBM Not
 
 There’s an elephant in the room though. Notes was never “just” an email client (email was really just a happy “pivot” from the software’s groupware focus anyway), so where does that leave those IBM Notes and Domino applications? Chances are, they’re still out there, and still provide business value to your users. So what to do if the environment is going away?
 
-We explore re-homing IBM Domino data in our white paper, <cite><a href="http://ldcvia.com/media/ldc-via-re-homing-domino.pdf">Re-homing Domino applications</a></cite> (202Kb PDF) &#8212; do take a look.
+We explore re-homing IBM Domino data in our white paper, <cite><a href="https://ldcvia.com/media/ldc-via-re-homing-domino.pdf">Re-homing Domino applications</a></cite> (202Kb PDF) &#8212; do take a look.
