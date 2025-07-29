@@ -16,7 +16,11 @@ group: navigation
 <section class="pagination">
   <ul class="inline">
   {% if paginator.previous_page %}
-  <li class="prev"><a href="/page{{ paginator.previous_page }}">&larr; Previous</a></li>
+    {% if paginator.previous_page > 1 %}
+      <li class="prev"><a href="/page{{ paginator.previous_page }}">&larr; Previous</a></li>
+    {% else %}
+      <li class="prev"><a href="/index.html">&larr; Previous</a></li>
+    {% endif %}
   {% else %}
     <li class="prev disabled">&larr; Previous</li>
   {% endif %}
