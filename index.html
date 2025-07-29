@@ -14,15 +14,17 @@ group: navigation
 {% endfor %}
 
 <section class="pagination">
+  <ul class="inline">
   {% if paginator.previous_page %}
-    <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
+  <li class="prev"><a href="/page{{ paginator.previous_page }}">&larr; Previous</a></li>
   {% else %}
-    <span class="previous">Previous</span>
+    <li class="prev disabled">&larr; Previous</li>
   {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  <li>Page: {{ paginator.page }} of {{ paginator.total_pages }}</li>
   {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
+    <li class="next"><a href="/page{{ paginator.next_page }}">Next &rarr;</a></li>
   {% else %}
-    <span class="next ">Next</span>
+    <li class="next disabled">Next &rarr;</span>
   {% endif %}
+  </ul>
 </section>

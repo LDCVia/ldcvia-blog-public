@@ -70,10 +70,16 @@ li { line-height: 1.3em; margin: 0 0 .25em 0 }
 */
 
 /* next / previous links – bottom of blog post */
-#pagination { text-align: center; margin: 2em 0 }
-#pagination li {
+.pagination {
+	text-align: center;
+	margin: 2em 0;
+	padding-top: 1em;
+	border-top: .1em dotted var(--lt)
+}
+
+.pagination li {
 	line-height: 1.3em;
-	padding: .5em;
+	padding: 1em;
 	width: 15%;
 }
 /* Navigation styling in blog */
