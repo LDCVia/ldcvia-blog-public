@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Why don’t we migrate code?"
-category: LDC Via
+category: "Application development"
 tags: [code, migration, LDC Via]
 date: 2017-05-16 13:23:21;
 

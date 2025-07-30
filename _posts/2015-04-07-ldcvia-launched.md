@@ -1,8 +1,8 @@
 ---
 layout: post
-category : LDC Via
+category : "Engage UG"
 title: "LDC Via launched at Engage 2015"
-tags : [ldcvia, conferences]
+tags : [ldcvia, engage, conferences]
 ---
 {% include JB/setup %}
 

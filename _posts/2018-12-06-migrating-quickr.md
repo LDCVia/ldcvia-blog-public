@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 'Migrating IBM Quickr'
-category: 'LDC Via'
-tags: [code, migration, LDC Via, IBM Quickr, Domino.doc]
+category: 'Application development'
+tags: [code, migration, IBM Quickr, Domino.doc]
 ---
 
 {% include JB/setup %}

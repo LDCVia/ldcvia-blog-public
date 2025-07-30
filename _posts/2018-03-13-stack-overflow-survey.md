@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Stack Overflow developer survey 2018"
-category: LDC Via
+category: "Application development"
 tags: [stack overflow, developers, languages, trends]
 ---
 {% include JB/setup %}

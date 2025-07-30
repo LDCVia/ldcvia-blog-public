@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Engage 2018 - not long now!"
-category: "LDC Via"
+category: "Engage UG"
 tags: [conferences, engage]
 ---
 
