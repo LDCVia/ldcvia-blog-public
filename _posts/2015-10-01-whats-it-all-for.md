@@ -5,6 +5,7 @@ category: "LDC Via"
 tags: [ldcvia, intro]
 ---
 {% include JB/setup %}
+
 Do any of these sound like your thoughts or conversations?
 
 * "The business relies on this old Notes application, but we have nobody who can maintain it for us."

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "See us presenting at IBM Connect"
-category: "LDC Via"
+category: "IBM Connect"
 tags: [ldcvia, ibmconnect, conferences]
 ---
 {% include JB/setup %}

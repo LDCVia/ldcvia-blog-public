@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "IBM Connect goes to the pub: a wee summary"
-category: "ibm connect"
+category: "IBM Connect"
 tags: [ibm connect, conferences, london, pub]
 date: 2017-02-23 16:10:00;
 

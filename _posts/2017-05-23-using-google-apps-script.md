@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Using Google Apps Script with LDC Via"
-category: LDC Via
-tags: [code, Google, apps script, LDC Via, api]
+category: 'Integrations'
+tags: [code, google, appsscript, ldcvia, api]
 date: 2017-05-23 14:52:15;
 
 ---

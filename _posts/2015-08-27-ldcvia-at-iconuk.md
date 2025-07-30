@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LDC Via at ICON UK"
-category: "LDC Via"
+category: "Conferences"
 tags: [ldcvia, iconuk, conferences]
 ---
 {% include JB/setup %}

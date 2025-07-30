@@ -5,6 +5,7 @@ category: "LDC Via"
 tags: [ldcvia, intro, why]
 ---
 {% include JB/setup %}
+
 It’s been clear to us for a number of years that many organisations are moving their email off IBM (‘Lotus’) Notes and Domino. Typically they’ll head for either Microsoft Office 365, or Google.
 
 What they are usually then left with is a collection of applications (‘databases’) that were built for the Notes and Domino platform. Some may be Notes client applications, some may be accessed using a browser. Some may be developed internally, and some may be off-the-shelf purchases. What they all require, though, is the retention of the IBM software and servers. And that’s the issue: you thought you were replacing one piece of software with another, but in the end you still need to retain the ‘old’ Notes/Domino servers; and the space they take up in the machine room; and the overhead of backing them up; and the expertise and staffing to maintain and administer them; and let’s not forget the cost of the software licences(!) 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Another year!'
-category: LDC Via
+category: 'Holidays'
 tags: [news, business, christmas, migration]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-category : LDC Via
+category : 'Application development'
 title: "Integrating LDC Via with XPages"
 tags : [xpages, api, how-to, code, rest, development]
 ---

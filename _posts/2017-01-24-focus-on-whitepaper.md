@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "White papers: re-homing Domino applications"
-category: "white papers"
+title: "White paper: re-homing Domino applications"
+category: "White papers"
 tags: [migration, ldcvia, whitepapers, documentation]
 date: 2017-01-25 11:32:18;
 

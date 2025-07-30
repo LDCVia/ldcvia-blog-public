@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My editor is VS Code"
-category: LDC Via
+category: 'Application development'
 tags: [work, vs code, ide, programming]
 ---
 {% include JB/setup %}

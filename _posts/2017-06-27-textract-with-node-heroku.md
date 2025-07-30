@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using Textract with node.js on Heroku"
-category: LDC Via
+category: 'Application development'
 tags: [work, heroku, textract]
 ---
 {% include JB/setup %}

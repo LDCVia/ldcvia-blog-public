@@ -1,6 +1,6 @@
 ---
 layout: post
-category : LDC Via
+category : 'Application development'
 title: "It's a web app, Jim, but not as we know it"
 tags : [angularjs, api, code, development]
 ---

@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "LDC Via Lens"
-description: ""
-category: "LDC Via"
+category: "LDC Via Lens"
 tags: [lens, api, ldcvia, development]
 ---
 {% include JB/setup %}

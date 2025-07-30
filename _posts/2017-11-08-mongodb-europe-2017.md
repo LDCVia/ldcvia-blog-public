@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MongoDB Europe 2017"
-category: LDC Via
+category: 'MongoDB'
 tags: [infrastructure, mongodb, mdbe17]
 ---
 {% include JB/setup %}

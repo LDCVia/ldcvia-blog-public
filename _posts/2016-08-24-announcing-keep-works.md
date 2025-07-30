@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Announcing KEEP.WORKS"
-category: "announcements"
+category: "KEEP.WORKS"
 tags: [announcements, keep.works, news]
 ---
 {% include JB/setup %}

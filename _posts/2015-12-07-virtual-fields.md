@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Virtual (computed) fields in LDC Via Lens"
-category: "LDC Via"
+category: "LDC Via Lens"
 tags: [ldcvia, lens, development, virtual fields]
 ---
 {% include JB/setup %}

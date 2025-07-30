@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LDC Via at MWLUG"
-category: "LDC Via"
+category: "Conferences"
 tags: [ldcvia, mwlug, conferences, devhub]
 ---
 {% include JB/setup %}

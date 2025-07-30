@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "Home sweet home"
-category: "LDC Via"
+category: "Integrations"
 tags: [ldcvia, intro]
 ---
 {% include JB/setup %}
+
 One of the main uses for LDC Via is in re-homing historical data from servers that are being retired.
 
 Your organisation may find itself in the situation where it is maintaining, supporting, and backing up Domino infrastructure purely so that the user can reference historical data held thereon — no new development, no real activity, few if any data updates … but you still need to “keep the lights on”. 

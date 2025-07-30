@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "node.js marches on"
-category: LDC Via
+category: Node.js
 tags: [work, node.js]
 ---
 {% include JB/setup %}

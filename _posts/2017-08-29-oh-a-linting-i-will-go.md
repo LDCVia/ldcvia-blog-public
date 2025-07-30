@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Oh a-linting I will go"
-category: LDC Via
+category: 'Application development'
 tags: [work, ide, programming]
 ---
 {% include JB/setup %}

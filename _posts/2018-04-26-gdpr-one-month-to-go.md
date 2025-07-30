@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "GDPR: one month to go"
-category: LDC Via
+category: 'GDPR'
 tags: [gdpr, data protection]
 ---
 

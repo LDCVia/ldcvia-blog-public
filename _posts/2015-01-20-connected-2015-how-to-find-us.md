@@ -1,6 +1,6 @@
 ---
 layout: post
-category : LDC Via
+category : 'IBM ConnectED'
 title: "ConnectED 2015 - how to find us"
 tags : [ibm, lotusphere, connected, conferences]
 ---

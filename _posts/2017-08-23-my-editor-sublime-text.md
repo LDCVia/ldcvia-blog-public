@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My editor is Sublime Text"
-category: LDC Via
+category: 'Application development'
 tags: [work, sublime text, ide, programming]
 ---
 {% include JB/setup %}

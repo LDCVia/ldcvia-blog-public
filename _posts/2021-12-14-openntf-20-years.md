@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Twenty years of OpenNTF"
-category: "open source, openntf, technology"
+category: "Open source"
 tags: []
 date: 2021-12-14 16:26:03;
 ---

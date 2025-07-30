@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Merry Christmas"
-category: "christmas"
+category: "Holidays"
 tags: [christmas, review, partners, keep.works]
 date: 2016-12-20 09:00:00;
 

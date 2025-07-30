@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My editor is WebStorm"
-category: LDC Via
+category: 'Application development'
 tags: [work, WebStorm, ide, programming]
 ---
 {% include JB/setup %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MongoDB and VS Code"
-category: "mongodb"
+category: 'Application development'
 tags: [vs code, mongodb, ide]
 date: 2021-01-27 10:15:14;
 ---

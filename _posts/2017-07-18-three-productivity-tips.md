@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Three productivity tips"
-category: LDC Via
+category: Work
 tags: [work, life, productivity, getting things done]
 ---
 {% include JB/setup %}

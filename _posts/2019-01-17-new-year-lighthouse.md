@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'New year lighthouse!'
-category: 'LDC Via'
+category: 'Application development'
 tags: [code, tips, browsers, chrome]
 ---
 

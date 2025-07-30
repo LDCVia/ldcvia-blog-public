@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Creating templates with LDC Via and XComponents"
-description: ""
-category: "XComponents"
-tags: [ldcvia, templates, angularjs, development]
+category: "Application development"
+tags: [ldcvia, templates, xcomponents, angularjs, development]
 ---
 {% include JB/setup %}
 We’ve created a full featured API for development of custom applications with LDC Via, however, we’re aware that there is not always the time or budget to do large development projects, so we have also given you a jumpstart.
