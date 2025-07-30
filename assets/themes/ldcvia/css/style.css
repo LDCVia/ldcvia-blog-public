@@ -37,6 +37,9 @@ header, footer {
 /* Default logo size */
 .logo { width: 353px; height: 352px }
 
+/* When in the footer */
+.footer-logo { float: left; width: 88px; height: 88px; padding: .5em 1em 0 0 }
+
 h1, h2, h3, h4 { text-align: center }
 h1 { color: var(--ldcvia); font-size: 2.5em; font-weight: 800 }
 h2 { font-size: 2em; font-weight: 600 }
@@ -61,8 +64,9 @@ a.home { margin: 0; display: block; text-decoration: none }
 ul, ol { padding: 0; margin: 0 0 1em 2.25em; }
 ul ul, ul ol, ol ol, ol ul{ margin-bottom:0 }
 li { line-height: 1.3em; margin: 0 0 .25em 0 }
-.inline { list-style: none; margin: 0 0 .75em 0 }
+.footer-links, .inline { list-style: none; margin: 0 0 .75em 0 }
 .inline li { font-size: 80%; font-weight: 600; color: var(--mid); display: inline-block }
+.footer-links li { padding-left: 1em; font-size: 60%; color: var(--mid); display: inline-block }
 
 /* Meta tag and navigation links
 .inline a { padding: .25em; text-decoration: none; color: var(--ldcvia) }
