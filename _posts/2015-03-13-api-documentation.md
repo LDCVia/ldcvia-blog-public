@@ -1,7 +1,7 @@
 ---
 layout: post
-category : LDC Via, Documentation
-title: "We want to talk about documentation. No don't go!"
+category : Documentation
+title: "We want to talk about documentation. No, don’t go!"
 tags : [documentation, development, api]
 ---
 {% include JB/setup %}

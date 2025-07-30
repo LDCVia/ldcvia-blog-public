@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "The Social Dilemma"
-category: "social media, technology"
-tags: []
+category: "Social media"
+tags: [social media, technology, humane tech]
 date: 2021-09-21 12:23:21;
 ---
 

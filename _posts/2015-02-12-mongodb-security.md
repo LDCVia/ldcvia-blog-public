@@ -1,6 +1,6 @@
 ---
 layout: post
-category : LDC Via, MongoDB
+category : MongoDB
 title: "MongoDB security"
 tags : [mongodb, security, data]
 ---

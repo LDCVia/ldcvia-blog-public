@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Our next webinar"
-category: "Application Development"
+category: "Application development"
 tags: [ldcvia, webinar, development]
 ---
 {% include JB/setup %}

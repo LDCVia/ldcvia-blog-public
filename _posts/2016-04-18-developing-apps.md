@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Developing web applications with LDC Via"
-category: "Application Development"
+category: "Application development"
 tags: [ldcvia, webinar, development, react, node, vaadin]
 ---
 {% include JB/setup %}

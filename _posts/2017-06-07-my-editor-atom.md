@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "My editor is Atom"
-category: LDC Via
-tags: [work, ldc via, atom, ide, programming]
+category: "Application development"
+tags: [work, atom, ide, programming]
 date: 2017-06-07 11:07:03;
 
 ---
