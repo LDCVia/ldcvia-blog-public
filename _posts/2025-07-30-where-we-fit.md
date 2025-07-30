@@ -8,7 +8,7 @@ date: 2025-07-30 16:44:22;
 
 {% include JB/setup %}
 
-![Ben took a photo of something complicated](/assets/img/blog/complicated.jpg)
+![Ben took a photo of something complicated](/assets/img/blog/complicated.jpg "Ben took a photo of something complicated")
 
 #### <abbr title="Too Long; Didn’t Read">TL;DR</abbr>
 LDC Via prevents single-vendor risk in complex IT projects by serving as trusted technical arbiters and integration specialists within larger corporations, from household names like the BBC to global giants like Allianz.
