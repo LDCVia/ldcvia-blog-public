@@ -28,18 +28,18 @@ header, footer {
   background-color: var(--ltaccent);
   color: var(--main);
 	margin: 0;
-  padding: 1em .5em
+	padding: 1em .5em
 }
 
 img { width: 100%; max-width: 100%; height: auto }
 
 /* Header logo */
-.logo { width: 353px; height: 352px }
+.logo { width: 200px; height: 200px }
 /* Footer logo */
-.footer-logo { float: left; width: 88px; height: 88px; padding: 0em 1em 0 0 }
+.footer-logo { float: left; width: 80px; height: 80px; padding: 0em 1em 0 0 }
 
 h1, h2, h3, h4 { text-align: center }
-h1 { color: var(--ldcvia); font-size: 2.5em; font-weight: 800 }
+h1 { color: var(--ldcvia); font-size: 2.3em; font-weight: 700 }
 h2 { font-size: 2em; font-weight: 600 }
 h3 { font-size: 1.5em; font-weight: 600 }
 h4 { font-size: 1.25em; font-weight: 400 }
