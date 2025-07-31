@@ -68,12 +68,7 @@ li { line-height: 1.3em; margin: 0 0 .25em 0 }
 .inline li { font-size: 80%; font-weight: 600; color: var(--mid); display: inline-block }
 .footer-links li { padding-left: 1em; font-size: 60%; color: var(--mid); display: inline-block }
 
-/* Meta tag and navigation links
-.inline a { padding: .25em; text-decoration: none; color: var(--ldcvia) }
-.inline a:hover, .inline a:active { text-decoration: underline }
-*/
-
-/* next / previous links – bottom of blog post */
+/* Next / previous links, bottom of blog post or page */
 .pagination {
 	text-align: center;
 	margin: 2em 0;
@@ -93,10 +88,10 @@ abbr { cursor: help }
 blockquote { font-style: italic; margin: 0; padding-left: .5em; border-left: .1em solid var(--lt)}; 
 blockquote em { font-style: normal }
 
-/* MEDIA QUERIES */
 /* Smaller screens */
 @media only screen and (max-width: 768px) {
   .logo { height: 176px; width: 176px }
+	.container img { height: 85%; width: 85% }
 	body { font-size: 1.2em }
 }
 
