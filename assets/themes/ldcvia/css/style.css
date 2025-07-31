@@ -1,6 +1,5 @@
 @import url("./fontawesome.min.css");
 @import url("./solid.min.css");
-/* 100 to 900 */
 @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
@@ -10,8 +9,6 @@
 	--mid: #626060;
   --bg: #fff;
   --ldcvia: #e0000a;
-	--deg: -86deg;
-	--trans: all .4s ease 0s;
 }
 
 html { margin: 0; padding: 0 }
@@ -27,20 +24,19 @@ body {
   color: var(--main);
 }
 
-img { width: 100%; max-width: 100%; height: auto }
-
 header, footer {
   background-color: var(--ltaccent);
   color: var(--main);
 	margin: 0;
-  padding: 1em .5em .5em .5em
+  padding: 1em .5em
 }
 
-/* Default logo size */
-.logo { width: 353px; height: 352px }
+img { width: 100%; max-width: 100%; height: auto }
 
-/* When in the footer */
-.footer-logo { float: left; width: 88px; height: 88px; padding: .5em 1em 0 0 }
+/* Header logo */
+.logo { width: 353px; height: 352px }
+/* Footer logo */
+.footer-logo { float: left; width: 88px; height: 88px; padding: 0em 1em 0 0 }
 
 h1, h2, h3, h4 { text-align: center }
 h1 { color: var(--ldcvia); font-size: 2.5em; font-weight: 800 }
@@ -67,8 +63,19 @@ ul, ol { padding: 0; margin: 0 0 1em 2.25em; }
 ul ul, ul ol, ol ol, ol ul{ margin-bottom:0 }
 li { line-height: 1.3em; margin: 0 0 .25em 0 }
 .footer-links, .inline { list-style: none; margin: 0 0 .75em 0 }
-.inline li { font-size: 80%; font-weight: 600; color: var(--mid); display: inline-block }
-.footer-links li { padding-left: 1em; font-size: 60%; color: var(--mid); display: inline-block }
+.inline li {
+	font-size: 80%;
+	font-weight: 600;
+	color: var(--mid);
+	display: inline-block
+}
+
+.footer-links li {
+	padding-left: 1em;
+	font-size: 60%;
+	color: var(--mid);
+	display: inline-block
+}
 
 /* Next / previous links, bottom of blog post or page */
 .pagination {
@@ -86,20 +93,30 @@ li { line-height: 1.3em; margin: 0 0 .25em 0 }
 /* Navigation styling in blog */
 .disabled { color: var(--lt); cursor: not-allowed }
 
-abbr { cursor: help }
-blockquote { font-style: italic; margin: 0; padding-left: .5em; border-left: .1em solid var(--lt)}; 
+abbr {
+	cursor: help;
+	text-decoration: none;
+	border-bottom: .1em dotted var(--lt)
+}
+
+blockquote {
+	font-style: italic;
+	margin: 0;
+	padding-left: .5em;
+	border-left: .1em solid var(--lt)
+}
+
 blockquote em { font-style: normal }
 
 /* Smaller screens */
 @media only screen and (max-width: 768px) {
-  /*.logo { height: 176px; width: 176px }*/
 	body { font-size: 1.2em }
-	.footer-logo {float: none}
 	footer { text-align: center }
-
+	.footer-logo { float: none; margin-bottom:.75em; padding: 0 }
+	.footer-links li { font-size: 75% }
 }
 
 /* Larger screens */
 @media only screen and (min-width: 1280px) {
-  .container { width: 65%}
+  .container { width: 65% }
 }

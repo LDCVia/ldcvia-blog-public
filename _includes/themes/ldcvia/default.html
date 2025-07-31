@@ -1,54 +1,53 @@
 <!DOCTYPE html>
 <html lang="en-gb">
+  <head>
+    <title>{{site.title}}: {{ page.title }}</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-  <title>{{site.title}}: {{ page.title }}</title>
-  <!-- Meta -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
+    {% endif %}
 
-  {% if page.description %}
-  <meta name="description" content="{{ page.description }}">
-  {% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta name="author" content="{{ site.author.name }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="{{ ASSET_PATH }}/img/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/svg+xml" href="{{ ASSET_PATH }}/img/favicon.svg">
+    <link rel="shortcut icon" href="{{ ASSET_PATH }}/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ ASSET_PATH }}/img/apple-touch-icon.png">
+    <link rel="manifest" href="{{ ASSET_PATH }}/site.webmanifest">
 
-  <link href="{{ ASSET_PATH }}/css/style.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="{{ ASSET_PATH }}/img/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/svg+xml" href="{{ ASSET_PATH }}/img/favicon.svg">
-  <link rel="shortcut icon" href="{{ ASSET_PATH }}/img/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ ASSET_PATH }}/img/apple-touch-icon.png">
-  <link rel="manifest" href="{{ ASSET_PATH }}/site.webmanifest">
+    <!-- Feeds -->
+    <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+  </head>
 
-  <!-- Feeds -->
-  <link href="{{ BASE_PATH }}{{ site.JB.atom_path }}" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
-  <link href="{{ BASE_PATH }}{{ site.JB.rss_path }}" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
-</head>
+  <body>
+    <a href="/" class="home">
+      <header>
+        <h1><img src="{{ ASSET_PATH }}/img/ldcvia-logo.png" class="logo" alt="LDC Via logo, click or tap to return home" title="LDC Via logo, click or tap to return home"><br>{{site.title}}</h1>
+      </header>
+    </a>
 
-<body>
-  <a href="/" class="home">
-    <header>
-      <h1><img src="{{ ASSET_PATH }}/img/ldcvia-logo.png" class="logo" alt="LDC Via logo"><br>{{site.title}}</h1>
-    </header>
-  </a>
+    {{ content }}
 
-  {{ content }}
+    <footer>
+      <img class="footer-logo" src="/assets/themes/ldcvia/img/ldcvia-logo.png" alt="LDC Via logo">
+      <ul class="footer-links">
+        <li>&copy; 2014 - 2025 LDC Via Ltd., a company registered in England &amp; Wales no. 09209489</li>
+      </ul>
 
-  <footer>
-    <img class="footer-logo" src="/assets/themes/ldcvia/img/ldcvia-logo.png">
-    <ul class="footer-links">
-      <li>&copy; 2014 - 2025 LDC Via Ltd., a company registered in England &amp; Wales no. 09209489</li>
-    </ul>
+      <ul class="footer-links">
+        <li><a href="https://ldcvia.com/">Main site</a></li>
+        <li>Blog</li>
+        <li><a href="https://ldcvia.com/terms.html">Terms &amp; conditions</a></li>
+        <li><a href="https://ldcvia.com/contact.html">Contact</a></li>
+      </ul>
+    </footer>
 
-    <ul class="footer-links">
-      <li><a href="https://ldcvia.com/">Main site</a></li>
-      <li>Blog</li>
-      <li><a href="https://ldcvia.com/terms.html">Terms &amp; conditions</a></li>
-      <li><a href="https://ldcvia.com/contact.html">Contact</a></li>
-    </ul>
-  </footer>
-
-</body>
+  </body>
 
 </html>
