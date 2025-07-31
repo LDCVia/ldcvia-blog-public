@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Merry Christmas!"
-category: "christmas"
+category: "Holidays"
 tags: [christmas]
 date: 2020-12-24 08:26:00;
 ---
