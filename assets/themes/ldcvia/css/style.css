@@ -114,7 +114,6 @@ blockquote em { font-style: normal }
 	body { font-size: 1.2em }
 	footer { text-align: center }
 	.footer-logo { float: none; margin-bottom:.75em; padding: 0 }
-	.footer-links li { font-size: 75% }
 }
 
 /* Larger screens */
