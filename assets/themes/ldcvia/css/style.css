@@ -31,15 +31,20 @@ header, footer {
 	padding: 1em .5em
 }
 
+header { padding: .1rem 0 }
+footer { padding: .5em .5em }
+
+/* Default logo size */
+.logo { width: 200px; height: 200px }
+
+/* When in the footer */
+.footer-logo { float: left; width: 80px; height: 80px; padding: .5em 1em .5em 0 }
+
 /* Image styling */
 img { width: 100%; max-width: 100%; height: auto }
 img.headline { margin: 0 auto; display: block }
-/* Header logo */
-.logo { width: 200px; height: 200px }
-/* Footer logo */
-.footer-logo { float: left; width: 80px; height: 80px; padding: 0em 1em 0 0 }
 
-h1, h2, h3, h4 { text-align: center }
+h1, h2, h3, h4 { text-align: center; justify-content: center }
 h1 { color: var(--ldcvia); font-size: 2.3em; font-weight: 700 }
 h2 { font-size: 2em; font-weight: 600 }
 h3 { font-size: 1.5em; font-weight: 600 }
@@ -102,6 +107,7 @@ abbr {
 
 blockquote {
 	font-style: italic;
+	font-size: 90%;
 	margin: 0;
 	padding-left: .5em;
 	border-left: .1em solid var(--lt)
@@ -111,12 +117,12 @@ blockquote em { font-style: normal }
 
 /* Smaller screens */
 @media only screen and (max-width: 768px) {
+  .logo { height: 176px; width: 176px }
 	body { font-size: 1.2em }
-	footer { text-align: center }
-	.footer-logo { float: none; margin-bottom:.75em; padding: 0 }
+	.footer-links li { font-size: 80% }
 }
 
 /* Larger screens */
 @media only screen and (min-width: 1280px) {
-  .container { width: 65% }
+  .container { width: 65%}
 }
