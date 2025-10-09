@@ -31,8 +31,9 @@ header, footer {
 	padding: 1em .5em
 }
 
-img { width: 100%; max-width: 100%; height: auto }
-
+/* Image styling */
+img { width: 100%; max-width: 100%; height: auto; display: block }
+img.headline { margin: 0 auto }
 /* Header logo */
 .logo { width: 200px; height: 200px }
 /* Footer logo */
