@@ -23,6 +23,6 @@ If you’re into fonts, there are myriad sites out there, but a few favourites o
 - &hellip; [Butterick’s Practical Typography](https://practicaltypography.com)
 - [How To Spot Arial](https://www.marksimonson.com/notebook/view/how-to-spot-arial/) from Mark Simonson
 
-### Post-script
+#### Post-script
 
-Why the fuss about Times new Roman in the first place? We refer you back to Matthew Butterick: [A brief history of Times New Roman](https://typographyforlawyers.com/a-brief-history-of-times-new-roman.html)
+Why the fuss about Times New Roman in the first place? We refer you back to Matthew Butterick: [A brief history of Times New Roman](https://typographyforlawyers.com/a-brief-history-of-times-new-roman.html).
