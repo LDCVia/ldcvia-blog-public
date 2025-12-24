@@ -13,4 +13,4 @@ Modern environments, in particular the <abbr title="MongoDB Express AngularJS No
 
 Tell us what your organisation’s development strategy is: if we don’t already have sample code for you, we’ll write some.
 
-(And if you’re writing your own apps for Via, don’t forget our [API documentation!](http://api.ldcvia.com/))
+(And if you’re writing your own apps for Via, don’t forget our [API documentation!](https://api.ldcvia.com/))

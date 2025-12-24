@@ -8,7 +8,7 @@ tags: ["ldc via", templates, xcomponents, angularjs, development]
 {% include JB/setup %}
 We’ve created a full featured API for development of custom applications with LDC Via, however, we’re aware that there is not always the time or budget to do large development projects, so we have also given you a jumpstart.
 
-We’ve worked closely with the team behind the [XComponents](http://xcomponents.org/) project. This is an open source framework based on AngularJS and Bootstrap that allows you to quickly create applications that will work on desktop and mobile devices equally well.
+We’ve worked closely with the team behind the [XComponents](https://xcomponents.org/) project. This is an open source framework based on AngularJS and Bootstrap that allows you to quickly create applications that will work on desktop and mobile devices equally well.
 
 All of our standard templates (Discussion, Document Library, Teamroom and Mail) are developed using XComponents, and, even better than that, they’re all open source. You can easily take the source code for them and modify it to fit the needs of your applications.
 

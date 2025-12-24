@@ -26,9 +26,9 @@ Why Atom? Well yes it’s open-source, free of cost, and has a massive [develope
 
 Atom ships with a number of key packages, not least the very wonderful [Autocomplete-plus](https://github.com/atom/autocomplete-plus), and there are hundreds more to choose from. [Minimap](https://atom.io/packages/minimap) is a must for navigating larger files, and the various [Linter](https://github.com/steelbrain/linter) packages are indispensable too. Here are a few others I recommend:
 
-- [Semantic Colo(ur)](http://atom.io/packages/semanticolor) for sensible syntax colouring
+- [Semantic Colo(ur)](https://atom.io/packages/semanticolor) for sensible syntax colouring
 - [atom-ternjs](https://atom.io/packages/atom-ternjs): “JavaScript code intelligence” which sits on top of the core Autocomplete-plus package
-- [linter-eslint](https://github.com/AtomLinter/linter-eslint) fronts up [ESLint](http://eslint.org) for Atom and Linter.
+- [linter-eslint](https://github.com/AtomLinter/linter-eslint) fronts up [ESLint](https://eslint.org) for Atom and Linter.
 - [Todo-show](https://atom.io/packages/todo-show) Shows up all `TODO`, `FIXME` and related tasks in a project or whole workspace.
 
 We don’t all agree about programming editors at LDC Via Towers: what are your favourites?

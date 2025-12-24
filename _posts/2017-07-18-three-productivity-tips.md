@@ -15,7 +15,7 @@ How do the most productive people get things done? Well, I think it comes down t
 
 ## Restrict yourself
 
-There are 35 - 40 working hours in a week (unless you’re [Mark](http://wwww.stickfight.co.uk)). Consider reducing that number still further — say to 32, working four eight hour days _and then stopping_. This really focusses the mind. Funnily enough, when you hurl days, nights and weekends at something, you don’t necessarily get things done any quicker. An hour of laser-sharp focus trumps a day of faffing at the keyboard every time.
+There are 35 - 40 working hours in a week (unless you’re [Mark](https://wwww.stickfight.co.uk)). Consider reducing that number still further — say to 32, working four eight hour days _and then stopping_. This really focusses the mind. Funnily enough, when you hurl days, nights and weekends at something, you don’t necessarily get things done any quicker. An hour of laser-sharp focus trumps a day of faffing at the keyboard every time.
 
 ## Keep it simple
 

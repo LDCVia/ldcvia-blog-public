@@ -15,6 +15,6 @@ Two weeks ago we ran this, _Developing web applications with LDC Via_, which was
 
 [Developing web applications with LDC Via](https://www.youtube.com/watch?v=es0PHt-nn8w).
 
-During this session we talk about modern web application development using <abbr title="REpresentational State Transfer">REST</abbr> services. There are demonstrations from both the client- and server-side: [React.js](https://facebook.github.io/react/) for some client code consuming the LDC Via <abbr title="Application programming Interface">API</abbr>, and also the Java framework [Vaadin](http://vaadin.com) on the server, together with a [node.js / Express application](http://expressjs.com) too.
+During this session we talk about modern web application development using <abbr title="REpresentational State Transfer">REST</abbr> services. There are demonstrations from both the client- and server-side: [React.js](https://facebook.github.io/react/) for some client code consuming the LDC Via <abbr title="Application programming Interface">API</abbr>, and also the Java framework [Vaadin](https://vaadin.com) on the server, together with a [node.js / Express application](https://expressjs.com) too.
 
-Take a look at the session—there’s a lot of content in there—and if you want to dive into LDC Via [you can review API documentation on-line](http://api.ldcvia.com), and we have plenty of sample code in [our GitHub repository](http://github.com/ldcvia).
+Take a look at the session—there’s a lot of content in there—and if you want to dive into LDC Via [you can review API documentation on-line](https://api.ldcvia.com), and we have plenty of sample code in [our GitHub repository](https://github.com/ldcvia).

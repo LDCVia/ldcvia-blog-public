@@ -18,9 +18,9 @@ Well, version 3.6 of MongoDB offers a number of intriguing features, which can b
 
 - Change streams: invoked with a simple <code>coll.watch()</code> these are [Observers](https://en.wikipedia.org/wiki/Observer_pattern) for MongoDB. Fab!
 - “Retryable” writes in the event of failures.
-- Oodles of document updates including hugely increased “expressibility” in queries, aggregations, pipelining, array processing and updating. These look to be very powerful, and I think [Matt](http://mattwhite.me) will be cock-a-hoop with them.
+- Oodles of document updates including hugely increased “expressibility” in queries, aggregations, pipelining, array processing and updating. These look to be very powerful, and I think [Matt](https://mattwhite.me) will be cock-a-hoop with them.
 - [R driver](https://www.r-project.org) to support advanced analytics and business intelligence.
-- Support for [JSON schema](http://json-schema.org).
+- Support for [JSON schema](https://json-schema.org).
 - Tunable consistency: customise your app’s balance between read-write consistency needs and overall availability.
 
 You can read more about 3.6 and the future of MongoDB on the [official web site](https://www.mongodb.com/).

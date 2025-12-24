@@ -16,7 +16,7 @@ This week Mark has his rant about [WebStorm](https://www.jetbrains.com/webstorm/
 
 ---
 
-Traditionally I have used the big clunky IDEs based on Eclipse such as [IBM RAD](http://www-03.ibm.com/software/products/en/application) and [My Eclipse](https://en.wikipedia.org/wiki/MyEclipse) However on a recommendation from [Ben](https://twitter.com/benpoole) I switched to [IntelliJ IDEA](https://www.jetbrains.com/idea/) for my Java and Scala work. After that it was but a short step to IntelliJ’s companion IDE, [WebStorm](https://www.jetbrains.com/webstorm/)
+Traditionally I have used the big clunky IDEs based on Eclipse such as [IBM RAD](https://www-03.ibm.com/software/products/en/application) and [My Eclipse](https://en.wikipedia.org/wiki/MyEclipse) However on a recommendation from [Ben](https://twitter.com/benpoole) I switched to [IntelliJ IDEA](https://www.jetbrains.com/idea/) for my Java and Scala work. After that it was but a short step to IntelliJ’s companion IDE, [WebStorm](https://www.jetbrains.com/webstorm/)
 
 My main criteria in an IDE is not to cost me time or make me scream in anger: WebStorm manages beautifully here. It is light and easy-going, opening and restoring with no fuss, and whilst I’m aware that I don’t use it to its full capacity, a few of the things I love about it are:
 
@@ -30,8 +30,8 @@ As my work tends to involve a wide range of issues, not just code, I use a stack
 
 - [SOAP UI](https://www.soapui.org/) - Still the best program for messing around with XML-based web services.
 - [EditPad Pro](https://www.editpadpro.com/) - even with all the new contenders out there, on the Windows platform this is still the best text editor.
-- [SQuirreL SQL Client](http://squirrel-sql.sourceforge.net/) - Not the best SQL client _per se_, but far and away the best one for debugging Java data source issues.
-- [Keystore Explorer](http://keystore-explorer.org/) - This has saved my sanity more times that I can remember when it comes to dealing with complex SSL key issues.
+- [SQuirreL SQL Client](https://squirrel-sql.sourceforge.net/) - Not the best SQL client _per se_, but far and away the best one for debugging Java data source issues.
+- [Keystore Explorer](https://keystore-explorer.org/) - This has saved my sanity more times that I can remember when it comes to dealing with complex SSL key issues.
 
 ## Chrome extensions
 

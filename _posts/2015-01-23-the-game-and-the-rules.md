@@ -1,12 +1,13 @@
 ---
 layout: post
-category : IBM ConnectED
+category: IBM ConnectED
 title: "The game and the rules: the LDC Via ConnectED 2015 Crossword"
-tags : [ibmconnected, competitions, conferences]
+tags: [ibmconnected, competitions, conferences]
 ---
+
 {% include JB/setup %}
 
-Three of us from LDC Via are at ConnectED this week: Ben Poole, [Mark Myers (@stickfight)](http://twitter.com/stickfight) and [Julian Woodward (@woowar)](http://twitter.com/woowar). We will have LDC Via leaflets to give you, and the crossword and clues are on the back. Do it to the best of your ability (some of the clues are bastard hard - at least we hope so) and hand it back to us by the deadline. Simple. Remember: you could win a Sonos Play:1.
+Three of us from LDC Via are at ConnectED this week: Ben Poole, [Mark Myers (@stickfight)](https://twitter.com/stickfight) and [Julian Woodward (@woowar)](https://twitter.com/woowar). We will have LDC Via leaflets to give you, and the crossword and clues are on the back. Do it to the best of your ability (some of the clues are bastard hard - at least we hope so) and hand it back to us by the deadline. Simple. Remember: you could win a Sonos Play:1.
 
 Competition rules, for the avoidance of stress and fisticuffs
 
@@ -19,4 +20,4 @@ Competition rules, for the avoidance of stress and fisticuffs
 7. The prize will be awarded at the Closing Session on Wednesday afternoon.
 8. If the winner is not at the Closing Session, the prize will be shipped directly to them after the conference.
 
-If you are not at the conference, but fancy having a go anyway (or you *are* at the conference but want to make a head start) ~~here is the full crossword with clues~~. We will post a completed version after the conference and you can see how well you did.
+If you are not at the conference, but fancy having a go anyway (or you _are_ at the conference but want to make a head start) ~~here is the full crossword with clues~~. We will post a completed version after the conference and you can see how well you did.

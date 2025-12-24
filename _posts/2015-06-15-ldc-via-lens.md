@@ -15,7 +15,7 @@ Lens is an application template that is driven by configuration, meaning that yo
 ## LDC Via Lens: key fields
 
 In the Database Viewer admin page, you can elect to “Modify Collection Schema” which shows all of the settings for a collection in your database. What this means is that you can see all of the fields for documents stored in the collection, change their data type, their position on-screen, and whether a particular field is an “LDC Via Lens” field (i.e. available to end users), with an associated field label.
-(We’ve added this distinction between “key” and “non-key” fields: all fields are important, but some are not ones that you need or want to expose to end users. By flagging a field as “key”, this means that when you use our [Export to PDF](http://api.ldcvia.com/#export-to-pdf) API, or Lens, we will just show the key fields.)
+(We’ve added this distinction between “key” and “non-key” fields: all fields are important, but some are not ones that you need or want to expose to end users. By flagging a field as “key”, this means that when you use our [Export to PDF](https://api.ldcvia.com/#export-to-pdf) API, or Lens, we will just show the key fields.)
 In the screenshot shown below, we have defined four key fields. Subject is positioned first, then Categories, From and Body. “From” we want to display with a label of “Created By” and the Body field is rich text, so we’ll just take the automatically parsed HTML version of that field.
 
 Once these settings are saved, select the “Open as Application” link on the Database Viewer page and your work is done.

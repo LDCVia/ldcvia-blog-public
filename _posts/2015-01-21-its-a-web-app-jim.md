@@ -1,12 +1,13 @@
 ---
 layout: post
-category : 'Application development'
+category: "Application development"
 title: "It's a web app, Jim, but not as we know it"
-tags : [angularjs, api, code, development]
+tags: [angularjs, api, code, development]
 ---
+
 {% include JB/setup %}
 
-We’ve talked previously about integrating [LDC Via with XPages](http://blog.ldcvia.com/2014/12/08/Integrating-LDC-Via-with-XPages/) but the whole point of our [REST API](https://api.ldcvia.com) is that anything that can talk over a network can use our services. So we’ve been busy.
+We’ve talked previously about integrating [LDC Via with XPages](/2014/12/08/Integrating-LDC-Via-with-XPages/) but the whole point of our [REST API](https://api.ldcvia.com) is that anything that can talk over a network can use our services. So we’ve been busy.
 
 So far, when you access the LDC Via website, you get some pre-rolled templates that allow you to view your old Domino data in an easier to read way. We provide templates that work with your migrated Mail Files, Discussions, Document Libraries and Teamrooms. But how about creating your own custom applications?
 

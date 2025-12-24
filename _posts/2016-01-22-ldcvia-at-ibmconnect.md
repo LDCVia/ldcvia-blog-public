@@ -11,7 +11,7 @@ tags: ["ldc via", ibmconnect, conferences]
 
 A week today people from all over the world will be beginning the annual trek to Florida. A new venue, but the same community and great content in sessions.
 
-As always, the LDC Via team will be attending [IBM Connect](http://www-01.ibm.com/software/collaboration/events/connect/index.html). Matt, Mark, Ben and Julian will _all_ be there.
+As always, the LDC Via team will be attending [IBM Connect](https://www-01.ibm.com/software/collaboration/events/connect/index.html). Matt, Mark, Ben and Julian will _all_ be there.
 
 To make it easier to get hold of us, we’ve decided to put ourselves at your mercy and open up our diaries.
 

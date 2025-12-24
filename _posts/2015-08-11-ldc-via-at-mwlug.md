@@ -6,7 +6,7 @@ tags: ["ldc via", mwlug, conferences, devhub]
 ---
 
 {% include JB/setup %}
-This year [MWLUG](http://mwlug.com) comes from Atlanta, GA, promising over forty sessions and workshops on collaboration.
+This year [MWLUG](https://mwlug.com) comes from Atlanta, GA, promising over forty sessions and workshops on collaboration.
 
 LDC Via will be there! Visit our stand and find out about our latest release, our new offering [LDC Via Lens](/2015-06-15-ldc-via-lens/), and our forthcoming developer community, #DevHub.
 
