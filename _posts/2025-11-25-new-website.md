@@ -8,7 +8,7 @@ date: 2025-11-25 10:28:44;
 
 {% include JB/setup %}
 
-<img src="/assets/img/blog/ldcvia-new-look.png" class="headline" style="height: 256px; width: 256px" alt="LDC Via logo, looking spick-and-span">
+<img src="/assets/img/blog/ldcvia-new-look.png" class="headline" alt="LDC Via logo, looking spick-and-span">
 
 After who knows how long (OK, almost twelve years), we decided to re-do the ole&#8217; website. The more observant out there will have seen that this blog was updated a couple of months back, and we have now followed suit with our main site.
 

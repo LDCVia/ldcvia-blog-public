@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MongoDB and VS Code"
-category: 'Application development'
+category: "Application development"
 tags: [vs code, mongodb, ide]
 date: 2021-01-27 10:15:14;
 ---
@@ -9,7 +9,7 @@ date: 2021-01-27 10:15:14;
 {% include JB/setup %}
 
 <div class="blog-header">
-  <img src="/assets/img/blog/mongodb-leaf.png" style="height: '234px'; width: '178px';" alt="MongoDB “leaf” logo graphic" />
+  <img src="/assets/img/blog/mongodb-leaf.png" alt="MongoDB “leaf” logo graphic" />
 </div>
 
 A (very) belated happy new year to you! 2021 isn’t behaving so far, but we have

@@ -8,7 +8,7 @@ date: 2025-12-16 10:59:17;
 
 {% include JB/setup %}
 
-<img src="/assets/img/blog/printing-plate.jpg" class="headline" style="height: 533px; width: 800px" alt="An image of an old-fashioned typeface printing plate">
+<img src="/assets/img/blog/printing-plate.jpg" class="headline" alt="An image of an old-fashioned typeface printing plate">
 
 Given the <a href="https://www.nytimes.com/2025/12/09/us/politics/rubio-state-department-font.html" title="Link to The New York Times, &#8220;At State Dept., a Typeface Falls Victim in the War Against Woke&#8221;">current typography lunacy over there</a>, this post seems rather timely. When [we re-designed the LDC Via site](/2025/11/25/new-website), one of the more subtle changes was our typography. We used to use basic sans-serif fonts, venerable standards like Matt McInerney’s [Raleway](https://www.theleagueofmoveabletype.com/raleway), in our documents.
 

@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "My editor is Sublime Text"
-category: 'Application development'
+category: "Application development"
 tags: [work, sublime text, ide, programming]
 ---
+
 {% include JB/setup %}
-<div class="blog-header">
-  <img src="/assets/img/blog/sublime-text-logo.png" alt="Header image: Sublime Text logo" title="Header image: Sublime Text logo" width="256px" height="256px" style="float: right;" />
-</div>
+<img src="/assets/img/blog/sublime-text-logo.png" alt="Header image: Sublime Text logo" />
 
 _The fourth and final post in an occasional series looking at each of our preferred code editors._
 
@@ -15,7 +14,7 @@ A lot has been said, written, and ranted, about programming editors and <abbr ti
 
 It’s Julian’s turn to finish this series by talking about his choice, [Sublime Text](https://www.sublimetext.com)…
 
-----
+---
 
 Before I dive into my choice, let’s have a quick recap of my colleagues’ well-considered picks.
 

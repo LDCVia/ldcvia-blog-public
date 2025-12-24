@@ -8,7 +8,7 @@ tags: [conferences, engage]
 {% include JB/setup %}
 
 <div class="full-header">
-  <img src="/assets/img/blog/ss-rotterdam.gif" alt="Header image: SS Rotterdam" title="SS Rotterdam" height="165px" width="380px" />
+  <img src="/assets/img/blog/ss-rotterdam.gif" alt="Header image: SS Rotterdam" />
 </div>
 
 There is much scurrying around in LDC towers as we prep for moving to Rotterdam <i>en masse</i> for Engage next week.

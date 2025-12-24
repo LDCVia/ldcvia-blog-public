@@ -1,13 +1,12 @@
 ---
 layout: post
 title: "Oh a-linting I will go"
-category: 'Application development'
+category: "Application development"
 tags: [work, ide, programming]
 ---
+
 {% include JB/setup %}
-<div class="blog-header">
-  <img src="/assets/img/blog/eslint.png" alt="Header image: ESLint" title="Header image: ESLint" width="256px" height="256px" style="float: right;" />
-</div>
+<img src="/assets/img/blog/eslint.png" alt="Header image: ESLint" />
 
 Often when I talk with developers who are firmly in the C# or Java camp their main objection to JavaScript is that it’s not strongly typed. And indeed, if you're new to the world of JavaScript, this is a big thing to get over.
 
@@ -15,7 +14,7 @@ But there are strategies, best practices if you will, which can make the transit
 
 So, how to get started I hear you ask? A lot depends on your working environment. If you use a modern editor like [VS Code, Atom or Sublime Text](http://blog.ldcvia.com/2017/08/23/my-editor-sublime-text) then there will be a plugin you can install to help you along. In your project, you add a `.eslintrc` file which defines the rules you want to apply and then you look, with horror, at the hundreds of errors that have suddenly appeared in your code.
 
-But fear not, things aren’t as bad as they appear. Your ESLint plugin will probably have a command to automatically fix “easily fixable issues” such as using single quotes rather than double quotes for strings, or indentation of your code. Once these are all addressed you can  fix the rest of the issues manually, and relatively quickly.
+But fear not, things aren’t as bad as they appear. Your ESLint plugin will probably have a command to automatically fix “easily fixable issues” such as using single quotes rather than double quotes for strings, or indentation of your code. Once these are all addressed you can fix the rest of the issues manually, and relatively quickly.
 
 I’ve recently completed this exercise with a large code base primarily because we want to put some focus on performance: if I have code that is predictably organised, then this makes the process a lot easier.
 

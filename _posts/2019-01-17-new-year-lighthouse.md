@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 'New year lighthouse!'
-category: 'Application development'
+title: "New year lighthouse!"
+category: "Application development"
 tags: [code, tips, browsers, chrome]
 ---
 
 {% include JB/setup %}
 
 <div class="blog-header">
-  <img src="/assets/img/blog/lighthouse-logo.png" style="height: '228px'; width: '381px';" alt="Google Chrome / Lighthouse graphic" />
+  <img src="/assets/img/blog/lighthouse-logo.png" alt="Google Chrome / Lighthouse graphic" />
 </div>
 
 Happy new year (albeit a somewhat belated greeting on our part). Let’s hope 2019 brings us all some reprieve from the unrelenting bad news out there! They say that the key to happiness is dealing with what you _can_ control, and so to that end we’re going to spend this blog post re-visiting an old tool that you may have ignored for a wee while – I know I have, given that my day-to-day work rarely includes front-end web development.

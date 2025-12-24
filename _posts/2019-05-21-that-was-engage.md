@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 'So that was Engage'
-category: 'Engage UG'
+title: "So that was Engage"
+category: "Engage UG"
 tags: [conferences, engage]
 ---
 
 {% include JB/setup %}
 
 <div class="blog-header">
-  <img src="/assets/img/blog/engage-autoworld-logo.gif" style="height: '400px'; width: '353px';" alt="Engage 2019 logo (Autoworld)" />
+  <img src="/assets/img/blog/engage-autoworld-logo.gif" alt="Engage 2019 logo (Autoworld)" />
 </div>
 
 [Whilst we sponsored Engage](https://engage.ug/engage2.nsf/Pages/sponsors2019) this year, it was a slightly muted affair for LDC Via, as only one of the motley crew made it to the conference, alas. [Theo](http://www.xceed.be) and Hilde put on an excellent show at a stunning excellent venue: [Autoworld](https://www.autoworld.be/the-museum-building), set in the beautiful _Parc Du Cinquantenaire_ (<abbr title="Also Known As">AKA</abbr> Jubelpark) in Brussels. Thank you Theo, you did it again!

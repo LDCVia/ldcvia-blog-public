@@ -8,9 +8,10 @@ date: 2025-10-07 09:19:13;
 
 {% include JB/setup %}
 
-<img src="/assets/img/blog/techfootprint.jpg" class="headline" style="height: 328px; width: 328px" title="Graphic from techfootprint.io" alt="Graphic from techfootprint.io">
+<img src="/assets/img/blog/techfootprint.jpg" class="headline" title="Graphic from techfootprint.io" alt="Graphic from techfootprint.io">
 
 #### techfootprint.io
+
 [Matt](https://mattwhite.me) is not one to rest on his laurels. Whilst taking a well-earned breather over the course of this summer, he produced some crucial updates to the LDC Via platform and then he coded an entirely new application, [techfootprint.io](https://techfootprint.io).
 
 As you do.

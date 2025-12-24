@@ -8,7 +8,7 @@ tags: [code, migration, quickr, domino.doc]
 {% include JB/setup %}
 
 <div class="blog-header">
-  <img src="/assets/img/blog/icon-quickr.jpg" style="height: '175px'; width: '175px';" alt="IBM Lotus Quickr icon" />
+  <img src="/assets/img/blog/icon-quickr.jpg" alt="IBM Lotus Quickr icon" />
 </div>
 
 For the last eighteen months or so we’ve been engaged in a project to provide two things for a client:

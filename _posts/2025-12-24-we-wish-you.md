@@ -8,7 +8,7 @@ date: 2025-12-24 10:43:09;
 
 {% include JB/setup %}
 
-<img src="/assets/img/blog/xmas-2025.png" class="headline" style="height: 405px; width: 720px" alt="A festive image of the LDC Via team">
+<img src="/assets/img/blog/xmas-2025.png" class="headline" alt="A festive image of the LDC Via team">
 
 The time is once again upon us: **Christmas**.
 

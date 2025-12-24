@@ -4,10 +4,10 @@ title: "A default of ‘NO’"
 category: LDC Via
 tags: [work, infrastructure, the future]
 ---
+
 {% include JB/setup %}
-<div class="full-header">
-  <img src="/assets/img/blog/BlogHeaderDefaultYes.png" alt="Header image: Default Yes" title="Header image: Default Yes" height="256px" width="512px" />
-</div>
+
+<img src="/assets/img/blog/BlogHeaderDefaultYes.png" alt="Header image: Default Yes" />
 
 LDC Via is, in my experience, a unique company: it started out as a group of consultants gathered together to help each other and share skills and experience, and then the Via product grew out of the realisation that so many of the things that we’re asked to deliver did not exist in the market.
 

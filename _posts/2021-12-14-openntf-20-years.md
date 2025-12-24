@@ -9,7 +9,7 @@ date: 2021-12-14 16:26:03;
 {% include JB/setup %}
 
 <div class="full-header">
-  <img src="/assets/img/blog/openntf-logo.jpg" style="height: '136px'; width: '360px'" alt="OpenNTF logo" />
+  <img src="/assets/img/blog/openntf-logo.jpg" alt="OpenNTF logo" />
 </div>
 
 [OpenNTF](https://openntf.org) is twenty years old today, can you believe that? For the die-hard Domino fans out there, you may well have seen an excellent video tribute to OpenNTF, which is really well put-together – hopefully it will go public at some point.
