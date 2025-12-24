@@ -2,8 +2,9 @@
 layout: post
 title: "LDC Via webinar coming soon"
 category: "LDC Via"
-tags: [ldcvia, intro, webinar]
+tags: ["ldc via", intro, webinar]
 ---
+
 {% include JB/setup %}
 
 ![LDC Via webinar, January 12th 2016](https://s3-eu-west-1.amazonaws.com/ldcviablog/webinar.png)

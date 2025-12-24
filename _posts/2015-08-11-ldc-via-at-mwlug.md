@@ -2,8 +2,9 @@
 layout: post
 title: "LDC Via at MWLUG"
 category: "Conferences"
-tags: [ldcvia, mwlug, conferences, devhub]
+tags: ["ldc via", mwlug, conferences, devhub]
 ---
+
 {% include JB/setup %}
 This year [MWLUG](http://mwlug.com) comes from Atlanta, GA, promising over forty sessions and workshops on collaboration.
 

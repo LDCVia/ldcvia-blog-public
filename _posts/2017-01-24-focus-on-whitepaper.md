@@ -2,10 +2,10 @@
 layout: post
 title: "White paper: re-homing Domino applications"
 category: "White papers"
-tags: [migration, ldcvia, whitepapers, documentation]
+tags: [migration, "ldc via", whitepapers, documentation]
 date: 2017-01-25 11:32:18;
-
 ---
+
 {% include JB/setup %}
 
 Some of us know about migration, specifically as it applies to venerable IBM Notes deployments. It’s 2017, and many organisations have moved their email to Microsoft Office365 or Google G Suite. The mechanisms for achieving this are pretty reliable, and certainly well-established.

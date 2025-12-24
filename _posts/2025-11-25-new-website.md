@@ -2,7 +2,7 @@
 layout: post
 title: "A new website"
 category: "Announcements"
-tags: ["LDC via", news]
+tags: ["ldc via", news]
 date: 2025-11-25 10:28:44;
 ---
 

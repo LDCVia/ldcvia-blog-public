@@ -2,8 +2,9 @@
 layout: post
 title: "LDC Via at ICON UK"
 category: "Conferences"
-tags: [ldcvia, iconuk, conferences, lens, competitions]
+tags: ["ldc via", iconuk, conferences, lens, competitions]
 ---
+
 {% include JB/setup %}
 We were sponsors and exhibitors at [ICON UK](http://iconuk.org) this year, once again put together by the splendid [Tim Clark](http://tc-soft.com) and held at [IBM’s excellent London client centre](http://www.ibm.com/ibm/clientcenter/london/) on the South Bank.
 

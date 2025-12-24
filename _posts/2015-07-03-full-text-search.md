@@ -2,10 +2,11 @@
 layout: post
 title: "Full text search"
 category: "LDC Via"
-tags: [ldcvia, search]
+tags: ["ldc via", search]
 ---
+
 {% include JB/setup %}
- 
+
 “Search?” I hear you mutter, “full text search? Really?”
 
 Well yes indeed! We’ve always offered a field-based search facility in LDC Via, but of course, chances are your users will want to search for a phrase across an entire document or collection of documents. Enter LDC Via’s full text search functionality.

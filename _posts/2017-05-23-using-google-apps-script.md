@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Using Google Apps Script with LDC Via"
-category: 'Integrations'
-tags: [code, google, appsscript, ldcvia, api]
+category: "Integrations"
+tags: [code, google, appsscript, "ldc via", api]
 date: 2017-05-23 14:52:15;
-
 ---
 
 {% include JB/setup %}
@@ -46,6 +45,7 @@ function getViaDbActivity() {
   return array;
 }
 ```
+
 The function returns an array which is automatically parsed into rows and columns when a single cell references the function.
 
 Note how we&#8217;ve then fired up the G Suite &#8220;Explore&#8221; function which lets us start to make sense of our data.

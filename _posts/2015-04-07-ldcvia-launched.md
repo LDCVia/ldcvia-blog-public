@@ -1,9 +1,10 @@
 ---
 layout: post
-category : "Engage UG"
+category: "Engage UG"
 title: "LDC Via launched at Engage 2015"
-tags : [ldcvia, engage, conferences]
+tags: ["ldc via", engage, conferences]
 ---
+
 {% include JB/setup %}
 
 Last week, most of the the [LDC Via](https://ldcvia.com) team attended the Engage User Group event in Ghent, Belgium along with 320 other people.

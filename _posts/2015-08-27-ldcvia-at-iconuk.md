@@ -2,8 +2,9 @@
 layout: post
 title: "LDC Via at ICON UK"
 category: "Conferences"
-tags: [ldcvia, iconuk, conferences]
+tags: ["ldc via", iconuk, conferences]
 ---
+
 {% include JB/setup %}
 This year, as with so many previous, [ICON UK](http://iconuk.org) will be running again. The dates are 21st and 22nd of September and the [agenda](http://iconuk.org/iconuk/iconuk2014.nsf/agenda.xsp) is looking really good.
 

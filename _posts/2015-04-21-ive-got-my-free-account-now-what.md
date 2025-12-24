@@ -2,8 +2,9 @@
 layout: post
 title: "I’ve got my free account. Now what?"
 category: "LDC Via"
-tags: [ldcvia, primer, how-to]
+tags: ["ldc via", primer, how-to]
 ---
+
 {% include JB/setup %}
 
 We decided that everyone should be able to try out LDC Via for free. With our trial account you get full functionality so that you can see and do everything that paid accounts can. We know there’s a lot to LDC Via, and it can be a little overwhelming, so we thought we’d talk about what you may want to try out [having signed up](https://eu.ldcvia.com/register).
@@ -20,6 +21,6 @@ The main benefit of LDC Via comes with the use of our [REST API](http://api.ldcv
 
 Hopefully thoughts will be bubbling to the top of your mind…
 
-* What if I want to run a “live archive” of data from Domino so that I can reduce the size of my NSF?
-* What if I want to securely expose a subset of data behind the firewall to customers via the internet?
-* What if I want to shut down a Domino server but retain access to all of the data?
+- What if I want to run a “live archive” of data from Domino so that I can reduce the size of my NSF?
+- What if I want to securely expose a subset of data behind the firewall to customers via the internet?
+- What if I want to shut down a Domino server but retain access to all of the data?

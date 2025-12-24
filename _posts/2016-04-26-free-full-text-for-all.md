@@ -2,8 +2,9 @@
 layout: post
 title: "Free full-text search for all!"
 category: "Application development"
-tags: [search, full-text, api, ldcvia, development]
+tags: [search, full-text, api, "ldc via", development]
 ---
+
 {% include JB/setup %}
 
 We’ve [mentioned before](/2015/07/03/full-text-search) how important we think full-text search is as a feature. Well, we’re happy to announce that _even free accounts_ can now make use of our full-text search functionality.

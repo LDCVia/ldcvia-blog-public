@@ -2,8 +2,9 @@
 layout: post
 title: "Our next webinar"
 category: "Application development"
-tags: [ldcvia, webinar, development]
+tags: ["ldc via", webinar, development]
 ---
+
 {% include JB/setup %}
 
 Earlier in the year we hosted a webinar where we talked about the basics of LDC Via: how to migrate data and use our templates. You can watch that [video here](https://www.youtube.com/watch?v=3FVKgVzKxOM). But now it’s on to the next topic, and that is going to be developing applications using LDC Via as a back end.
